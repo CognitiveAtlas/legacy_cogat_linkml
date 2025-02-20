@@ -2,10 +2,6 @@
 
 Linkml implementation of the neo4j based version of cognitive atlas.
 
-## Website
-
-[https://rwblair.github.io/cogat-linkml](https://rwblair.github.io/cogat-linkml)
-
 ## Repository Structure
 
 * [examples/](examples/) - example data
