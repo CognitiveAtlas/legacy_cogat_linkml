@@ -1,0 +1,408 @@
+ syntax="proto3";
+ package
+// metamodel_version: 1.7.0
+message Assertion
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string truthValue = 0
+  string idSubjectDef = 0
+  string userId = 0
+  string confidenceLevel = 0
+ repeated  task predicate = 0
+ repeated  concept subject = 0
+ repeated  contrast predicateDef = 0
+ repeated  theory inTheory = 0
+ repeated  citation hasCitation = 0
+ }
+message AssertionCollection
+ {
+ repeated  assertion entries = 0
+ }
+message Battery
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string collection = 0
+  string collectionDescription = 0
+  string collectionAlias = 0
+ repeated  citation hasCitation = 0
+ repeated  indicator hasIndicator = 0
+ repeated  battery inBattery = 0
+  string collectionDateIntroduced = 0
+  string collectionPublisher = 0
+  string website = 0
+ repeated  battery kindOf = 0
+ repeated  battery partOf = 0
+ }
+message BatteryCollection
+ {
+ repeated  battery entries = 0
+ }
+// Represents a Task
+message Behavior
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+ repeated  citation hasCitation = 0
+ repeated  externalLink hasLink = 0
+ repeated  contrast measuredBy = 0
+  string definition = 0
+ }
+message BehaviorCollection
+ {
+ repeated  behavior entries = 0
+ }
+// A generic grouping for any identifiable entity
+message CitableThing
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+ }
+message Citation
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string citationUrl = 0
+  string citationComment = 0
+  string citationDesc = 0
+  string citationAuthors = 0
+  string citationType = 0
+  string citationPubname = 0
+  string citationPubdate = 0
+  string citationPmid = 0
+  string citationSource = 0
+  string doi = 0
+ }
+message CitationCollection
+ {
+ repeated  citation entries = 0
+ }
+// Represents a Task
+message Concept
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string alias = 0
+ repeated  concept partOf = 0
+ repeated  concept kindOf = 0
+ repeated  contrast measuredBy = 0
+ repeated  conceptClass classifiedUnder = 0
+  string idConceptClass = 0
+  string defId = 0
+  string defEventStamp = 0
+  string defIdUser = 0
+  string definitionText = 0
+ }
+message ConceptClass
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string displayOrder = 0
+ }
+message ConceptClassCollection
+ {
+ repeated  conceptClass entries = 0
+ }
+message ConceptCollection
+ {
+ repeated  concept entries = 0
+ }
+// Represents a Task
+message Condition
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+ repeated  contrast hasContrast = 0
+  string conditionText = 0
+  string conditionDescription = 0
+ }
+message ConditionCollection
+ {
+ repeated  condition entries = 0
+ }
+// Represents a Task
+message Contrast
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+ repeated  disorder hasDifference = 0
+ }
+message ContrastCollection
+ {
+ repeated  contrast entries = 0
+ }
+message Disambiguation
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+ repeated  citableThing disambiguates = 0
+ }
+message DisambiguationCollection
+ {
+ repeated  disambiguation entries = 0
+ }
+// Represents a Task
+message Disorder
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string classification = 0
+  string definition = 0
+ repeated  disorder isA = 0
+  string idProtocol = 0
+  string isAFulltext = 0
+  string isAProtocol = 0
+ repeated  externalLink hasLink = 0
+ }
+message DisorderCollection
+ {
+ repeated  disorder entries = 0
+ }
+message ExternalDataset
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string datasetName = 0
+  string datasetUri = 0
+  string idTerm = 0
+ }
+message ExternalDatasetCollection
+ {
+ repeated  externalDataset entries = 0
+ }
+message ExternalLink
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string uri = 0
+ }
+message ExternalLinkCollection
+ {
+ repeated  externalLink entries = 0
+ }
+message Implementation
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string implementationUri = 0
+  string implementationName = 0
+  string implementationDescription = 0
+  string idTask = 0
+ }
+message ImplementationCollection
+ {
+ repeated  implementation entries = 0
+ }
+message Indicator
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string type = 0
+ }
+message IndicatorCollection
+ {
+ repeated  indicator entries = 0
+ }
+// A generic grouping for any identifiable entity
+message NamedThing
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ }
+// Represents a Task
+message Task
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string idUser = 0
+  string flagForCurator = 0
+ repeated  concept asserts = 0
+ repeated  condition hasCondition = 0
+ repeated  contrast hasContrast = 0
+ repeated  externalDataset hasExternalDataset = 0
+ repeated  implementation hasImplementation = 0
+ repeated  indicator hasIndicator = 0
+  string idConceptClass = 0
+  string defId = 0
+  string reviewStatus = 0
+  string defEventStamp = 0
+  string defIdUser = 0
+  string definitionText = 0
+ repeated  battery inBattery = 0
+  string eventStamp = 0
+  string alias = 0
+ repeated  task kindOf = 0
+ repeated  task partOf = 0
+ }
+// A holder for Task objects
+message TaskCollection
+ {
+ repeated  task entries = 0
+ }
+message Theory
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string collectionDescription = 0
+  string collectionAlias = 0
+ repeated  theory kindOf = 0
+ repeated  theory partOf = 0
+ }
+message TheoryCollection
+ {
+ repeated  theory entries = 0
+ }
+// Represents a Task
+message Trait
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+ repeated  citation hasCitation = 0
+ repeated  externalLink hasLink = 0
+ repeated  contrast measuredBy = 0
+  string definition = 0
+ }
+message TraitCollection
+ {
+ repeated  trait entries = 0
+ }
+message User
+ {
+  uriorcurie id = 0
+  string name = 0
+  string description = 0
+ repeated  citation hasCitation = 0
+  string lastUpdated = 0
+  string creationTime = 0
+  string eventStamp = 0
+  string idUser = 0
+  string flagForCurator = 0
+  string oldUserId = 0
+  string username = 0
+ repeated  citableThing created = 0
+ }
+message UserCollection
+ {
+ repeated  user entries = 0
+ }

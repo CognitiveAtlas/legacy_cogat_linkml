@@ -1,0 +1,653 @@
+{
+  "entries": [
+    {
+      "id": "dst_51017dc6776a3",
+      "event_stamp": "2013-01-24T18:30:30",
+      "id_user": "usr_49a467bf4e0db",
+      "dataset_name": "OpenfMRI: ds000007",
+      "dataset_uri": "https://openfmri.org/dataset/ds000007",
+      "id_term": "tsk_4a57abb949e1a"
+    },
+    {
+      "id": "dst_51017ded6658d",
+      "event_stamp": "2013-01-24T18:31:09",
+      "id_user": "usr_49a467bf4e0db",
+      "dataset_name": "OpenfMRI: ds000008",
+      "dataset_uri": "https://openfmri.org/dataset/ds000008",
+      "id_term": "tsk_4a57abb949e1a"
+    },
+    {
+      "id": "dst_5176d08c4856d",
+      "event_stamp": "2013-04-23T18:18:52",
+      "id_user": "usr_49a467bf4e0db",
+      "dataset_name": "OpenfMRI: ds000006",
+      "dataset_uri": "https://openfmri.org/dataset/ds000006a",
+      "id_term": "trm_5176cf9d3d512"
+    },
+    {
+      "id": "dst_518c2c62b6245",
+      "event_stamp": "2013-05-09T23:08:18",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Balloon Analog Risk-taking Task",
+      "dataset_uri": "https://openfmri.org/dataset/ds000001#",
+      "id_term": "trm_4d559bcd67c18"
+    },
+    {
+      "id": "dst_518c2d665b1fc",
+      "event_stamp": "2013-05-09T23:12:38",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Classification learning",
+      "dataset_uri": "https://openfmri.org/dataset/ds000002#",
+      "id_term": "trm_4cacf22a22d80"
+    },
+    {
+      "id": "dst_518c2dc2b3dcf",
+      "event_stamp": "2013-05-09T23:14:10",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Classification learning",
+      "dataset_uri": "https://openfmri.org/dataset/ds000002#",
+      "id_term": "trm_4e8dd3831f0cc"
+    },
+    {
+      "id": "dst_518c2de35f945",
+      "event_stamp": "2013-05-09T23:14:43",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Classification learning",
+      "dataset_uri": "https://openfmri.org/dataset/ds000002#",
+      "id_term": "trm_4ebc9d2e397f2"
+    },
+    {
+      "id": "dst_518c2e5cda8f5",
+      "event_stamp": "2013-05-09T23:16:44",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Rhyme judgment",
+      "dataset_uri": "https://openfmri.org/dataset/ds000003",
+      "id_term": "trm_4d949c5b0e380"
+    },
+    {
+      "id": "dst_518c2ec2daee8",
+      "event_stamp": "2013-05-09T23:18:26",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Mixed-gambles task",
+      "dataset_uri": "https://openfmri.org/dataset/ds000005",
+      "id_term": "trm_4cacee4a1d875"
+    },
+    {
+      "id": "dst_518c2fb997b48",
+      "event_stamp": "2013-05-09T23:22:33",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Stop-signal task with spoken & manual responses",
+      "dataset_uri": "https://openfmri.org/dataset/ds000007",
+      "id_term": "trm_5181f83b77fa4"
+    },
+    {
+      "id": "dst_518c2fcecc200",
+      "event_stamp": "2013-05-09T23:22:54",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Stop-signal task with spoken & manual responses",
+      "dataset_uri": "https://openfmri.org/dataset/ds000007",
+      "id_term": "trm_5181f863d24f4"
+    },
+    {
+      "id": "dst_518c306c79582",
+      "event_stamp": "2013-05-09T23:25:32",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Perceptual criteria in the human brain",
+      "dataset_uri": "https://openfmri.org/dataset/ds000010",
+      "id_term": "trm_512e7621189ad"
+    },
+    {
+      "id": "dst_518c31468856c",
+      "event_stamp": "2013-05-09T23:29:10",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Classification learning and tone-counting",
+      "dataset_uri": "https://openfmri.org/dataset/ds000011",
+      "id_term": "trm_4ebc728326a13"
+    },
+    {
+      "id": "dst_518c315b2cab0",
+      "event_stamp": "2013-05-09T23:29:31",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Classification learning and tone-counting",
+      "dataset_uri": "https://openfmri.org/dataset/ds000011",
+      "id_term": "trm_4ebc98cc77e7b"
+    },
+    {
+      "id": "dst_518c31cfb8cd9",
+      "event_stamp": "2013-05-09T23:31:27",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": " Classification learning and stop-signal (1 year test-retest)",
+      "dataset_uri": "https://openfmri.org/dataset/ds000017",
+      "id_term": "trm_4cacf22a22d80"
+    },
+    {
+      "id": "dst_518c31eee225c",
+      "event_stamp": "2013-05-09T23:31:58",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Classification learning and stop-signal (1 year test-retest)",
+      "dataset_uri": "https://openfmri.org/dataset/ds000017",
+      "id_term": "trm_4cacf3fbc503b"
+    },
+    {
+      "id": "dst_518c32345abaa",
+      "event_stamp": "2013-05-09T23:33:08",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Cross-language repetition priming",
+      "dataset_uri": "https://openfmri.org/dataset/ds000051",
+      "id_term": "trm_4ebd44cd88360"
+    },
+    {
+      "id": "dst_518c32b60ede1",
+      "event_stamp": "2013-05-09T23:35:18",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Classification learning and reversal",
+      "dataset_uri": "https://openfmri.org/dataset/ds000052",
+      "id_term": "trm_4ebc728326a13"
+    },
+    {
+      "id": "dst_518c32e6dcafc",
+      "event_stamp": "2013-05-09T23:36:06",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Classification learning and reversal",
+      "dataset_uri": "https://openfmri.org/dataset/ds000052",
+      "id_term": "trm_5181fb7bf350b"
+    },
+    {
+      "id": "dst_518c33b9b44d9",
+      "event_stamp": "2013-05-09T23:39:37",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Simon task",
+      "dataset_uri": "https://openfmri.org/dataset/ds000101",
+      "id_term": "tsk_4a57abb949dbb"
+    },
+    {
+      "id": "dst_518c33edb018b",
+      "event_stamp": "2013-05-09T23:40:29",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Flanker task (event-related)",
+      "dataset_uri": "https://openfmri.org/dataset/ds000102",
+      "id_term": "tsk_4a57abb949a4f"
+    },
+    {
+      "id": "dst_518c34a452fca",
+      "event_stamp": "2013-05-09T23:43:32",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Visual object recognition",
+      "dataset_uri": "https://openfmri.org/dataset/ds000105",
+      "id_term": "trm_4ebd47b8bab6b"
+    },
+    {
+      "id": "dst_518c357b9790b",
+      "event_stamp": "2013-05-09T23:47:07",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "TRAIN-39",
+      "dataset_uri": "https://openfmri.org/node/95",
+      "id_term": "trm_50df1c0d946b8"
+    },
+    {
+      "id": "dst_518c3592088d7",
+      "event_stamp": "2013-05-09T23:47:30",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "TRAIN-39",
+      "dataset_uri": "https://openfmri.org/node/95",
+      "id_term": "trm_50df1dd534ff2"
+    },
+    {
+      "id": "dst_518d449270fd0",
+      "event_stamp": "2013-05-10T19:03:46",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Word and object processing",
+      "dataset_uri": "https://openfmri.org/dataset/ds000107",
+      "id_term": "trm_4ebd482eba5b1"
+    },
+    {
+      "id": "dst_518d44b62bc23",
+      "event_stamp": "2013-05-10T19:04:22",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Word and object processing",
+      "dataset_uri": "https://openfmri.org/dataset/ds000107",
+      "id_term": "trm_4ebd47b8bab6b"
+    },
+    {
+      "id": "dst_518d6d63dc3de",
+      "event_stamp": "2013-05-10T21:57:55",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Prefrontal-Subcortical Pathways Mediating Successful Emotion Regulation",
+      "dataset_uri": "https://openfmri.org/dataset/ds000108",
+      "id_term": "trm_4da890594742a"
+    },
+    {
+      "id": "dst_518d6ea4624e1",
+      "event_stamp": "2013-05-10T22:03:16",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "False belief task",
+      "dataset_uri": "https://openfmri.org/dataset/ds000109",
+      "id_term": "trm_4f2456027809f"
+    },
+    {
+      "id": "dst_518d6f025addc",
+      "event_stamp": "2013-05-10T22:04:50",
+      "id_user": "usr_4cf5de07654c8",
+      "dataset_name": "Incidental encoding task (Posner Cueing Paradigm)",
+      "dataset_uri": "https://openfmri.org/dataset/ds000110",
+      "id_term": "trm_50df0dd9d0b6f"
+    },
+    {
+      "id": "dst_550c306d0c500",
+      "event_stamp": "2015-03-20T14:36:29",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "NeuroVault Group Maps",
+      "dataset_uri": "http://www.neurovault.org/collections/457",
+      "id_term": "trm_550b5b066d37b"
+    },
+    {
+      "id": "dst_550c308833a27",
+      "event_stamp": "2015-03-20T14:36:56",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "NeuroVault Group Maps",
+      "dataset_uri": "http://www.neurovault.org/collections/457",
+      "id_term": "trm_550b5c1a7f4db"
+    },
+    {
+      "id": "dst_550c3090cdc20",
+      "event_stamp": "2015-03-20T14:37:04",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "NeuroVault Group Maps",
+      "dataset_uri": "http://www.neurovault.org/collections/457",
+      "id_term": "trm_550b54a8b30f4"
+    },
+    {
+      "id": "dst_550c30999b239",
+      "event_stamp": "2015-03-20T14:37:13",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "NeuroVault Group Maps",
+      "dataset_uri": "http://www.neurovault.org/collections/457",
+      "id_term": "trm_550b53d7dd674"
+    },
+    {
+      "id": "dst_550c30a36a298",
+      "event_stamp": "2015-03-20T14:37:23",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "NeuroVault Group Maps",
+      "dataset_uri": "http://www.neurovault.org/collections/457",
+      "id_term": "trm_550b5a47aa23e"
+    },
+    {
+      "id": "dst_550c30ab9c73c",
+      "event_stamp": "2015-03-20T14:37:31",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "NeuroVault Group Maps",
+      "dataset_uri": "http://www.neurovault.org/collections/457",
+      "id_term": "trm_550b557e5f90e"
+    },
+    {
+      "id": "dst_550c30b404a49",
+      "event_stamp": "2015-03-20T14:37:40",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "NeuroVault Group Maps",
+      "dataset_uri": "http://www.neurovault.org/collections/457",
+      "id_term": "trm_550b50095d4a3"
+    },
+    {
+      "id": "dst_553e6be31546b",
+      "event_stamp": "2015-04-27T17:03:31",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Functionally Dissociable Influences on Learning Rate in a Dynamic Environment",
+      "dataset_uri": "http://neurovault.org/collections/315/",
+      "id_term": "trm_553e6b8e33da4"
+    },
+    {
+      "id": "dst_553e744bf0e79",
+      "event_stamp": "2015-04-27T17:39:23",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Generalized Role for the Cerebellum in Encoding Internal Models: Evidence from Semantic Processing",
+      "dataset_uri": "http://neurovault.org/collections/25/",
+      "id_term": "trm_553e73e29cf7d"
+    },
+    {
+      "id": "dst_553e79e8f3fe0",
+      "event_stamp": "2015-04-27T18:03:20",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Changing value through cued approach: an automatic mechanism of behavior change",
+      "dataset_uri": "http://neurovault.org/collections/35/",
+      "id_term": "trm_553e77e53497d"
+    },
+    {
+      "id": "dst_553e85865d1f9",
+      "event_stamp": "2015-04-27T18:52:54",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Brainomics Functional Localizer",
+      "dataset_uri": "https://brainomics.cea.fr/localizer/localizer",
+      "id_term": "trm_553e85265f51e"
+    },
+    {
+      "id": "dst_553eae615627b",
+      "event_stamp": "2015-04-27T21:47:13",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Age dependence of hemodynamic response characteristics in human functional magnetic resonance imaging",
+      "dataset_uri": "http://neurovault.org/collections/77/",
+      "id_term": "trm_4b1968619b00b"
+    },
+    {
+      "id": "dst_553eb2a33540e",
+      "event_stamp": "2015-04-27T22:05:23",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Hierarchical competitions subserving multi-attribute choice",
+      "dataset_uri": "http://neurovault.org/collections/122/",
+      "id_term": "trm_553eb28436233"
+    },
+    {
+      "id": "dst_553eb5107efa4",
+      "event_stamp": "2015-04-27T22:15:44",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "The Modular Neuroarchitecture of Social Judgments on Faces",
+      "dataset_uri": "http://neurovault.org/collections/110/",
+      "id_term": "trm_553eb45e2b709"
+    },
+    {
+      "id": "dst_553ec09de474b",
+      "event_stamp": "2015-04-27T23:05:01",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Medial and Lateral Networks in Anterior Prefrontal Cortex Support Metacognitive Ability for Memory and Perception",
+      "dataset_uri": "http://neurovault.org/collections/17/",
+      "id_term": "trm_553ebfc390256"
+    },
+    {
+      "id": "dst_553ec1c754ee9",
+      "event_stamp": "2015-04-27T23:09:59",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Medial and Lateral Networks in Anterior Prefrontal Cortex Support Metacognitive Ability for Memory and Perception",
+      "dataset_uri": "http://neurovault.org/collections/17/",
+      "id_term": "trm_4f2457a8b0bc8"
+    },
+    {
+      "id": "dst_553ec6f56a4f7",
+      "event_stamp": "2015-04-27T23:32:05",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Structural and functional MRI study of the brain, cognition and mood in long-term adequately treated Hashimoto&#39;s thyroiditis",
+      "dataset_uri": "http://neurovault.org/collections/145/",
+      "id_term": "trm_553ec64e6cb1b"
+    },
+    {
+      "id": "dst_553ec9720842f",
+      "event_stamp": "2015-04-27T23:42:42",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Behavioural and neural correlates of self-focused emotion regulation in social anxiety disorder",
+      "dataset_uri": "http://neurovault.org/collections/206/",
+      "id_term": "trm_4da890594742a"
+    },
+    {
+      "id": "dst_553fbdce7190b",
+      "event_stamp": "2015-04-28T17:05:18",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Social Norms Shift Behavioral and Neural Responses to Foods",
+      "dataset_uri": "http://neurovault.org/collections/325/",
+      "id_term": "trm_553fbbf79ebc5"
+    },
+    {
+      "id": "dst_553fc4c310ce3",
+      "event_stamp": "2015-04-28T17:34:59",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Multiple brain networks contribute to the acquisition of bias in perceptual decision-making",
+      "dataset_uri": "http://neurovault.org/collections/431/",
+      "id_term": "trm_4f244ad7dcde7"
+    },
+    {
+      "id": "dst_553fc8a764041",
+      "event_stamp": "2015-04-28T17:51:35",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Neural Mechanisms Underlying Human Consensus Decision-Making",
+      "dataset_uri": "http://neurovault.org/collections/507/",
+      "id_term": "trm_553fc858cacc5"
+    },
+    {
+      "id": "dst_553fcab83b692",
+      "event_stamp": "2015-04-28T18:00:24",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Validating the Why/How contrast for functional MRI studies of Theory of Mind",
+      "dataset_uri": "http://neurovault.org/collections/445",
+      "id_term": "trm_53c4465b0466f"
+    },
+    {
+      "id": "dst_553fcd1276c15",
+      "event_stamp": "2015-04-28T18:10:26",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Differential Neural Activation Patterns in Patients with Parkinson&#39;s Disease and Freezing of Gait in Response to Concurrent Cognitive and Motor Load",
+      "dataset_uri": "http://neurovault.org/collections/421/",
+      "id_term": "trm_553fcbbe974ba"
+    },
+    {
+      "id": "dst_553fcf6016214",
+      "event_stamp": "2015-04-28T18:20:16",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "The role of dysfunctional attentional control networks in visual misperceptions in Parkinson&#39;s disease",
+      "dataset_uri": "http://neurovault.org/collections/422/",
+      "id_term": "trm_553fce5d21da7"
+    },
+    {
+      "id": "dst_553fd1cf350cb",
+      "event_stamp": "2015-04-28T18:30:39",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "The Default Mode of Human Brain Function Primes the Intentional Stance",
+      "dataset_uri": "http://neurovault.org/collections/446/",
+      "id_term": "trm_50f852c084fde"
+    },
+    {
+      "id": "dst_553fd1e243adc",
+      "event_stamp": "2015-04-28T18:30:58",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "The Default Mode of Human Brain Function Primes the Intentional Stance",
+      "dataset_uri": "http://neurovault.org/collections/446/",
+      "id_term": "trm_4f24179122380"
+    },
+    {
+      "id": "dst_553fd3362d483",
+      "event_stamp": "2015-04-28T18:36:38",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Neural correlates of explicit social judgments on vocal stimuli.",
+      "dataset_uri": "http://neurovault.org/collections/203/",
+      "id_term": "trm_553fd2fc7a648"
+    },
+    {
+      "id": "dst_553fd6a381be5",
+      "event_stamp": "2015-04-28T18:51:15",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Predicting risky choices from brain activity patterns",
+      "dataset_uri": "http://neurovault.org/collections/34/",
+      "id_term": "trm_4d559bcd67c18"
+    },
+    {
+      "id": "dst_553fd72b0f11e",
+      "event_stamp": "2015-04-28T18:53:31",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Anticipatory brain activity predicts the success or failure of subsequent emotion regulation",
+      "dataset_uri": "http://neurovault.org/collections/307/",
+      "id_term": "trm_4da890594742a"
+    },
+    {
+      "id": "dst_558405f25a6a6",
+      "event_stamp": "2015-06-19T12:07:14",
+      "id_user": "usr_5582f60ee9c42",
+      "dataset_name": "A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie",
+      "dataset_uri": "http://openfmri.org/dataset/ds000113",
+      "id_term": "trm_5550e5011ce10"
+    },
+    {
+      "id": "dst_55840682877fc",
+      "event_stamp": "2015-06-19T12:09:38",
+      "id_user": "usr_5582f60ee9c42",
+      "dataset_name": "High-resolution 7-Tesla fMRI data on the perception of musical genres",
+      "dataset_uri": "http://openfmri.org/dataset/ds000113b",
+      "id_term": "trm_551b1460e89a3"
+    },
+    {
+      "id": "dst_5585c8d981f59",
+      "event_stamp": "2015-06-20T20:11:05",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Human Connectome Project",
+      "dataset_uri": "https://wiki.humanconnectome.org/display/PublicData/HCP+Data+Dictionary+Public-+500+Subject+Release",
+      "id_term": "trm_5585c83d15fad"
+    },
+    {
+      "id": "dst_5632f8f02c59b",
+      "event_stamp": "2015-10-30T04:58:24",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Dataset #2",
+      "dataset_uri": "http://neurovault.org/collections/160/",
+      "id_term": "trm_553e73e29cf7d"
+    },
+    {
+      "id": "dst_565a340391791",
+      "event_stamp": "2015-11-28T23:08:51",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "Openfmri ds000140",
+      "dataset_uri": "https://openfmri.org/dataset/ds000140",
+      "id_term": "trm_565a31fa6f444"
+    },
+    {
+      "id": "dst_565a350a359bf",
+      "event_stamp": "2015-11-28T23:13:14",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "OpenfMRI ds000120",
+      "dataset_uri": "https://openfmri.org/dataset/ds000120",
+      "id_term": "trm_565a2e79b22f2"
+    },
+    {
+      "id": "dst_565a35175db60",
+      "event_stamp": "2015-11-28T23:13:27",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "OpenfMRI ds000121",
+      "dataset_uri": "https://openfmri.org/dataset/ds000121",
+      "id_term": "trm_565a2e79b22f2"
+    },
+    {
+      "id": "dst_566db17e6fc6b",
+      "event_stamp": "2015-12-13T17:57:18",
+      "id_user": "usr_51bc76ae9636c",
+      "dataset_name": "NeuroVault",
+      "dataset_uri": "http://neurovault.org/collections/85/",
+      "id_term": "trm_566db10532583"
+    },
+    {
+      "id": "dst_57964c91e4fa1",
+      "event_stamp": "2016-07-25T17:29:53",
+      "id_user": "usr_579611e01221d",
+      "dataset_name": "Normative data for the MoCA",
+      "dataset_uri": "http://www.mocatest.org/normative-data/",
+      "id_term": "trm_57964b8a66aed"
+    },
+    {
+      "id": "dst_RKkkMt5JlWS4O",
+      "name": "Value generalization in human avoidance learning",
+      "last_updated": "1513103222598",
+      "creation_time": "1513103222598",
+      "dataset_name": "Value generalization in human avoidance learning",
+      "dataset_uri": "https://openfmri.org/dataset/ds000249/"
+    },
+    {
+      "id": "dst_aR4uoCq589ljl",
+      "name": "Multiband Multi-Echo Imaging of Simultaneous Oxygenation and Flow Timeseries for Resting State Connectivity",
+      "last_updated": "1520360522802",
+      "creation_time": "1520360522802",
+      "dataset_name": "Multiband Multi-Echo Imaging of Simultaneous Oxygenation and Flow Timeseries for Resting State Connectivity",
+      "dataset_uri": "https://openneuro.org/datasets/ds001196"
+    },
+    {
+      "id": "dst_6NDqkFBBORhZa",
+      "name": "Sherlock_Merlin",
+      "last_updated": "1520360694106",
+      "creation_time": "1520360694106",
+      "dataset_name": "Sherlock_Merlin",
+      "dataset_uri": "https://openneuro.org/datasets/ds001110"
+    },
+    {
+      "id": "dst_a6k5QxjmTzm1Y",
+      "name": "Sherlock",
+      "last_updated": "1520360721625",
+      "creation_time": "1520360721625",
+      "dataset_name": "Sherlock",
+      "dataset_uri": "https://openneuro.org/datasets/ds001132"
+    },
+    {
+      "id": "dst_BRBf5zeLTXOZW",
+      "name": "Twilight Zone",
+      "last_updated": "1520360759368",
+      "creation_time": "1520360759368",
+      "dataset_name": "Twilight Zone",
+      "dataset_uri": "https://openneuro.org/datasets/ds001145"
+    },
+    {
+      "id": "dst_wNwRpE81SGxaY",
+      "name": "MRI data of 3-12 year old children and adults during viewing of a short animated film",
+      "last_updated": "1520360847964",
+      "creation_time": "1520360847964",
+      "dataset_name": "MRI data of 3-12 year old children and adults during viewing of a short animated film",
+      "dataset_uri": "https://openneuro.org/datasets/ds001083"
+    },
+    {
+      "id": "dst_9Jzbk41TP7IPs",
+      "name": "Simultaneous fMRI/eyetracking while movie watching, plus visual localizers",
+      "last_updated": "1520360919084",
+      "creation_time": "1520360919084",
+      "dataset_name": "Simultaneous fMRI/eyetracking while movie watching, plus visual localizers",
+      "dataset_uri": "https://openneuro.org/datasets/ds001107"
+    },
+    {
+      "id": "dst_RXL7jSqOVRnZf",
+      "name": "Auditory and Visual Oddball EEG-fMRI",
+      "last_updated": "1520361115576",
+      "creation_time": "1520361115576",
+      "dataset_name": "Auditory and Visual Oddball EEG-fMRI",
+      "dataset_uri": "https://openneuro.org/datasets/ds001020"
+    },
+    {
+      "id": "dst_J6otS7b8VAAqf",
+      "name": "Incidental encoding task (Posner Cueing Paradigm)",
+      "last_updated": "1520361216772",
+      "creation_time": "1520361216772",
+      "dataset_name": "Incidental encoding task (Posner Cueing Paradigm)",
+      "dataset_uri": "https://openneuro.org/datasets/ds000110"
+    },
+    {
+      "id": "dst_PLPSlnb5tVfM2",
+      "name": "Wadsworth BCI Dataset (P300 Evoked Potentials)  - BCI competition III",
+      "last_updated": "1588742064670",
+      "creation_time": "1588742064670",
+      "dataset_name": "Wadsworth BCI Dataset (P300 Evoked Potentials)  - BCI competition III",
+      "dataset_uri": "http://www.bbci.de/competition/iii/#data_set_ii"
+    },
+    {
+      "id": "dst_JW2lkQ0KuWu1Y",
+      "name": "BCI Challenge @ NER 2015",
+      "last_updated": "1588742121707",
+      "creation_time": "1588742121707",
+      "dataset_name": "BCI Challenge @ NER 2015",
+      "dataset_uri": "https://www.kaggle.com/c/inria-bci-challenge"
+    },
+    {
+      "id": "dst_0RTtxD0D7PbOD",
+      "name": "Predicting the wide-ranging effects of enhancing dopamine on cognition",
+      "last_updated": "1632344214",
+      "creation_time": "1632344214",
+      "dataset_name": "Predicting the wide-ranging effects of enhancing dopamine on cognition",
+      "dataset_uri": "https://doi.org/10.34973/hggw-b519"
+    },
+    {
+      "id": "dst_U3hm8dg7DsEq1",
+      "name": "Frontal network dynamics reflect neurocomputational mechanisms for reducing maladaptive biases in motivated action",
+      "last_updated": "1632344259",
+      "creation_time": "1632344259",
+      "dataset_name": "Frontal network dynamics reflect neurocomputational mechanisms for reducing maladaptive biases in motivated action",
+      "dataset_uri": "https://doi.org/10.34973/tdm3-2w47"
+    },
+    {
+      "id": "dst_wxIAQl1rpPsv3",
+      "name": "Behavioral dataset for the task",
+      "last_updated": "1610435880",
+      "creation_time": "1610435880",
+      "dataset_name": "Behavioral dataset for the task",
+      "dataset_uri": "https://osf.io/s5evn/?view_only=6a2c1836aa004f9cbc732e87d300bc67"
+    }
+  ],
+  "@type": "ExternalDatasetCollection"
+}

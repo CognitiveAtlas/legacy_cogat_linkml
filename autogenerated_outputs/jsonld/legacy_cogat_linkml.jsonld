@@ -1,0 +1,2602 @@
+{
+  "name": "legacy-cogat-linkml",
+  "description": "Linkml implementation of cognitive atlas.",
+  "title": "legacy-cogat-linkml",
+  "see_also": [
+    "https://rwblair.github.io/legacy-cogat-linkml"
+  ],
+  "id": "https://w3id.org/rwblair/legacy-cogat-linkml",
+  "imports": [
+    "linkml:types"
+  ],
+  "license": "MIT",
+  "prefixes": [
+    {
+      "prefix_prefix": "legacy_cogat_linkml",
+      "prefix_reference": "https://w3id.org/rwblair/legacy-cogat-linkml/"
+    },
+    {
+      "prefix_prefix": "linkml",
+      "prefix_reference": "https://w3id.org/linkml/"
+    },
+    {
+      "prefix_prefix": "biolink",
+      "prefix_reference": "https://w3id.org/biolink/"
+    },
+    {
+      "prefix_prefix": "schema",
+      "prefix_reference": "http://schema.org/"
+    },
+    {
+      "prefix_prefix": "PATO",
+      "prefix_reference": "http://purl.obolibrary.org/obo/PATO_"
+    },
+    {
+      "prefix_prefix": "example",
+      "prefix_reference": "https://example.org/"
+    }
+  ],
+  "default_prefix": "legacy_cogat_linkml",
+  "default_range": "string",
+  "types": [
+    {
+      "name": "string",
+      "definition_uri": "https://w3id.org/linkml/String",
+      "description": "A character string",
+      "notes": [
+        "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Text"
+      ],
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "integer",
+      "definition_uri": "https://w3id.org/linkml/Integer",
+      "description": "An integer",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Integer"
+      ],
+      "base": "int",
+      "uri": "http://www.w3.org/2001/XMLSchema#integer",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "boolean",
+      "definition_uri": "https://w3id.org/linkml/Boolean",
+      "description": "A binary (true or false) value",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Boolean"
+      ],
+      "base": "Bool",
+      "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "repr": "bool",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "float",
+      "definition_uri": "https://w3id.org/linkml/Float",
+      "description": "A real number that conforms to the xsd:float specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "http://www.w3.org/2001/XMLSchema#float",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "double",
+      "definition_uri": "https://w3id.org/linkml/Double",
+      "description": "A real number that conforms to the xsd:double specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "close_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "http://www.w3.org/2001/XMLSchema#double",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "decimal",
+      "definition_uri": "https://w3id.org/linkml/Decimal",
+      "description": "A real number with arbitrary precision that conforms to the xsd:decimal specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "broad_mappings": [
+        "schema:Number"
+      ],
+      "base": "Decimal",
+      "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "time",
+      "definition_uri": "https://w3id.org/linkml/Time",
+      "description": "A time object represents a (local) time of day, independent of any particular day",
+      "notes": [
+        "URI is dateTime because OWL reasoners do not work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Time"
+      ],
+      "base": "XSDTime",
+      "uri": "http://www.w3.org/2001/XMLSchema#time",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "date",
+      "definition_uri": "https://w3id.org/linkml/Date",
+      "description": "a date (year, month and day) in an idealized calendar",
+      "notes": [
+        "URI is dateTime because OWL reasoners don't work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Date"
+      ],
+      "base": "XSDDate",
+      "uri": "http://www.w3.org/2001/XMLSchema#date",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "datetime",
+      "definition_uri": "https://w3id.org/linkml/Datetime",
+      "description": "The combination of a date and time",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:DateTime"
+      ],
+      "base": "XSDDateTime",
+      "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "date_or_datetime",
+      "definition_uri": "https://w3id.org/linkml/DateOrDatetime",
+      "description": "Either a date or a datetime",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "https://w3id.org/linkml/DateOrDatetime",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "uriorcurie",
+      "definition_uri": "https://w3id.org/linkml/Uriorcurie",
+      "description": "a URI or a CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "URIorCURIE",
+      "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "curie",
+      "definition_uri": "https://w3id.org/linkml/Curie",
+      "conforms_to": "https://www.w3.org/TR/curie/",
+      "description": "a compact URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"curie\"."
+      ],
+      "comments": [
+        "in RDF serializations this MUST be expanded to a URI",
+        "in non-RDF serializations MAY be serialized as the compact representation"
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "Curie",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "uri",
+      "definition_uri": "https://w3id.org/linkml/Uri",
+      "conforms_to": "https://www.ietf.org/rfc/rfc3987.txt",
+      "description": "a complete URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uri\"."
+      ],
+      "comments": [
+        "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "close_mappings": [
+        "schema:URL"
+      ],
+      "base": "URI",
+      "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "ncname",
+      "definition_uri": "https://w3id.org/linkml/Ncname",
+      "description": "Prefix part of CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "NCName",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "objectidentifier",
+      "definition_uri": "https://w3id.org/linkml/Objectidentifier",
+      "description": "A URI or CURIE that represents an object in the model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"objectidentifier\"."
+      ],
+      "comments": [
+        "Used for inheritance and type checking"
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "ElementIdentifier",
+      "uri": "http://www.w3.org/ns/shex#iri",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "nodeidentifier",
+      "definition_uri": "https://w3id.org/linkml/Nodeidentifier",
+      "description": "A URI, CURIE or BNODE that represents a node in a model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "NodeIdentifier",
+      "uri": "http://www.w3.org/ns/shex#nonLiteral",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "jsonpointer",
+      "definition_uri": "https://w3id.org/linkml/Jsonpointer",
+      "conforms_to": "https://datatracker.ietf.org/doc/html/rfc6901",
+      "description": "A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "jsonpath",
+      "definition_uri": "https://w3id.org/linkml/Jsonpath",
+      "conforms_to": "https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html",
+      "description": "A string encoding a JSON Path. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "sparqlpath",
+      "definition_uri": "https://w3id.org/linkml/Sparqlpath",
+      "conforms_to": "https://www.w3.org/TR/sparql11-query/#propertypaths",
+      "description": "A string encoding a SPARQL Property Path. The value of the string MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded as RDF.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    }
+  ],
+  "slots": [
+    {
+      "name": "id",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id",
+      "description": "A unique identifier for a thing",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "mappings": [
+        "http://schema.org/identifier"
+      ],
+      "slot_uri": "http://schema.org/identifier",
+      "identifier": true,
+      "owner": "NamedThing",
+      "domain_of": [
+        "NamedThing"
+      ],
+      "range": "uriorcurie",
+      "required": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "name",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/name",
+      "description": "A human-readable name for a thing",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "mappings": [
+        "http://schema.org/name"
+      ],
+      "slot_uri": "http://schema.org/name",
+      "owner": "NamedThing",
+      "domain_of": [
+        "NamedThing"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "description",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/description",
+      "description": "A human-readable description for a thing",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "mappings": [
+        "http://schema.org/description"
+      ],
+      "slot_uri": "http://schema.org/description",
+      "owner": "NamedThing",
+      "domain_of": [
+        "NamedThing"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "alias",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/alias",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/alias",
+      "owner": "Concept",
+      "domain_of": [
+        "Task",
+        "Concept"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "asserts",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/asserts",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/asserts",
+      "owner": "Task",
+      "domain_of": [
+        "Task"
+      ],
+      "range": "Concept",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citation_authors",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_authors",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_authors",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citation_comment",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_comment",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_comment",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citation_desc",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_desc",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_desc",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citation_pmid",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_pmid",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_pmid",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citation_pubdate",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_pubdate",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_pubdate",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citation_pubname",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_pubname",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_pubname",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citation_source",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_source",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_source",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citation_type",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_type",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_type",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citation_url",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_url",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/citation_url",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "classification",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/classification",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/classification",
+      "owner": "Disorder",
+      "domain_of": [
+        "Disorder"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "classified_under",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/classified_under",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/classified_under",
+      "owner": "Concept",
+      "domain_of": [
+        "Concept"
+      ],
+      "range": "ConceptClass",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "collection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection",
+      "owner": "Battery",
+      "domain_of": [
+        "Battery"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "collection_description",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection_description",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection_description",
+      "owner": "Theory",
+      "domain_of": [
+        "Battery",
+        "Theory"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "confidence_level",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/confidence_level",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/confidence_level",
+      "owner": "Assertion",
+      "domain_of": [
+        "Assertion"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "created",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/created",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/created",
+      "owner": "User",
+      "domain_of": [
+        "User"
+      ],
+      "range": "CitableThing",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "dataset_name",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/dataset_name",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/dataset_name",
+      "owner": "ExternalDataset",
+      "domain_of": [
+        "ExternalDataset"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "dataset_uri",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/dataset_uri",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/dataset_uri",
+      "owner": "ExternalDataset",
+      "domain_of": [
+        "ExternalDataset"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "definition",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/definition",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/definition",
+      "owner": "Behavior",
+      "domain_of": [
+        "Disorder",
+        "Trait",
+        "Behavior"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "disambiguates",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/disambiguates",
+      "description": "Could apply to Concepts, Tasks, Traits...",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/disambiguates",
+      "owner": "Disambiguation",
+      "domain_of": [
+        "Disambiguation"
+      ],
+      "range": "CitableThing",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "display_order",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/display_order",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/display_order",
+      "owner": "ConceptClass",
+      "domain_of": [
+        "ConceptClass"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "event_stamp",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/event_stamp",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/event_stamp",
+      "owner": "Task",
+      "domain_of": [
+        "CitableThing",
+        "Task"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "flag_for_curator",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/flag_for_curator",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/flag_for_curator",
+      "owner": "CitableThing",
+      "domain_of": [
+        "CitableThing"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "has_citation",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_citation",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_citation",
+      "owner": "Assertion",
+      "domain_of": [
+        "CitableThing",
+        "Trait",
+        "Behavior",
+        "Battery",
+        "Assertion"
+      ],
+      "range": "Citation",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "has_condition",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_condition",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_condition",
+      "owner": "Task",
+      "domain_of": [
+        "Task"
+      ],
+      "range": "Condition",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "has_contrast",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_contrast",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_contrast",
+      "owner": "Condition",
+      "domain_of": [
+        "Task",
+        "Condition"
+      ],
+      "range": "Contrast",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "has_difference",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_difference",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_difference",
+      "owner": "Contrast",
+      "domain_of": [
+        "Contrast"
+      ],
+      "range": "Disorder",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "has_external_dataset",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_external_dataset",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_external_dataset",
+      "owner": "Task",
+      "domain_of": [
+        "Task"
+      ],
+      "range": "ExternalDataset",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "has_implementation",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_implementation",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_implementation",
+      "owner": "Task",
+      "domain_of": [
+        "Task"
+      ],
+      "range": "Implementation",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "has_indicator",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_indicator",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_indicator",
+      "owner": "Battery",
+      "domain_of": [
+        "Task",
+        "Battery"
+      ],
+      "range": "Indicator",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "has_link",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_link",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/has_link",
+      "owner": "Behavior",
+      "domain_of": [
+        "Disorder",
+        "Trait",
+        "Behavior"
+      ],
+      "range": "ExternalLink",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "id_protocol",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_protocol",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_protocol",
+      "owner": "Disorder",
+      "domain_of": [
+        "Disorder"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "id_subject_def",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_subject_def",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_subject_def",
+      "owner": "Assertion",
+      "domain_of": [
+        "Assertion"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "id_user",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_user",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_user",
+      "owner": "CitableThing",
+      "domain_of": [
+        "CitableThing"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "implementation_description",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/implementation_description",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/implementation_description",
+      "owner": "Implementation",
+      "domain_of": [
+        "Implementation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "implementation_name",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/implementation_name",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/implementation_name",
+      "owner": "Implementation",
+      "domain_of": [
+        "Implementation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "implementation_uri",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/implementation_uri",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/implementation_uri",
+      "owner": "Implementation",
+      "domain_of": [
+        "Implementation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "in_battery",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/in_battery",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/in_battery",
+      "owner": "Battery",
+      "domain_of": [
+        "Task",
+        "Battery"
+      ],
+      "range": "Battery",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "in_theory",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/in_theory",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/in_theory",
+      "owner": "Assertion",
+      "domain_of": [
+        "Assertion"
+      ],
+      "range": "Theory",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "is_a",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/is_a",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/is_a",
+      "owner": "Disorder",
+      "domain_of": [
+        "Disorder"
+      ],
+      "range": "Disorder",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "is_a_fulltext",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/is_a_fulltext",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/is_a_fulltext",
+      "owner": "Disorder",
+      "domain_of": [
+        "Disorder"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "is_a_protocol",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/is_a_protocol",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/is_a_protocol",
+      "owner": "Disorder",
+      "domain_of": [
+        "Disorder"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "kind_of",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/kind_of",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/kind_of",
+      "owner": "Concept",
+      "domain_of": [
+        "Concept"
+      ],
+      "range": "Concept",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "measured_by",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/measured_by",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/measured_by",
+      "owner": "Behavior",
+      "domain_of": [
+        "Concept",
+        "Trait",
+        "Behavior"
+      ],
+      "range": "Contrast",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "old_user_id",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/old_user_id",
+      "description": "The original PHP based site had user ids of the pattern \"usr_[[:alnum:]]*\". If an id of this kind existed for the user it is stored here.",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/old_user_id",
+      "owner": "User",
+      "domain_of": [
+        "User"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "part_of",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/part_of",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/part_of",
+      "owner": "Concept",
+      "domain_of": [
+        "Concept"
+      ],
+      "range": "Concept",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "predicate",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/predicate",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/predicate",
+      "owner": "Assertion",
+      "domain_of": [
+        "Assertion"
+      ],
+      "range": "Task",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "predicate_def",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/predicate_def",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/predicate_def",
+      "owner": "Assertion",
+      "domain_of": [
+        "Assertion"
+      ],
+      "range": "Contrast",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "subject",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/subject",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/subject",
+      "owner": "Assertion",
+      "domain_of": [
+        "Assertion"
+      ],
+      "range": "Concept",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "truth_value",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/truth_value",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/truth_value",
+      "owner": "Assertion",
+      "domain_of": [
+        "Assertion"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "type",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/type",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/type",
+      "owner": "Indicator",
+      "domain_of": [
+        "Indicator"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "uri",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/uri",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/uri",
+      "owner": "ExternalLink",
+      "domain_of": [
+        "ExternalLink"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "user_id",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/user_id",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/user_id",
+      "owner": "Assertion",
+      "domain_of": [
+        "Assertion"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "username",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/username",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/username",
+      "owner": "User",
+      "domain_of": [
+        "User"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "last_updated",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/last_updated",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/last_updated",
+      "owner": "CitableThing",
+      "domain_of": [
+        "CitableThing"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "creation_time",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/creation_time",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/creation_time",
+      "owner": "CitableThing",
+      "domain_of": [
+        "CitableThing"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "collection_alias",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection_alias",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection_alias",
+      "owner": "Theory",
+      "domain_of": [
+        "Battery",
+        "Theory"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "collection_date_introduced",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection_date_introduced",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection_date_introduced",
+      "owner": "Battery",
+      "domain_of": [
+        "Battery"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "collection_publisher",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection_publisher",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/collection_publisher",
+      "owner": "Battery",
+      "domain_of": [
+        "Battery"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "condition_description",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/condition_description",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/condition_description",
+      "owner": "Condition",
+      "domain_of": [
+        "Condition"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "condition_text",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/condition_text",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/condition_text",
+      "owner": "Condition",
+      "domain_of": [
+        "Condition"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "def_event_stamp",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/def_event_stamp",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/def_event_stamp",
+      "owner": "Concept",
+      "domain_of": [
+        "Task",
+        "Concept"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "def_id",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/def_id",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/def_id",
+      "owner": "Concept",
+      "domain_of": [
+        "Task",
+        "Concept"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "def_id_user",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/def_id_user",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/def_id_user",
+      "owner": "Concept",
+      "domain_of": [
+        "Task",
+        "Concept"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "definition_text",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/definition_text",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/definition_text",
+      "owner": "Concept",
+      "domain_of": [
+        "Task",
+        "Concept"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "doi",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/doi",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/doi",
+      "owner": "Citation",
+      "domain_of": [
+        "Citation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "id_concept_class",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_concept_class",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_concept_class",
+      "owner": "Concept",
+      "domain_of": [
+        "Task",
+        "Concept"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "id_task",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_task",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_task",
+      "owner": "Implementation",
+      "domain_of": [
+        "Implementation"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "id_term",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_term",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/id_term",
+      "owner": "ExternalDataset",
+      "domain_of": [
+        "ExternalDataset"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "review_status",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/review_status",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/review_status",
+      "owner": "Task",
+      "domain_of": [
+        "Task"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "website",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/website",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/website",
+      "owner": "Battery",
+      "domain_of": [
+        "Battery"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "task__kind_of",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/kind_of",
+      "alias": "kind_of",
+      "owner": "Task",
+      "domain_of": [
+        "Task"
+      ],
+      "range": "Task",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "task__part_of",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/part_of",
+      "alias": "part_of",
+      "owner": "Task",
+      "domain_of": [
+        "Task"
+      ],
+      "range": "Task",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "battery__kind_of",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/kind_of",
+      "alias": "kind_of",
+      "owner": "Battery",
+      "domain_of": [
+        "Battery"
+      ],
+      "range": "Battery",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "battery__part_of",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/part_of",
+      "alias": "part_of",
+      "owner": "Battery",
+      "domain_of": [
+        "Battery"
+      ],
+      "range": "Battery",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "theory__kind_of",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/kind_of",
+      "alias": "kind_of",
+      "owner": "Theory",
+      "domain_of": [
+        "Theory"
+      ],
+      "range": "Theory",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "theory__part_of",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/part_of",
+      "alias": "part_of",
+      "owner": "Theory",
+      "domain_of": [
+        "Theory"
+      ],
+      "range": "Theory",
+      "multivalued": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "taskCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "TaskCollection",
+      "domain_of": [
+        "TaskCollection"
+      ],
+      "range": "Task",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "assertionCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "AssertionCollection",
+      "domain_of": [
+        "AssertionCollection"
+      ],
+      "range": "Assertion",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "batteryCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "BatteryCollection",
+      "domain_of": [
+        "BatteryCollection"
+      ],
+      "range": "Battery",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "behaviorCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "BehaviorCollection",
+      "domain_of": [
+        "BehaviorCollection"
+      ],
+      "range": "Behavior",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "citationCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "CitationCollection",
+      "domain_of": [
+        "CitationCollection"
+      ],
+      "range": "Citation",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "conceptCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "ConceptCollection",
+      "domain_of": [
+        "ConceptCollection"
+      ],
+      "range": "Concept",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "conceptClassCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "ConceptClassCollection",
+      "domain_of": [
+        "ConceptClassCollection"
+      ],
+      "range": "ConceptClass",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "conditionCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "ConditionCollection",
+      "domain_of": [
+        "ConditionCollection"
+      ],
+      "range": "Condition",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "contrastCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "ContrastCollection",
+      "domain_of": [
+        "ContrastCollection"
+      ],
+      "range": "Contrast",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "disambiguationCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "DisambiguationCollection",
+      "domain_of": [
+        "DisambiguationCollection"
+      ],
+      "range": "Disambiguation",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "disorderCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "DisorderCollection",
+      "domain_of": [
+        "DisorderCollection"
+      ],
+      "range": "Disorder",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "externalDatasetCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "ExternalDatasetCollection",
+      "domain_of": [
+        "ExternalDatasetCollection"
+      ],
+      "range": "ExternalDataset",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "externalLinkCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "ExternalLinkCollection",
+      "domain_of": [
+        "ExternalLinkCollection"
+      ],
+      "range": "ExternalLink",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "implementationCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "ImplementationCollection",
+      "domain_of": [
+        "ImplementationCollection"
+      ],
+      "range": "Implementation",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "indicatorCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "IndicatorCollection",
+      "domain_of": [
+        "IndicatorCollection"
+      ],
+      "range": "Indicator",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "theoryCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "TheoryCollection",
+      "domain_of": [
+        "TheoryCollection"
+      ],
+      "range": "Theory",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "traitCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "TraitCollection",
+      "domain_of": [
+        "TraitCollection"
+      ],
+      "range": "Trait",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "userCollection__entries",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slot_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/entries",
+      "alias": "entries",
+      "owner": "UserCollection",
+      "domain_of": [
+        "UserCollection"
+      ],
+      "range": "User",
+      "multivalued": true,
+      "inlined": true,
+      "inlined_as_list": true,
+      "@type": "SlotDefinition"
+    }
+  ],
+  "classes": [
+    {
+      "name": "NamedThing",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/NamedThing",
+      "description": "A generic grouping for any identifiable entity",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "mappings": [
+        "schema:Thing"
+      ],
+      "slots": [
+        "id",
+        "name",
+        "description"
+      ],
+      "slot_usage": {},
+      "class_uri": "http://schema.org/Thing",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "CitableThing",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/CitableThing",
+      "description": "A generic grouping for any identifiable entity",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "NamedThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/CitableThing",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Task",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Task",
+      "description": "Represents a Task",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "id_user",
+        "flag_for_curator",
+        "asserts",
+        "has_condition",
+        "has_contrast",
+        "has_external_dataset",
+        "has_implementation",
+        "has_indicator",
+        "id_concept_class",
+        "def_id",
+        "review_status",
+        "def_event_stamp",
+        "def_id_user",
+        "definition_text",
+        "in_battery",
+        "event_stamp",
+        "alias",
+        "task__kind_of",
+        "task__part_of"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "kind_of",
+          "range": "Task",
+          "multivalued": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "part_of",
+          "range": "Task",
+          "multivalued": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Task",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Concept",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Concept",
+      "description": "Represents a Task",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "alias",
+        "part_of",
+        "kind_of",
+        "measured_by",
+        "classified_under",
+        "id_concept_class",
+        "def_id",
+        "def_event_stamp",
+        "def_id_user",
+        "definition_text"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Concept",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Disorder",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Disorder",
+      "description": "Represents a Task",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "classification",
+        "definition",
+        "is_a",
+        "id_protocol",
+        "is_a_fulltext",
+        "is_a_protocol",
+        "is_a",
+        "has_link"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Disorder",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Trait",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Trait",
+      "description": "Represents a Task",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "has_citation",
+        "has_link",
+        "measured_by",
+        "definition"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Trait",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Behavior",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Behavior",
+      "description": "Represents a Task",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "has_citation",
+        "has_link",
+        "measured_by",
+        "definition"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Behavior",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Condition",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Condition",
+      "description": "Represents a Task",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "has_contrast",
+        "condition_text",
+        "condition_description"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Condition",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Contrast",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Contrast",
+      "description": "Represents a Task",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "has_difference"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Contrast",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Battery",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Battery",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "collection",
+        "collection_description",
+        "collection_alias",
+        "has_citation",
+        "has_indicator",
+        "in_battery",
+        "collection_date_introduced",
+        "collection_publisher",
+        "website",
+        "battery__kind_of",
+        "battery__part_of"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "kind_of",
+          "range": "Battery",
+          "multivalued": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "part_of",
+          "range": "Battery",
+          "multivalued": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Battery",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Theory",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Theory",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "collection_description",
+        "collection_alias",
+        "theory__kind_of",
+        "theory__part_of"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "kind_of",
+          "range": "Theory",
+          "multivalued": true,
+          "@type": "SlotDefinition"
+        },
+        {
+          "name": "part_of",
+          "range": "Theory",
+          "multivalued": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Theory",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Implementation",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Implementation",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "implementation_uri",
+        "implementation_name",
+        "implementation_description",
+        "id_task"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Implementation",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ExternalDataset",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ExternalDataset",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "dataset_name",
+        "dataset_uri",
+        "id_term"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ExternalDataset",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Indicator",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Indicator",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "type"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Indicator",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Citation",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Citation",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "citation_url",
+        "citation_comment",
+        "citation_desc",
+        "citation_authors",
+        "citation_type",
+        "citation_pubname",
+        "citation_pubdate",
+        "citation_pmid",
+        "citation_source",
+        "doi"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Citation",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Assertion",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Assertion",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "truth_value",
+        "id_subject_def",
+        "user_id",
+        "confidence_level",
+        "predicate",
+        "subject",
+        "predicate_def",
+        "in_theory",
+        "has_citation"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Assertion",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "User",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/User",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "old_user_id",
+        "username",
+        "created"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/User",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ExternalLink",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ExternalLink",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "uri"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ExternalLink",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ConceptClass",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ConceptClass",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "display_order"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ConceptClass",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Disambiguation",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Disambiguation",
+      "description": "",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "is_a": "CitableThing",
+      "slots": [
+        "id",
+        "name",
+        "description",
+        "has_citation",
+        "last_updated",
+        "creation_time",
+        "event_stamp",
+        "id_user",
+        "flag_for_curator",
+        "disambiguates"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/Disambiguation",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "TaskCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/TaskCollection",
+      "description": "A holder for Task objects",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "taskCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Task",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/TaskCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "AssertionCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/AssertionCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "assertionCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Assertion",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/AssertionCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "BatteryCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/BatteryCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "batteryCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Battery",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/BatteryCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "BehaviorCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/BehaviorCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "behaviorCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Behavior",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/BehaviorCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "CitationCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/CitationCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "citationCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Citation",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/CitationCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ConceptCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ConceptCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "conceptCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Concept",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ConceptCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ConceptClassCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ConceptClassCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "conceptClassCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "ConceptClass",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ConceptClassCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ConditionCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ConditionCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "conditionCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Condition",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ConditionCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ContrastCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ContrastCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "contrastCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Contrast",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ContrastCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "DisambiguationCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/DisambiguationCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "disambiguationCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Disambiguation",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/DisambiguationCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "DisorderCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/DisorderCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "disorderCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Disorder",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/DisorderCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ExternalDatasetCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ExternalDatasetCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "externalDatasetCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "ExternalDataset",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ExternalDatasetCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ExternalLinkCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ExternalLinkCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "externalLinkCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "ExternalLink",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ExternalLinkCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "ImplementationCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ImplementationCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "implementationCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Implementation",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/ImplementationCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "IndicatorCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/IndicatorCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "indicatorCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Indicator",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/IndicatorCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "TheoryCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/TheoryCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "theoryCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Theory",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/TheoryCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "TraitCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/TraitCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "traitCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "Trait",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/TraitCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "UserCollection",
+      "definition_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/UserCollection",
+      "from_schema": "https://w3id.org/rwblair/legacy-cogat-linkml",
+      "slots": [
+        "userCollection__entries"
+      ],
+      "slot_usage": {},
+      "attributes": [
+        {
+          "name": "entries",
+          "range": "User",
+          "multivalued": true,
+          "inlined_as_list": true,
+          "@type": "SlotDefinition"
+        }
+      ],
+      "class_uri": "https://w3id.org/rwblair/legacy-cogat-linkml/UserCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    }
+  ],
+  "metamodel_version": "1.7.0",
+  "source_file": "legacy_cogat_linkml.yaml",
+  "source_file_date": "2025-02-20T09:50:16",
+  "source_file_size": 12405,
+  "generation_date": "2025-02-20T10:02:10",
+  "@type": "SchemaDefinition",
+  "@context": [
+    "autogenerated_outputs/jsonld/legacy_cogat_linkml.context.jsonld",
+    "https://w3id.org/linkml/types.context.jsonld",
+    {
+      "@base": "https://w3id.org/rwblair/legacy-cogat-linkml/"
+    }
+  ]
+}

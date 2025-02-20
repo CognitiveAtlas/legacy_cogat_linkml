@@ -4,7 +4,7 @@ import glob
 import unittest
 
 from linkml_runtime.loaders import yaml_loader
-from cogat_linkml.datamodel.cogat_linkml import TaskCollection
+from legacy_cogat_linkml.datamodel.legacy_cogat_linkml import TaskCollection
 
 ROOT = os.path.join(os.path.dirname(__file__), '..')
 DATA_DIR = os.path.join(ROOT, "src", "data", "examples")

@@ -1,0 +1,2288 @@
+{
+    "$defs": {
+        "Assertion": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "confidence_level": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_subject_def": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "in_theory": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "predicate": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "predicate_def": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "subject": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "truth_value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "user_id": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Assertion",
+            "type": "object"
+        },
+        "AssertionCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Assertion"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "AssertionCollection",
+            "type": "object"
+        },
+        "Battery": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "collection": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "collection_alias": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "collection_date_introduced": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "collection_description": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "collection_publisher": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_indicator": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "in_battery": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "kind_of": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "part_of": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "website": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Battery",
+            "type": "object"
+        },
+        "BatteryCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Battery"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "BatteryCollection",
+            "type": "object"
+        },
+        "Behavior": {
+            "additionalProperties": false,
+            "description": "Represents a Task",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "definition": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_link": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "measured_by": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Behavior",
+            "type": "object"
+        },
+        "BehaviorCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Behavior"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "BehaviorCollection",
+            "type": "object"
+        },
+        "CitableThing": {
+            "additionalProperties": false,
+            "description": "A generic grouping for any identifiable entity",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "CitableThing",
+            "type": "object"
+        },
+        "Citation": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "citation_authors": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "citation_comment": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "citation_desc": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "citation_pmid": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "citation_pubdate": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "citation_pubname": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "citation_source": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "citation_type": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "citation_url": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "doi": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Citation",
+            "type": "object"
+        },
+        "CitationCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Citation"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "CitationCollection",
+            "type": "object"
+        },
+        "Concept": {
+            "additionalProperties": false,
+            "description": "Represents a Task",
+            "properties": {
+                "alias": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "classified_under": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "def_event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "def_id": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "def_id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "definition_text": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_concept_class": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "kind_of": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "measured_by": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "part_of": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Concept",
+            "type": "object"
+        },
+        "ConceptClass": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "display_order": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "ConceptClass",
+            "type": "object"
+        },
+        "ConceptClassCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/ConceptClass"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "ConceptClassCollection",
+            "type": "object"
+        },
+        "ConceptCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Concept"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "ConceptCollection",
+            "type": "object"
+        },
+        "Condition": {
+            "additionalProperties": false,
+            "description": "Represents a Task",
+            "properties": {
+                "condition_description": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "condition_text": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_contrast": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Condition",
+            "type": "object"
+        },
+        "ConditionCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Condition"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "ConditionCollection",
+            "type": "object"
+        },
+        "Contrast": {
+            "additionalProperties": false,
+            "description": "Represents a Task",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_difference": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Contrast",
+            "type": "object"
+        },
+        "ContrastCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Contrast"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "ContrastCollection",
+            "type": "object"
+        },
+        "Disambiguation": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "disambiguates": {
+                    "description": "Could apply to Concepts, Tasks, Traits...",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Disambiguation",
+            "type": "object"
+        },
+        "DisambiguationCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Disambiguation"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "DisambiguationCollection",
+            "type": "object"
+        },
+        "Disorder": {
+            "additionalProperties": false,
+            "description": "Represents a Task",
+            "properties": {
+                "classification": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "definition": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_link": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_protocol": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "is_a": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "is_a_fulltext": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "is_a_protocol": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Disorder",
+            "type": "object"
+        },
+        "DisorderCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Disorder"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "DisorderCollection",
+            "type": "object"
+        },
+        "ExternalDataset": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "dataset_name": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "dataset_uri": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_term": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "ExternalDataset",
+            "type": "object"
+        },
+        "ExternalDatasetCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/ExternalDataset"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "ExternalDatasetCollection",
+            "type": "object"
+        },
+        "ExternalLink": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "uri": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "ExternalLink",
+            "type": "object"
+        },
+        "ExternalLinkCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/ExternalLink"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "ExternalLinkCollection",
+            "type": "object"
+        },
+        "Implementation": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_task": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "implementation_description": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "implementation_name": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "implementation_uri": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Implementation",
+            "type": "object"
+        },
+        "ImplementationCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Implementation"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "ImplementationCollection",
+            "type": "object"
+        },
+        "Indicator": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "type": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Indicator",
+            "type": "object"
+        },
+        "IndicatorCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Indicator"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "IndicatorCollection",
+            "type": "object"
+        },
+        "NamedThing": {
+            "additionalProperties": false,
+            "description": "A generic grouping for any identifiable entity",
+            "properties": {
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "NamedThing",
+            "type": "object"
+        },
+        "Task": {
+            "additionalProperties": false,
+            "description": "Represents a Task",
+            "properties": {
+                "alias": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "asserts": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "def_event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "def_id": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "def_id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "definition_text": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_condition": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_contrast": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_external_dataset": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_implementation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_indicator": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_concept_class": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "in_battery": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "kind_of": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "part_of": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "review_status": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Task",
+            "type": "object"
+        },
+        "TaskCollection": {
+            "additionalProperties": false,
+            "description": "A holder for Task objects",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Task"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "TaskCollection",
+            "type": "object"
+        },
+        "Theory": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "collection_alias": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "collection_description": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "kind_of": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "part_of": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Theory",
+            "type": "object"
+        },
+        "TheoryCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Theory"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "TheoryCollection",
+            "type": "object"
+        },
+        "Trait": {
+            "additionalProperties": false,
+            "description": "Represents a Task",
+            "properties": {
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "definition": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "has_link": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "measured_by": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Trait",
+            "type": "object"
+        },
+        "TraitCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/Trait"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "TraitCollection",
+            "type": "object"
+        },
+        "User": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "created": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "creation_time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "description": {
+                    "description": "A human-readable description for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "event_stamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "flag_for_curator": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "has_citation": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "id": {
+                    "description": "A unique identifier for a thing",
+                    "type": "string"
+                },
+                "id_user": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "A human-readable name for a thing",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "old_user_id": {
+                    "description": "The original PHP based site had user ids of the pattern \"usr_[[:alnum:]]*\". If an id of this kind existed for the user it is stored here.",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "username": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "User",
+            "type": "object"
+        },
+        "UserCollection": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "entries": {
+                    "items": {
+                        "$ref": "#/$defs/User"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "UserCollection",
+            "type": "object"
+        }
+    },
+    "$id": "https://w3id.org/rwblair/legacy-cogat-linkml",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "additionalProperties": true,
+    "description": "A holder for Task objects",
+    "metamodel_version": "1.7.0",
+    "properties": {
+        "entries": {
+            "items": {
+                "$ref": "#/$defs/Task"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        }
+    },
+    "title": "legacy-cogat-linkml",
+    "type": "object",
+    "version": null
+}

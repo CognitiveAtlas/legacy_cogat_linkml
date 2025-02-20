@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "id": "trm_4a3fd79d09b79",
+      "name": "behavioral inhibition",
+      "last_updated": "1512660851505",
+      "creation_time": "1512660851505",
+      "disambiguates": [
+        "trm_4b7c270940f9d",
+        "trm_4b7c27094a093"
+      ]
+    },
+    {
+      "id": "trm_4a3fd79d09883",
+      "name": "arousal",
+      "last_updated": "1512660851565",
+      "creation_time": "1512660851565",
+      "disambiguates": [
+        "trm_59d184d09066b",
+        "trm_59d184d0980bf"
+      ]
+    }
+  ],
+  "@type": "DisambiguationCollection"
+}

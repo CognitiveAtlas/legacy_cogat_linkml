@@ -1,0 +1,434 @@
+# metamodel_version: 1.7.0
+type Assertion
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    truthValue: String
+    idSubjectDef: String
+    userId: String
+    confidenceLevel: String
+    predicate: [Task]
+    subject: [Concept]
+    predicateDef: [Contrast]
+    inTheory: [Theory]
+    hasCitation: [Citation]
+  }
+
+type AssertionCollection
+  {
+    entries: [Assertion]
+  }
+
+type Battery
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    collection: String
+    collectionDescription: String
+    collectionAlias: String
+    hasCitation: [Citation]
+    hasIndicator: [Indicator]
+    inBattery: [Battery]
+    collectionDateIntroduced: String
+    collectionPublisher: String
+    website: String
+    kindOf: [Battery]
+    partOf: [Battery]
+  }
+
+type BatteryCollection
+  {
+    entries: [Battery]
+  }
+
+type Behavior
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    hasCitation: [Citation]
+    hasLink: [ExternalLink]
+    measuredBy: [Contrast]
+    definition: String
+  }
+
+type BehaviorCollection
+  {
+    entries: [Behavior]
+  }
+
+type CitableThing
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+  }
+
+type Citation
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    citationUrl: String
+    citationComment: String
+    citationDesc: String
+    citationAuthors: String
+    citationType: String
+    citationPubname: String
+    citationPubdate: String
+    citationPmid: String
+    citationSource: String
+    doi: String
+  }
+
+type CitationCollection
+  {
+    entries: [Citation]
+  }
+
+type Concept
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    alias: String
+    partOf: [Concept]
+    kindOf: [Concept]
+    measuredBy: [Contrast]
+    classifiedUnder: [ConceptClass]
+    idConceptClass: String
+    defId: String
+    defEventStamp: String
+    defIdUser: String
+    definitionText: String
+  }
+
+type ConceptClass
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    displayOrder: String
+  }
+
+type ConceptClassCollection
+  {
+    entries: [ConceptClass]
+  }
+
+type ConceptCollection
+  {
+    entries: [Concept]
+  }
+
+type Condition
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    hasContrast: [Contrast]
+    conditionText: String
+    conditionDescription: String
+  }
+
+type ConditionCollection
+  {
+    entries: [Condition]
+  }
+
+type Contrast
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    hasDifference: [Disorder]
+  }
+
+type ContrastCollection
+  {
+    entries: [Contrast]
+  }
+
+type Disambiguation
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    disambiguates: [CitableThing]
+  }
+
+type DisambiguationCollection
+  {
+    entries: [Disambiguation]
+  }
+
+type Disorder
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    classification: String
+    definition: String
+    isA: [Disorder]
+    idProtocol: String
+    isAFulltext: String
+    isAProtocol: String
+    hasLink: [ExternalLink]
+  }
+
+type DisorderCollection
+  {
+    entries: [Disorder]
+  }
+
+type ExternalDataset
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    datasetName: String
+    datasetUri: String
+    idTerm: String
+  }
+
+type ExternalDatasetCollection
+  {
+    entries: [ExternalDataset]
+  }
+
+type ExternalLink
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    uri: String
+  }
+
+type ExternalLinkCollection
+  {
+    entries: [ExternalLink]
+  }
+
+type Implementation
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    implementationUri: String
+    implementationName: String
+    implementationDescription: String
+    idTask: String
+  }
+
+type ImplementationCollection
+  {
+    entries: [Implementation]
+  }
+
+type Indicator
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    type: String
+  }
+
+type IndicatorCollection
+  {
+    entries: [Indicator]
+  }
+
+type NamedThing
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+  }
+
+type Task
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    idUser: String
+    flagForCurator: String
+    asserts: [Concept]
+    hasCondition: [Condition]
+    hasContrast: [Contrast]
+    hasExternalDataset: [ExternalDataset]
+    hasImplementation: [Implementation]
+    hasIndicator: [Indicator]
+    idConceptClass: String
+    defId: String
+    reviewStatus: String
+    defEventStamp: String
+    defIdUser: String
+    definitionText: String
+    inBattery: [Battery]
+    eventStamp: String
+    alias: String
+    kindOf: [Task]
+    partOf: [Task]
+  }
+
+type TaskCollection
+  {
+    entries: [Task]
+  }
+
+type Theory
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    collectionDescription: String
+    collectionAlias: String
+    kindOf: [Theory]
+    partOf: [Theory]
+  }
+
+type TheoryCollection
+  {
+    entries: [Theory]
+  }
+
+type Trait
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    hasCitation: [Citation]
+    hasLink: [ExternalLink]
+    measuredBy: [Contrast]
+    definition: String
+  }
+
+type TraitCollection
+  {
+    entries: [Trait]
+  }
+
+type User
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    hasCitation: [Citation]
+    lastUpdated: String
+    creationTime: String
+    eventStamp: String
+    idUser: String
+    flagForCurator: String
+    oldUserId: String
+    username: String
+    created: [CitableThing]
+  }
+
+type UserCollection
+  {
+    entries: [User]
+  }
+

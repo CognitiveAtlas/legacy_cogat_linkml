@@ -1,0 +1,2636 @@
+{
+  "entries": [
+    {
+      "id": "dso_0050432",
+      "name": "Asperger syndrome",
+      "event_stamp": "2013-11-20T15:38:08",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An autism spectrum disorder that is characterized by significant difficulties in social interaction, along with restricted and repetitive patterns of behavior and interests. It differs from other autism spectrum disorders by its relative preservation of linguistic and cognitive development.",
+      "is_a": [
+        "dso_0060041",
+        "dso_0050696"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050587",
+      "name": "trichotillomania",
+      "event_stamp": "2013-11-20T15:38:08",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An impulse control disorder that involves the uncontrollable plucking of ones hair.",
+      "is_a": [
+        "dso_10937",
+        "dso_10933",
+        "dso_0050432"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050628",
+      "name": "advanced sleep phase syndrome",
+      "event_stamp": "2013-11-20T15:38:08",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A sleep disorder tah involves an altered circadian rhythm resulting in falling asleep in early evening and awaking very early in the morning.",
+      "is_a": [
+        "dso_535"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050665",
+      "name": "fetal alcohol syndrome",
+      "event_stamp": "2013-11-20T15:38:08",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A fetal alcohol spectrum disorder that results in severe mental and physical defects which can develop in a child when the mother drinks alcohol during pregnancy. The presenting features include craniofacial dysmorphology (microcephaly, smooth philtrum, thin upper lip, small eye openings), pre- and postnatal growth deficiency, and central nervous system dysfunction.",
+      "is_a": [
+        "dso_0050696"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050666",
+      "name": "partial fetal alcohol syndrome",
+      "event_stamp": "2013-11-20T15:38:08",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A fetal alcohol spectrum disorder that results in most, but not all, of the growth deficiency and/or craniofacial features of fetal alcohol syndrome including central nervous system dysfunction due to prenatal alcohol exposure.",
+      "is_a": [
+        "dso_0050696"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050667",
+      "name": "alcohol-related neurodevelopmental disorder",
+      "event_stamp": "2013-11-20T15:38:08",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A fetal alcohol spectrum disorder that results in central nervous system dysfunction and behavioral and/or cognitive deficits due to prenatal alcohol exposure.",
+      "is_a": [
+        "dso_0050696"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050668",
+      "name": "alcohol-related birth defect",
+      "event_stamp": "2013-11-20T15:38:08",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A fetal alcohol spectrum disorder that results in damage to organs, bones, or muscles due to prenatal alcohol exposure.",
+      "is_a": [
+        "dso_0050696"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050696",
+      "name": "fetal alcohol spectrum disorder",
+      "event_stamp": "2013-11-20T15:38:08",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A physical disorder that involves physical, behavioral and learning birth defects resulting from maternal ingestion of alcohol during pregnancy.",
+      "is_a": [
+        "dso_1059"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050741",
+      "name": "alcohol dependence",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_9973",
+        "dso_0060046"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050742",
+      "name": "nicotine dependence",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_9973"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0050776",
+      "name": "non-specific X-linked mental retardation",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_1059"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060001",
+      "name": "withdrawal disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance-related disorder that occurs upon the abrupt discontinuation/separation or a decrease in dosage of the intake of medications, recreational drugs, and alcohol.",
+      "is_a": [
+        "dso_303"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060037",
+      "name": "developmental disorder of mental health",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health that occur during a child's developmental period between birth and age 18 resulting in retarding of the child's psycholotgical or physical development.",
+      "is_a": [
+        "dso_10934"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060038",
+      "name": "specific developmental disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A developmental disorder of mental health that categorizes specific learning disabilities and developmental disorders affecting coordination.",
+      "is_a": [
+        "dso_0060037"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060040",
+      "name": "pervasive developmental disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A developmental disorder of mental health that refers to a group of five disorders characterized by impairments in socialization and communication, as well as restricted interests and repetitive behaviors.",
+      "is_a": [
+        "dso_0060037",
+        "dso_10934"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060041",
+      "name": "autism spectrum disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A pervasive developmental disorder that is a spectrum of psychological conditions. The disease has_symptom widespread abnormalities of social interactions and communication, has_symptom severely restricted interests and has_symptom highly repetitive behavior.",
+      "is_a": [
+        "dso_0060040"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060042",
+      "name": "atypical autism",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An autism spectrum disorder that involves some autistic symptoms occuring after age 3 with an abscence of all the traits necessary for a diagnosis of autism.",
+      "is_a": [
+        "dso_0060041"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060043",
+      "name": "sexual disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health that involves the impairment in normal sexual functioning.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060044",
+      "name": "paraphilia disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060043"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060045",
+      "name": "Munchausen by proxy",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A factitious disorder that involves a care giver's deliberate exaggeration, fabrication, and/or induce physical, psychological, behavioral, and/or mental health problems in others.",
+      "is_a": [
+        "dso_1766"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060046",
+      "name": "aphasia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A language disorder that involves an acquired impairment of any language modality such as producing or comprehending spoken or written language.",
+      "is_a": [
+        "dso_93",
+        "dso_G3nNv2r93emFz"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060047",
+      "name": "writing disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A learning disability that involves impaired written language ability such as impairments in handwriting, spelling, organization of ideas, and composition.",
+      "is_a": [
+        "dso_8927"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060048",
+      "name": "nosophobia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific phobia that involves an irrational fear of contracting a disease.",
+      "is_a": [
+        "dso_599"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060130",
+      "name": "akinetopsia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of motion perception.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060131",
+      "name": "alexithymia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a deficiency in understanding, processing, or describing emotions.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060132",
+      "name": "amusia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to recognize musical notes, rhythms, and intervals.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060133",
+      "name": "anosognosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to gain feedback about one's own condition or impairments.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060134",
+      "name": "apperceptive agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to distinguish visual shapes.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060135",
+      "name": "apraxia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to map out physical actions in order to repeat them in functional activities.",
+      "is_a": [
+        "dso_4090",
+        "dso_G3nNv2r93emFz"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060136",
+      "name": "associative agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to recognize visual scenes or classes of objects but retain the abilty to describe them.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060137",
+      "name": "auditory agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to distinguishing environmental and non-verbal auditory cues including difficulty distinguishing speech from non-speech sounds even though hearing is usually normal.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060138",
+      "name": "autotopagnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to orient parts of the body.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060139",
+      "name": "color agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to recognize a color, while being able to perceive or distinguish it.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060140",
+      "name": "cortical deafness",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to perceive any auditory information but whose hearing is intact.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060141",
+      "name": "finger agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to distinguish the fingers on the hand.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060142",
+      "name": "form agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to perceive a whole object while perceiving only parts of details.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060143",
+      "name": "integrative agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to integrate these elements together into comprehensible perceptual wholes while recognizing elements of the whole.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060144",
+      "name": "mirror agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to acknowledge objects in the neglected field that are visible when a mirror reflects the object visible in the non-neglected field.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060145",
+      "name": "pain agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to perceive and process pain.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060146",
+      "name": "phonagnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to recognize familiar voices.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060147",
+      "name": "semantic agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to visually recognise an object while maintaining the use of non-visual sensory systems such as feeling, tapping, smelling, rocking or flicking the object to recognise the object.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060148",
+      "name": "simultanagnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to recgonize a whole image or scene while retianing the ability to recognize objects or details in their visual field one at a time.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060149",
+      "name": "social emotional agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to perceive facial expression, body language and intonation, rendering them unable to non-verbally perceive people's emotions and limiting that aspect of social interaction.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060150",
+      "name": "astereognosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is the loss of the ability to recognize objects by touch based on its texture, size and weight.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060151",
+      "name": "tactile agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to recognize or identify objects by touch alone.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060152",
+      "name": "time agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to comprehend the succession and duration of events.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060153",
+      "name": "topographical agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to rely on visual cues to guide them directionally due to the inability to recognise objects.",
+      "is_a": [
+        "dso_0060155"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060154",
+      "name": "verbal auditory agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to recognising spoken words as semantically meaningful.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060155",
+      "name": "visual agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to visually recognize objects.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060156",
+      "name": "visual verbal agnosia",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to comprehending the meaning of written words.",
+      "is_a": [
+        "dso_0060155"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060163",
+      "name": "body dysmorphic disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A somatoform disorder that involves an excessive concern about and preoccupation with a perceived defect in his or her physical features (body image).",
+      "is_a": [
+        "dso_4737"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060164",
+      "name": "pain disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A somatoform disorder that involves chronic pain in one or more areas, and is thought to be caused by psychological stress.",
+      "is_a": [
+        "dso_4737"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060165",
+      "name": "Kleine-Levin syndrome",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A recurrent hypersomnia that is characterized by recurring periods of excessive amounts of sleep and altered behavior.",
+      "is_a": [
+        "dso_8619"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060166",
+      "name": "bipolar ll disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A bipolar disorder that is characterized by at least one hypomanic episode and at least one major depressive episode; with this disorder, depressive episodes are more frequent and more intense than manic episodes.",
+      "is_a": [
+        "dso_3312"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060167",
+      "name": "seasonal affective disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A mental depression that involves presentation of depressive symptoms only during a specific season of the year.",
+      "is_a": [
+        "dso_1596"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_0060179",
+      "name": "Renpenning syndrome",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An intellectual disability that is characterized by small head size (microcephaly), long narrow face, short stature, small testes, and intellectual deficit which follows X-linked inheritance and presents most often in males.",
+      "is_a": [
+        "dso_1059"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10132",
+      "name": "psychosexual disorder",
+      "event_stamp": "2013-11-20T15:38:09",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060043"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10236",
+      "name": "exhibitionism",
+      "event_stamp": "2013-11-20T15:38:10",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060044"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1059",
+      "name": "intellectual disability",
+      "event_stamp": "2013-11-20T15:38:11",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific developmental disorder that involves significant limitations both in mental functioning and in adaptive behavior such as communicating, taking care of him or herself, and social skills.",
+      "is_a": [
+        "dso_0060038"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10646",
+      "name": "schizotypal personality disorder",
+      "event_stamp": "2013-11-20T15:38:11",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that involves a need for social isolation, anxiety in social situations, odd behavior and thinking, and often unconventional beliefs.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10685",
+      "name": "separation anxiety disorder",
+      "event_stamp": "2013-11-20T15:38:11",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An anxiety disorder that involves the feeling of excessive and inappropriate levels of anxiety over being separated from a person to whom the individual has a strong emotional attachment or place.",
+      "is_a": [
+        "dso_2030"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10817",
+      "name": "sexual sadism",
+      "event_stamp": "2013-11-20T15:38:11",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060043"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10834",
+      "name": "voyeurism",
+      "event_stamp": "2013-11-20T15:38:11",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060044"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10849",
+      "name": "sexual masochism",
+      "event_stamp": "2013-11-20T15:38:11",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060043"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10914",
+      "name": "amnestic disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A cognitive disorder where the memory is disturbed or lost and involves the loss of memories previously established, loss of the ability to create new memories, or loss of the ability to learn new information.",
+      "is_a": [
+        "dso_1561"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10919",
+      "name": "transsexualism",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A gender identity disorder that is characterized by an individual's identification with a gender inconsistent or not culturally associated with their biological sex.",
+      "is_a": [
+        "dso_1234"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10930",
+      "name": "borderline personality disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that involves a prolonged disturbance of personality function characterized by depth and variability of moods.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10931",
+      "name": "dependent personality disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that is characterized by a pervasive psychological dependence on other people.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10932",
+      "name": "obsessive-compulsive personality disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that is characterized by a pervasive pattern of preoccupation with orderliness, perfectionism, and mental and interpersonal control at the expense of flexibility, openness, and efficiency.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10933",
+      "name": "obsessive-compulsive disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An anxiety disorder that involves unwanted and repeated thoughts, feelings, ideas, sensations (obsessions), or behaviors that make them feel driven to do something (compulsions).",
+      "is_a": [
+        "dso_2030",
+        "dso_0060040"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10934",
+      "name": "multiple personality disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A dissociative disorder that involves the simultaneous display of multiple distinct identities or personalities.",
+      "is_a": [
+        "dso_10935",
+        "dso_4964",
+        "dso_2055"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10935",
+      "name": "dissociative disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health in which the normally well-integrated functions of memory, identity, perception, or consciousness are separated (dissociated).",
+      "is_a": [
+        "dso_303",
+        "dso_0060149",
+        "dso_2055",
+        "dso_13918",
+        "dso_0060152",
+        "dso_1561"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10936",
+      "name": "schizoid personality disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that is characterized by a lack of interest in social relationships, a tendency towards a solitary lifestyle, secretiveness, emotional coldness and sometimes sexual apathy, with a simultaneous rich, elaborate and exclusively internal fantasy world.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10937",
+      "name": "impulse control disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health that involves a failure to resist an impulsive act or behaviour that may be harmful to self or others.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10938",
+      "name": "paranoid personality disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that is characterized by paranoia and a pervasive, long-standing suspiciousness and generalized mistrust of others.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_10939",
+      "name": "antisocial personality disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that involves a pervasive pattern of disregard for, and violation of, the rights of others that begins in childhood or early adolescence and continues into adulthood.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1094",
+      "name": "attention deficit hyperactivity disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific developmental disorder that is characterized by co-existence of attentional problems and hyperactivity, with each behavior occurring infrequently alone\\\" and symptoms starting before seven years of age.",
+      "is_a": [
+        "dso_0060038"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11037",
+      "name": "dissociative amnesia",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A dissociative disorder where he continuity of the patient's memory is disrupted. Patients with dissociative amnesia have recurrent episodes in which they forget important personal information or events, usually connected with trauma or severe stress.",
+      "is_a": [
+        "dso_10935"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11038",
+      "name": "depersonalization disorder",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A dissociative disorder in which the sufferer is affected by persistent or recurrent feelings of depersonalization and/or derealization.",
+      "is_a": [
+        "dso_10935"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11120",
+      "name": "psychologic dyspareunia",
+      "event_stamp": "2013-11-20T15:38:12",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_10132"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11206",
+      "name": "opioid abuse",
+      "event_stamp": "2013-11-20T15:38:13",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance abuse that involves the recurring use of opioid drugs despite negative consequences.",
+      "is_a": [
+        "dso_302"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11257",
+      "name": "social phobia",
+      "event_stamp": "2013-11-20T15:38:13",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A phobic disorder that involves social anxiety occurring only in specific public or social situations, interactions with others or being evaluated or scrutinized by other people.",
+      "is_a": [
+        "dso_591"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11328",
+      "name": "schizophreniform disorder",
+      "event_stamp": "2013-11-20T15:38:13",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A psychotic disorder that involves schizophrenia symptoms over time period of one month.",
+      "is_a": [
+        "dso_2468"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11385",
+      "name": "expressive language disorder",
+      "event_stamp": "2013-11-20T15:38:13",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A language disorder that involves difficulties with verbal and written expression characterized by an ability to use expressive spoken language that is markedly below the appropriate level for the mental age, but with a language comprehension that is within normal limits.",
+      "is_a": [
+        "dso_93"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11507",
+      "name": "rumination disorder",
+      "event_stamp": "2013-11-20T15:38:14",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An eating disorder that is characterized by effortless regurgitation of most meals following consumption.",
+      "is_a": [
+        "dso_8670"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11569",
+      "name": "neurocirculatory asthenia",
+      "event_stamp": "2013-11-20T15:38:14",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A somatoform disorder that involves heart disease symptoms without any identifiable physiological abnormatlities.",
+      "is_a": [
+        "dso_4737"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_11718",
+      "name": "antidepressant type abuse",
+      "event_stamp": "2013-11-20T15:38:14",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance abuse that involves the recurring use of antidepressant drugs despite negative consequences.",
+      "is_a": [
+        "dso_302"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1203",
+      "name": "drug-induced mental disorder",
+      "event_stamp": "2013-11-20T15:38:15",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_8646"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1206",
+      "name": "Rett syndrome",
+      "event_stamp": "2013-11-20T15:38:15",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A pervasive developmental disease that is a neurological and developmental disorder that mostly occurs in females and is caused_by a mutation on the MECP2 gene on the X chromosome. Infants with Rett syndrome seem to grow and develop normally at first, but then stop developing and even lose skills and abilities.",
+      "is_a": [
+        "dso_0060040"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12128",
+      "name": "pica disease",
+      "event_stamp": "2013-11-20T15:38:15",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An eating disorder that is characterized by an appetite for non-nutritive substances or food ingredients.",
+      "is_a": [
+        "dso_8670"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12129",
+      "name": "bulimia nervosa",
+      "event_stamp": "2013-11-20T15:38:15",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An eating disorder characterized by the restraining of food intake for a period of time followed by an over intake or binging period that results in feelings of guilt and low self-esteem.",
+      "is_a": [
+        "dso_8670"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12139",
+      "name": "dysthymic disorder",
+      "event_stamp": "2013-11-20T15:38:15",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A mood disorder that involves the presence of a low mood almost daily over a span of at least two years.",
+      "is_a": [
+        "dso_3324"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1229",
+      "name": "paranoid schizophrenia",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A schizophrenia that involves delusions or auditory hallucinations of persecution or being plotted against without thought disorder, disorganized behavior, or affective flattening.",
+      "is_a": [
+        "dso_5419"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12294",
+      "name": "atypical depressive disorder",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A mood disorder that is characterized by mood reactivity (paradoxical anhedonia) and positivity, significant weight gain or increased appetite (\\\"comfort eating\\\"), excessive sleep or somnolence (hypersomnia), a sensation of heaviness in limbs known as leaden paralysis, and significant social impairment as a consequence of hypersensitivity to perceived interpersonal rejection.",
+      "is_a": [
+        "dso_3324",
+        "dso_10934"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1233",
+      "name": "transvestism",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_1235"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1234",
+      "name": "gender identity disorder",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health that involves a conflict between a person's actual physical gender and the gender that person identifies himself or herself as.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1235",
+      "name": "fetishism",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060044"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12399",
+      "name": "pathological gambling",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An impulse control disorder that involves the uncontrollable impulse to gamble, irrespective of the interference the behaviour has on the individual's life.",
+      "is_a": [
+        "dso_10937"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12400",
+      "name": "kleptomania",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An impulse control disorder that involves the repeated impulse to steal for no great gain, when he or she has sufficient money to pay for the item and no need for what is stolen.",
+      "is_a": [
+        "dso_10937"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12401",
+      "name": "intermittent explosive disorder",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An impulse control disorder that involves the episodic inability to control violent impulses with a disproportionate degree of aggressiveness.",
+      "is_a": [
+        "dso_10937"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12402",
+      "name": "pyromania",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An impulse control disorder that involves the uncontrollable impulse to repeatedly set fires with no obvious motive.",
+      "is_a": [
+        "dso_10937"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12568",
+      "name": "dyscalculia",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A learning disability involving a math disability can cause such difficulties as learning math concepts (such as quantity, place value, and time), difficulty memorizing math facts, difficulty organizing numbers, and understanding how problems are organized on the page.",
+      "is_a": [
+        "dso_8927"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12685",
+      "name": "mixed receptive-expressive language disorder",
+      "event_stamp": "2013-11-20T15:38:16",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A communication disorder that involves both the receptive and expressive areas of communication may be affected in any degree, from mild to severe.",
+      "is_a": [
+        "dso_2033"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12797",
+      "name": "hallucinogen abuse",
+      "event_stamp": "2013-11-20T15:38:17",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance abuse that involves the recurring use of hallucinogenic drugs despite negative consequences.",
+      "is_a": [
+        "dso_302"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12849",
+      "name": "autistic disorder",
+      "event_stamp": "2013-11-20T15:38:17",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An autism spectrum disorder that is characterized by symptoms across all three symptom domains (communication, social, restricted repetitive interests and behaviors), delayed language development, and symptom onset prior to age 3 years.",
+      "is_a": [
+        "dso_0060041"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12883",
+      "name": "hypochondriasis",
+      "event_stamp": "2013-11-20T15:38:17",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A somatoform disorder that involves an excessive preoccupation or worry about having a serious illness.",
+      "is_a": [
+        "dso_4737"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_12995",
+      "name": "conduct disorder",
+      "event_stamp": "2013-11-20T15:38:17",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific developmental disorder marked by a pattern of repetitive behavior wherein the rights of others or social norms are violated.",
+      "is_a": [
+        "dso_0060038"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1307",
+      "name": "dementia",
+      "event_stamp": "2013-11-20T15:38:17",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A cognitive disorder resulting from a loss of brain function affecting memory, thinking, language, judgement and behavior.",
+      "is_a": [
+        "dso_1561"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_13351",
+      "name": "pedophilia",
+      "event_stamp": "2013-11-20T15:38:18",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060044"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_13352",
+      "name": "ego-dystonic sexual orientation",
+      "event_stamp": "2013-11-20T15:38:18",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A gender identity disorder that is characterized by having a sexual orientation or an attraction that is at odds with one's idealized self-image, causing anxiety and a desire to change one's orientation or become more comfortable with one's sexual orientation.",
+      "is_a": [
+        "dso_1234"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_13365",
+      "name": "reading disorder",
+      "event_stamp": "2013-11-20T15:38:18",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A learning disability involing difficulty reading resulting primarily from neurological factors which affect any part of the reading process.",
+      "is_a": [
+        "dso_8927"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_13417",
+      "name": "alexia",
+      "event_stamp": "2013-11-20T15:38:18",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that is a loss of the ability to recognize text.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_13487",
+      "name": "childhood disintegrative disease",
+      "event_stamp": "2013-11-20T15:38:18",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A pervasive developmental disease that is a rare condition characterized by late onset (>3 years of age) of developmental delays in language, social function, and motor skills where children who have had previously normal development who then appear to regress.",
+      "is_a": [
+        "dso_0060040"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_13709",
+      "name": "premature ejaculation",
+      "event_stamp": "2013-11-20T15:38:19",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_10132"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_13868",
+      "name": "hypoactive sexual desire disorder",
+      "event_stamp": "2013-11-20T15:38:19",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_10132"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_13918",
+      "name": "somatization disorder",
+      "event_stamp": "2013-11-20T15:38:19",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A somatoform disorder that involves persistently complaints of varied physical symptoms that have no identifiable physical origin.",
+      "is_a": [
+        "dso_4737"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_14042",
+      "name": "bipolar I disorder",
+      "event_stamp": "2013-11-20T15:38:20",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A bipolar disorder that is characterized by at least one manic or mixed episode.",
+      "is_a": [
+        "dso_3312"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_14320",
+      "name": "generalized anxiety disorder",
+      "event_stamp": "2013-11-20T15:38:20",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An anxiety disorder that is characterized by long-lasting anxiety that is not focused on any one object or situation.",
+      "is_a": [
+        "dso_2030"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1470",
+      "name": "major depressive disorder",
+      "event_stamp": "2013-11-20T15:38:21",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An endogenous depression that is characterized by an all-encompassing low mood accompanied by low self-esteem, and by loss of interest or pleasure in normally enjoyable activities.",
+      "is_a": [
+        "dso_1595"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1509",
+      "name": "avoidant personality disorder",
+      "event_stamp": "2013-11-20T15:38:21",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that is characterized by a pervasive pattern of social inhibition, feelings of inadequacy, extreme sensitivity to negative evaluation, and avoidance of social interaction.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1510",
+      "name": "personality disorder",
+      "event_stamp": "2013-11-20T15:38:21",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health that involve long-term patterns of thoughts and behaviors that cause serious problems with relationships and work.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1561",
+      "name": "cognitive disorder",
+      "event_stamp": "2013-11-20T15:38:21",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health that affects cognitive functions including memory processing, perception and problem solving.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1574",
+      "name": "alcohol abuse",
+      "event_stamp": "2013-11-20T15:38:21",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance abuse that involves the recurring use of alcoholic beverages despite negative consequences.",
+      "is_a": [
+        "dso_302"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1595",
+      "name": "endogenous depression",
+      "event_stamp": "2013-11-20T15:38:21",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A mental depression that is characterized by a dysregulation of the endogenous opioid system and not of the monaminergic system.",
+      "is_a": [
+        "dso_1596"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1596",
+      "name": "mental depression",
+      "event_stamp": "2013-11-20T15:38:21",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_3324"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1742",
+      "name": "drug psychosis",
+      "event_stamp": "2013-11-20T15:38:22",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_1203"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1766",
+      "name": "factitious disorder",
+      "event_stamp": "2013-11-20T15:38:22",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health where symptoms are deliberately produced, feigned or exaggerated in order to falsely demonstrate the presence of an illness.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1768",
+      "name": "conversion disorder",
+      "event_stamp": "2013-11-20T15:38:22",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A somatoform disorder that involves numbness, blindness, paralysis or fits without a neurological cause.",
+      "is_a": [
+        "dso_4737"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1849",
+      "name": "cannabis dependence",
+      "event_stamp": "2013-11-20T15:38:22",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A drug dependence that involves the continued use of cannabis despite despite problems related to use of the substance.",
+      "is_a": [
+        "dso_9977"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1875",
+      "name": "impotence",
+      "event_stamp": "2013-11-20T15:38:22",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_1876",
+        "dso_0060166"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_1876",
+      "name": "sexual dysfunction",
+      "event_stamp": "2013-11-20T15:38:22",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060043"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2030",
+      "name": "anxiety disorder",
+      "event_stamp": "2013-11-20T15:38:23",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A cognitive disorder that involves an excessive, irrational dread of everyday situations.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2033",
+      "name": "communication disorder",
+      "event_stamp": "2013-11-20T15:38:23",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific developmental disorder that involves specific developmental disorders of speech and language.",
+      "is_a": [
+        "dso_0060038"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2055",
+      "name": "post-traumatic stress disorder",
+      "event_stamp": "2013-11-20T15:38:23",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An anxiety disorder which results from a traumatic experience that results in psychological trauma.",
+      "is_a": [
+        "dso_2030",
+        "dso_1596",
+        "dso_535",
+        "dso_3324",
+        "dso_0060164",
+        "dso_1561",
+        "dso_10934",
+        "dso_0060040",
+        "dso_10937"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2303",
+      "name": "stereotypic movement disorder",
+      "event_stamp": "2013-11-20T15:38:23",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific developmental disorder that is characterized by repeated, rhythmic, purposeless movements or activities such as head banging, nail biting, or body rocking.",
+      "is_a": [
+        "dso_0060038"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2468",
+      "name": "psychotic disorder",
+      "event_stamp": "2013-11-20T15:38:24",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A cognitive disorder that involves abnormal thinking and perceptions resulting in a disconnection with reality.",
+      "is_a": [
+        "dso_0050432"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_251",
+      "name": "alcohol-induced mental disorder",
+      "event_stamp": "2013-11-20T15:38:24",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_8646"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2510",
+      "name": "Kluver-Bucy syndrome",
+      "event_stamp": "2013-11-20T15:38:24",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An impulse control disorder that involves abnormalities in memory, social and sexual functioning and idiosyncratic behaviors resulting from damage from trauma or infection to both temporal lobes causing individuals to put objects in their mouths and engage in inappropriate sexual behavior.",
+      "is_a": [
+        "dso_10937"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_252",
+      "name": "alcoholic psychosis",
+      "event_stamp": "2013-11-20T15:38:24",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_251"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2559",
+      "name": "opiate dependence",
+      "event_stamp": "2013-11-20T15:38:24",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A drug dependence that involves the continued use of opiate drugs despite despite problems related to use of the substance.",
+      "is_a": [
+        "dso_9974"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2560",
+      "name": "morphine dependence",
+      "event_stamp": "2013-11-20T15:38:24",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An opiate dependence that involves the continued use of morphine despite despite problems related to use of the substance.",
+      "is_a": [
+        "dso_2559"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2575",
+      "name": "barbiturate dependence",
+      "event_stamp": "2013-11-20T15:38:24",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A drug dependence that involves the continued use of barbiturates despite despite problems related to use of the substance.",
+      "is_a": [
+        "dso_9974"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2745",
+      "name": "narcissistic personality disorder",
+      "event_stamp": "2013-11-20T15:38:25",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that involves an excessive preoccupation with issues of personal adequacy, power, prestige and vanity.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2846",
+      "name": "bruxism",
+      "event_stamp": "2013-11-20T15:38:25",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A sleep disorder that involves involuntarily grinding or clenching of the teeth while sleeping.",
+      "is_a": [
+        "dso_535"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_2848",
+      "name": "melancholia",
+      "event_stamp": "2013-11-20T15:38:25",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_1596"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_302",
+      "name": "substance abuse",
+      "event_stamp": "2013-11-20T15:38:26",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance-related disorder that involves a maladaptive pattern of substance use leading to significant impairment in functioning.",
+      "is_a": [
+        "dso_303"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_303",
+      "name": "substance-related disorder",
+      "event_stamp": "2013-11-20T15:38:26",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health involving the abuse or dependence on a substance that is ingested in order to produce a high, alter one's senses, or otherwise affect functioning.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_3312",
+      "name": "bipolar disorder",
+      "event_stamp": "2013-11-20T15:38:27",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A mood disorder that involves alternating periods of mania and depression.",
+      "is_a": [
+        "dso_3324",
+        "dso_0060166"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_3324",
+      "name": "mood disorder",
+      "event_stamp": "2013-11-20T15:38:27",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A cognitive disorder that involves an excessive, irrational dread of everyday situations.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_334",
+      "name": "histrionic personality disorder",
+      "event_stamp": "2013-11-20T15:38:27",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A personality disorder that is characterized by a pattern of excessive emotionality and attention-seeking, including an excessive need for approval and inappropriately seductive behavior, usually beginning in early adulthood.",
+      "is_a": [
+        "dso_1510"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4090",
+      "name": "agnosia",
+      "event_stamp": "2013-11-20T15:38:31",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A communication disorder that is a loss of ability to recognize objects, persons, sounds, shapes, or smells while the specific sense is not defective nor is there any significant memory loss.",
+      "is_a": [
+        "dso_2033"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4186",
+      "name": "articulation disorder",
+      "event_stamp": "2013-11-20T15:38:31",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A speech disorder that involves mispronouncing speech sounds by omitting, distorting, substituting, or adding sounds which can make speech difficult to understand.",
+      "is_a": [
+        "dso_92"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4188",
+      "name": "echolalia",
+      "event_stamp": "2013-11-20T15:38:31",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A speech disorder that involves the automatic repetition of vocalizations made by another person.",
+      "is_a": [
+        "dso_92"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4189",
+      "name": "mutism",
+      "event_stamp": "2013-11-20T15:38:31",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A speech disorder that involves a complete inability to speak.",
+      "is_a": [
+        "dso_92"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4260",
+      "name": "gait apraxia",
+      "event_stamp": "2013-11-20T15:38:31",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060135"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4428",
+      "name": "dyslexia",
+      "event_stamp": "2013-11-20T15:38:32",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A reading disorder resulting from a developmental reading disability involving the inability to process graphic symbols resulting in impairment of reading ability.",
+      "is_a": [
+        "dso_13365"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4540",
+      "name": "dysgraphia",
+      "event_stamp": "2013-11-20T15:38:32",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A writing disorder that involves a deficiency in the ability to write where the writing is distorted or incorrect, spelling difficulty, poor handwriting or trouble putting thoughts on paper.",
+      "is_a": [
+        "dso_0060047"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4541",
+      "name": "nominal aphasia",
+      "event_stamp": "2013-11-20T15:38:32",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that involves a severe problem with recalling words or names.",
+      "is_a": [
+        "dso_0060046",
+        "dso_0050432"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4543",
+      "name": "retrograde amnesia",
+      "event_stamp": "2013-11-20T15:38:32",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An amnestic disorder that involves a loss of one's pre-existing memories to conscious recollection.",
+      "is_a": [
+        "dso_10914"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4627",
+      "name": "ideomotor apraxia",
+      "event_stamp": "2013-11-20T15:38:32",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060135"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4737",
+      "name": "somatoform disorder",
+      "event_stamp": "2013-11-20T15:38:33",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health that involves physical symptoms suggesting a physical illness where the biological or medical cause of the symptoms is indeterminate.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4762",
+      "name": "vasculogenic impotence",
+      "event_stamp": "2013-11-20T15:38:33",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_1875"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4964",
+      "name": "neurotic disorder",
+      "event_stamp": "2013-11-20T15:38:33",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An anxiety disorder that involves discress but neither delusions nor hallucinations.",
+      "is_a": [
+        "dso_2030"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_4970",
+      "name": "prosopagnosia",
+      "event_stamp": "2013-11-20T15:38:33",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An agnosia that results in the loss of the ability to consciously recognize familiar faces.",
+      "is_a": [
+        "dso_4090"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_5062",
+      "name": "phencyclidine abuse",
+      "event_stamp": "2013-11-20T15:38:34",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance abuse that involves the recurring use of phencyclidine (PCP) drugs despite negative consequences.",
+      "is_a": [
+        "dso_302"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_507",
+      "name": "adjustment disorder",
+      "event_stamp": "2013-11-20T15:38:34",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health that is an abnormal and excessive emotional and behavioral reaction to a life stress that develops within 3 months of a life stress, and which is stronger or greater than what would be expected for the type of event that occurred.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_5340",
+      "name": "anterograde amnesia",
+      "event_stamp": "2013-11-20T15:38:35",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An amnestic disorder that involves the impaired or lost ability to memorize new things.",
+      "is_a": [
+        "dso_10914"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_535",
+      "name": "sleep disorder",
+      "event_stamp": "2013-11-20T15:38:35",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A disease of mental health that involves disruption of sleep patterns.",
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_5418",
+      "name": "schizoaffective disorder",
+      "event_stamp": "2013-11-20T15:38:35",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A psychotic disorder that is characterized by recurring episodes of mood fluctuations and a loss of contact with reality.",
+      "is_a": [
+        "dso_2468"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_5419",
+      "name": "schizophrenia",
+      "event_stamp": "2013-11-20T15:38:35",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A psychotic disorder that is characterized by a disintegration of thought processes and of emotional responsiveness.",
+      "is_a": [
+        "dso_2468"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_591",
+      "name": "phobic disorder",
+      "event_stamp": "2013-11-20T15:38:38",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An anxiety disorder where fear and anxiety are triggered by a specific stimulus or situation.",
+      "is_a": [
+        "dso_2030"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_593",
+      "name": "agoraphobia",
+      "event_stamp": "2013-11-20T15:38:38",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A phobic disorder involving the specific anxiety about being in a place or situation where escape is difficult or embarrassing or where help may be unavailable.",
+      "is_a": [
+        "dso_591"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_594",
+      "name": "panic disorder",
+      "event_stamp": "2013-11-20T15:38:38",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An anxiety disorder that is characterized by unexpected and repeated episodes of intense fear accompanied by physical symptoms that may include chest pain, heart palpitations, shortness of breath, dizziness, or abdominal distress.",
+      "is_a": [
+        "dso_2030"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_599",
+      "name": "specific phobia",
+      "event_stamp": "2013-11-20T15:38:38",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A phobic disorder that is characterized by an unreasonable or irrational fear related to exposure to specific objects or situations.",
+      "is_a": [
+        "dso_591"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_600",
+      "name": "animal phobia",
+      "event_stamp": "2013-11-20T15:38:38",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific phobia that involves a fear caused by the presence or thought of a specific animal that poses little or no danger at all.",
+      "is_a": [
+        "dso_599"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_602",
+      "name": "cancerophobia",
+      "event_stamp": "2013-11-20T15:38:38",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060048"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_603",
+      "name": "AIDS phobia",
+      "event_stamp": "2013-11-20T15:38:38",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060048"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_605",
+      "name": "flying phobia",
+      "event_stamp": "2013-11-20T15:38:38",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific phobia that is characterized by a fear of flying.",
+      "is_a": [
+        "dso_599"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_6088",
+      "name": "acute stress disorder",
+      "event_stamp": "2013-11-20T15:38:38",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An anxiety disorder that has_symptom flashbacks, has_symptom bad dreams, has_symptom frightening thoughts, has_symptom avoidance or has_symptom hyperarousal of PTSD occurring within one month of a traumatic experience as Acute Stress Disorder or ASD.",
+      "is_a": [
+        "dso_2030"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_6680",
+      "name": "Capgras syndrome",
+      "event_stamp": "2013-11-20T15:38:40",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A delusional disorder in which a person holds a delusion that a friend, spouse, parent, or other close family member has been replaced by an identical-looking impostor.",
+      "is_a": [
+        "dso_778"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_670",
+      "name": "amphetamine abuse",
+      "event_stamp": "2013-11-20T15:38:40",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance abuse that involves the recurring use of amphetamines despite negative consequences.",
+      "is_a": [
+        "dso_302"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_6950",
+      "name": "combat disorder",
+      "event_stamp": "2013-11-20T15:38:41",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An acute stress disorder that involves neurotic reactions to unusual, severe, or overwhelming military stress.",
+      "is_a": [
+        "dso_6088"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_778",
+      "name": "delusional disorder",
+      "event_stamp": "2013-11-20T15:38:43",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A psychotic disorder that involves an uncommon psychiatric condition in which patients present with circumscribed symptoms of non-bizarre delusions, but with the absence of prominent hallucinations and no thought disorder, mood disorder, or significant flattening effect.",
+      "is_a": [
+        "dso_2468"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_809",
+      "name": "cocaine abuse",
+      "event_stamp": "2013-11-20T15:38:44",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance abuse that involves the recurring use of cocaine despite negative consequences.",
+      "is_a": [
+        "dso_302"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_845",
+      "name": "cyclothymic disorder",
+      "event_stamp": "2013-11-20T15:38:44",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A bipolar disorder that involves recurrent hypomanic and dysthymic episodes, but no full manic episodes or full major depressive episodes.",
+      "is_a": [
+        "dso_3312"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_8519",
+      "name": "barbiturate abuse",
+      "event_stamp": "2013-11-20T15:38:45",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance abuse that involves the recurring use of barbiturate drugs despite negative consequences.",
+      "is_a": [
+        "dso_302"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_8619",
+      "name": "recurrent hypersomnia",
+      "event_stamp": "2013-11-20T15:38:45",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A sleep disorder that involves recurring bouts of excessive amounts of sleepiness.",
+      "is_a": [
+        "dso_535"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_8645",
+      "name": "subacute delirium",
+      "event_stamp": "2013-11-20T15:38:46",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_8646"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_8646",
+      "name": "substance-induced psychosis",
+      "event_stamp": "2013-11-20T15:38:46",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_2468"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_8670",
+      "name": "eating disorder",
+      "event_stamp": "2013-11-20T15:38:46",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific developmental disorder that is characterized by abnormal eating habits that may involve either insufficient or excessive food intake to the detriment of an individual's physical and emotional health.",
+      "is_a": [
+        "dso_0060038"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_8689",
+      "name": "anorexia nervosa",
+      "event_stamp": "2013-11-20T15:38:46",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An eating disorder characterized by refusal to maintain a healthy body weight, and an obsessive fear of gaining weight due to a distorted self image.",
+      "is_a": [
+        "dso_8670"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_8927",
+      "name": "learning disability",
+      "event_stamp": "2013-11-20T15:38:46",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific developmental disorder that involves difficulty in scholastic skills such as reading, writing, spelling, reasoning, recalling and/or organizing information resulting from the brain's inability to receive and process information.",
+      "is_a": [
+        "dso_0060038"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_8986",
+      "name": "narcolepsy",
+      "event_stamp": "2013-11-20T15:38:47",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A sleep disorder that involves an excessive urge to sleep at inappropriate times, such as while at work.",
+      "is_a": [
+        "dso_535"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9091",
+      "name": "REM sleep behavior disorder",
+      "event_stamp": "2013-11-20T15:38:47",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A sleep disorder that involves abnormal behavior including the acting out of violent or dramatic dreams during the sleep phase with rapid eye movement.",
+      "is_a": [
+        "dso_535",
+        "dso_0060040"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_92",
+      "name": "speech disorder",
+      "event_stamp": "2013-11-20T15:38:47",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A communication disorder that involves difficulty with the act of speech production.",
+      "is_a": [
+        "dso_2033"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9207",
+      "name": "periodic limb movement disorder",
+      "event_stamp": "2013-11-20T15:38:47",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A sleep disorder that involves involuntary limb movement during sleep.",
+      "is_a": [
+        "dso_535"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9220",
+      "name": "central sleep apnea",
+      "event_stamp": "2013-11-20T15:38:47",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A sleep disorder involving diminished capability to breath for short periods of time.",
+      "is_a": [
+        "dso_535",
+        "dso_10938"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_93",
+      "name": "language disorder",
+      "event_stamp": "2013-11-20T15:38:47",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A communication disorder that involves the processing of linguistic information.",
+      "is_a": [
+        "dso_2033"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9336",
+      "name": "bestiality",
+      "event_stamp": "2013-11-20T15:38:48",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "",
+      "is_a": [
+        "dso_0060044"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9478",
+      "name": "postpartum depression",
+      "event_stamp": "2013-11-20T15:38:48",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An endogenous depression that involves intense, sustained and sometimes disabling depression experienced by women after giving birth.",
+      "is_a": [
+        "dso_1595"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9505",
+      "name": "cannabis abuse",
+      "event_stamp": "2013-11-20T15:38:48",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance abuse that involves the recurring use of cannabis despite negative consequences.",
+      "is_a": [
+        "dso_302"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9828",
+      "name": "neonatal abstinence syndrome",
+      "event_stamp": "2013-11-20T15:38:49",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A withdrawal disorder that is characterized by a group of problems that occur in a newborn who was exposed to addictive illegal or prescription drugs while in the mother's womb or postnatally following the discontinuance of drug treatment.",
+      "is_a": [
+        "dso_0060001"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9923",
+      "name": "developmental coordination disorder",
+      "event_stamp": "2013-11-20T15:38:49",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A specific developmental disorder that involves disordered motor skills where coordinated muscle movement is impaired.",
+      "is_a": [
+        "dso_0060038"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9973",
+      "name": "substance dependence",
+      "event_stamp": "2013-11-20T15:38:49",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance-related disorder that involves the continued use of alcohol or other drugs despite despite problems related to use of the substance.",
+      "is_a": [
+        "dso_303",
+        "dso_1849"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9974",
+      "name": "drug dependence",
+      "event_stamp": "2013-11-20T15:38:49",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A substance dependence that involves the continued use of drugs despite despite problems related to use of the substance.",
+      "is_a": [
+        "dso_9973"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9975",
+      "name": "cocaine dependence",
+      "event_stamp": "2013-11-20T15:38:49",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A drug dependence that is a psychological dependency on the regular use of cocaine.",
+      "is_a": [
+        "dso_9974"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9976",
+      "name": "heroin dependence",
+      "event_stamp": "2013-11-20T15:38:49",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "An opiate dependence that involves the continued use of heroin despite despite problems related to use of the substance.",
+      "is_a": [
+        "dso_2559"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_9977",
+      "name": "hallucinogen dependence",
+      "event_stamp": "2013-11-20T15:38:49",
+      "id_user": "usr_52a0cf72ed5c5",
+      "flag_for_curator": "1",
+      "definition": "A drug dependence that involves the continued use of hallucinogenic drugs despite despite problems related to use of the substance.",
+      "is_a": [
+        "dso_9974"
+      ],
+      "id_protocol": "DOID"
+    },
+    {
+      "id": "dso_5341d1ef4107e",
+      "name": "Alzheimer disease ",
+      "event_stamp": "2014-04-06T22:15:11",
+      "id_user": "usr_5341b8a1ef5dc",
+      "flag_for_curator": "1",
+      "definition": "Neurodegenerative disorder characterized by a progressive decline in cognitive function and the leading cause of dementia worldwide.",
+      "is_a": [
+        "dso_1307"
+      ],
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_52c731124ad3e",
+      "name": "formula creation disorder",
+      "event_stamp": "2014-01-03T21:52:18",
+      "id_user": "usr_52c72b3896b00",
+      "flag_for_curator": "1",
+      "definition": "A disorder of the brain which causes one to bungle simple Excel formulas.",
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_52c73c015b5a4",
+      "name": "explorer deprecation disorder",
+      "event_stamp": "2014-01-03T22:38:57",
+      "id_user": "usr_52c72b3896b00",
+      "flag_for_curator": "1",
+      "definition": "the pathological fear of being beset by spam, the inability to move on to new, more secure browers.",
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_52d06688e07f3",
+      "name": "philoprogeria",
+      "event_stamp": "2014-01-10T21:30:48",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "definition": "made up",
+      "is_a": [
+        "dso_2030"
+      ],
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_55ac96d54ae2c",
+      "name": "Semantic Dementia",
+      "has_citation": [
+        "cit_55ae0d82f1db0"
+      ],
+      "event_stamp": "2015-07-20T06:36:05",
+      "id_user": "usr_4ffbda803dbd6",
+      "flag_for_curator": "1",
+      "definition": "Semantic dementia (SD) is a progressive neurodegenerative disorder characterized by loss of semantic memory in both the verbal and non-verbal domains. The most common presenting symptoms are in the verbal domain however (with loss of word meaning) and it is characterized as a primary progressive aphasia.",
+      "is_a": [
+        "dso_1307"
+      ],
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_55e1b3573c90c",
+      "name": "Letter position dyslexia",
+      "event_stamp": "2015-08-29T13:27:51",
+      "id_user": "usr_55dcf0b42d06c",
+      "flag_for_curator": "1",
+      "definition": "Letter position dyslexia is a type of reading disorder that results from an impairment in the encoding of letter positions within the word. It can be developmental or acquired. The main characteristic of this dyslexia is letter transpositions within the word (reading from as \"form\", parties as \"pirates). ",
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_55e1b3f9ace16",
+      "name": "surface dyslexia",
+      "event_stamp": "2015-08-29T13:30:33",
+      "id_user": "usr_55dcf0b42d06c",
+      "flag_for_curator": "1",
+      "definition": "surface dyslexia is a reading impairment that can be acquired or developmental. It results from a deficit in the lexical route for word reading. As a result, the reader needs to rely on the sublexical for reading, reading by converting each letter or group of letters (grapheme) to a sound (phoneme). Surface dyslexia is characterised by slow reading (because reading via grapheme-to-phoneme conversion is slower than reading via the lexical route); it is also characterised by incorrect reading aloud of irregular words (such as talk, sure, none, and comb). ",
+      "is_a": [
+        "dso_1561"
+      ],
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_579651a7e2604",
+      "name": "Mild Cognitive Impairment",
+      "has_citation": [
+        "cit_57964cb6865a2"
+      ],
+      "event_stamp": "2016-07-25T17:51:35",
+      "id_user": "usr_579611e01221d",
+      "flag_for_curator": "1",
+      "definition": "Mild cognitive impairment (MCI) is an intermediate clinical state between normal cognitive aging and dementia, and it precedes and leads to dementia in many cases. The concept of MCI is new, evolving, and somewhat controversial, but there is rough consensus as to its clinical definition and prognosis.\r\nCriteria include the presence of subjective complaints of gradual memory loss over at least 6 months reported by the patient or family members, with objective evidence of memory loss demonstrated on clinical memory tests. There has to be general preservation of other cognitive domains (Nasreddine et al. 2005).",
+      "is_a": [
+        "dso_1307"
+      ],
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_5798cf99cfaa3",
+      "name": "ideational apraxia (conceptual apraxia)",
+      "event_stamp": "2016-07-27T15:13:29",
+      "id_user": "usr_579611e01221d",
+      "flag_for_curator": "1",
+      "definition": "Patients have an inability to conceptualize a task and impaired ability to complete multi-step actions. Consists of an inability to select and carry out an appropriate motor program. For example, the patient may complete actions in incorrect orders, such as buttering bread before putting it in the toaster, or putting on shoes before putting on socks. There is also a loss of ability to voluntarily perform a learned task when given the necessary objects or tools. For instance, if given a screwdriver, the patient may try to write with it as if it were a pen, or try to comb his hair with a toothbrush.",
+      "is_a": [
+        "dso_0060135"
+      ],
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_5798d1ed9bd8f",
+      "name": "constructional apraxia",
+      "event_stamp": "2016-07-27T15:23:25",
+      "id_user": "usr_579611e01221d",
+      "flag_for_curator": "1",
+      "definition": "The inability to draw or construct simple configurations, such as intersecting shapes.",
+      "is_a": [
+        "dso_0060135"
+      ],
+      "id_protocol": "NOID"
+    },
+    {
+      "id": "dso_uHjC9RdkuVboM",
+      "name": "Rigidity",
+      "last_updated": "1526316924572",
+      "creation_time": "1526316924572",
+      "definition": "Inflexibility, difficulty making transitions, adherence to set patterns. https://en.wikipedia.org/wiki/Trait_theory#List_of_personality_traits"
+    },
+    {
+      "id": "dso_XngxUO4eoQNlQ",
+      "name": "Tetraplegia",
+      "last_updated": "1588742728295",
+      "creation_time": "1588742728295",
+      "definition": "Paralysis, resulting in loss of function of all four limbs. May be the result of injury or disease.",
+      "is_a": [
+        "dso_G3nNv2r93emFz"
+      ]
+    },
+    {
+      "id": "dso_G3nNv2r93emFz",
+      "name": "Stroke",
+      "last_updated": "1588742902210",
+      "creation_time": "1588742902210",
+      "definition": "Medical condition, caused bu obstruction of blood flow to the brain. Results in cell death and various neurological symptoms, including aphasia, tetraplegia and behavioral disorders."
+    }
+  ],
+  "@type": "DisorderCollection"
+}

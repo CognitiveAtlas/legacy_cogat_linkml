@@ -1,0 +1,632 @@
+---
+id: https://w3id.org/rwblair/legacy-cogat-linkml
+name: legacy-cogat-linkml
+title: legacy-cogat-linkml
+description: |-
+  Linkml implementation of cognitive atlas.
+license: MIT
+see_also:
+  - https://rwblair.github.io/legacy-cogat-linkml
+
+prefixes:
+  legacy_cogat_linkml: https://w3id.org/rwblair/legacy-cogat-linkml/
+  linkml: https://w3id.org/linkml/
+  biolink: https://w3id.org/biolink/
+  schema: http://schema.org/
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  example: https://example.org/
+default_prefix: legacy_cogat_linkml
+default_range: string
+
+imports:
+  - linkml:types
+
+classes:
+  NamedThing:
+    description: >-
+      A generic grouping for any identifiable entity
+    slots:
+      - id
+      - name
+      - description
+    class_uri: schema:Thing
+
+  CitableThing:
+    is_a: NamedThing
+    description: >-
+      A generic grouping for any identifiable entity
+    slots:
+      - has_citation
+      - last_updated
+      - creation_time
+      - event_stamp
+      - id_user
+      - flag_for_curator
+
+    # class_uri: schema:Thing
+
+  Task:
+    is_a: CitableThing
+    description: >-
+      Represents a Task
+    slots:
+      - asserts
+      - has_condition
+      - has_contrast
+      - has_external_dataset
+      - has_implementation
+      - has_indicator
+      - id_concept_class
+      - def_id
+      - review_status
+      - def_event_stamp
+      - def_id_user
+      - definition_text
+      - in_battery
+      - event_stamp
+      - alias
+    attributes:
+      kind_of:
+        description:
+        range: Task
+        multivalued: true
+      part_of:
+        description:
+        range: Task
+        multivalued: true
+
+  Concept:
+    is_a: CitableThing
+    description: >-
+      Represents a Task
+    slots:
+      - alias
+      - part_of
+      - kind_of
+      - measured_by
+      - classified_under
+      - id_concept_class
+      - def_id
+      - def_event_stamp
+      - def_id_user
+      - definition_text
+
+
+  Disorder:
+    is_a: CitableThing
+    description: >-
+      Represents a Task
+    slots:
+      - classification
+      - definition
+      - is_a
+      - id_protocol
+      - is_a_fulltext
+      - is_a_protocol
+      - is_a
+      - has_link
+
+  Trait:
+    is_a: CitableThing
+    description: >-
+      Represents a Task
+    slots:
+      - has_citation
+      - has_link
+      - measured_by
+      - definition
+
+  Behavior:
+    is_a: CitableThing
+    description: >-
+      Represents a Task
+    slots:
+      - has_citation
+      - has_link
+      - measured_by
+      - definition
+
+  Condition:
+    is_a: CitableThing
+    description: >-
+      Represents a Task
+    slots:
+        - has_contrast
+        - condition_text
+        - condition_description
+
+  Contrast:
+    is_a: CitableThing
+    description: >-
+      Represents a Task
+    slots:
+      - has_difference
+
+  Battery:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - collection
+      - collection_description
+      - collection_alias
+      - has_citation
+      - has_indicator
+      - in_battery
+      - collection_date_introduced
+      - collection_publisher
+      - website
+    attributes:
+      kind_of:
+        description:
+        range: Battery
+        multivalued: true
+      part_of:
+        description:
+        range: Battery
+        multivalued: true
+
+  Theory:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - collection_description
+      - collection_alias
+    attributes:
+      kind_of:
+        description:
+        range: Theory
+        multivalued: true
+      part_of:
+        description:
+        range: Theory
+        multivalued: true
+
+  Implementation:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - implementation_uri
+      - implementation_name
+      - implementation_description
+      - id_task
+
+
+  ExternalDataset:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - dataset_name
+      - dataset_uri
+      - id_term
+
+  Indicator:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - type
+
+  Citation:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - citation_url
+      - citation_comment
+      - citation_desc
+      - citation_authors
+      - citation_type
+      - citation_pubname
+      - citation_pubdate
+      - citation_pmid
+      - citation_source
+      - doi
+
+  Assertion:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - truth_value
+      - id_subject_def
+      - user_id
+      - confidence_level
+      - predicate
+      - subject
+      - predicate_def
+      - in_theory
+      - has_citation
+
+  User:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - old_user_id
+      - username
+      - created
+
+  ExternalLink:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - uri
+  ConceptClass:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - display_order
+
+  Disambiguation:
+    is_a: CitableThing
+    description: >-
+    slots:
+      - disambiguates
+
+  TaskCollection:
+    tree_root: true
+    description: >-
+      A holder for Task objects
+    attributes:
+      entries:
+        range: Task
+        multivalued: true
+        inlined_as_list: true
+  AssertionCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Assertion
+        multivalued: true
+        inlined_as_list: true
+  BatteryCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Battery
+        multivalued: true
+        inlined_as_list: true
+  BehaviorCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Behavior
+        multivalued: true
+        inlined_as_list: true
+  CitationCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Citation
+        multivalued: true
+        inlined_as_list: true
+  ConceptCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Concept
+        multivalued: true
+        inlined_as_list: true
+  ConceptClassCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: ConceptClass
+        multivalued: true
+        inlined_as_list: true
+  ConditionCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Condition
+        multivalued: true
+        inlined_as_list: true
+  ContrastCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Contrast
+        multivalued: true
+        inlined_as_list: true
+  DisambiguationCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Disambiguation
+        multivalued: true
+        inlined_as_list: true
+  DisorderCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Disorder
+        multivalued: true
+        inlined_as_list: true
+  ExternalDatasetCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: ExternalDataset
+        multivalued: true
+        inlined_as_list: true
+  ExternalLinkCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: ExternalLink
+        multivalued: true
+        inlined_as_list: true
+  ImplementationCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Implementation
+        multivalued: true
+        inlined_as_list: true
+  IndicatorCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Indicator
+        multivalued: true
+        inlined_as_list: true
+  TheoryCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Theory
+        multivalued: true
+        inlined_as_list: true
+  TraitCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: Trait
+        multivalued: true
+        inlined_as_list: true
+  UserCollection:
+    tree_root: true
+    attributes:
+      entries:
+        range: User
+        multivalued: true
+        inlined_as_list: true
+
+slots:
+  id:
+    identifier: true
+    slot_uri: schema:identifier
+    range: uriorcurie
+    description: A unique identifier for a thing
+  name:
+    slot_uri: schema:name
+    description: A human-readable name for a thing
+  description:
+    slot_uri: schema:description
+    description: A human-readable description for a thing
+  alias:
+    description:
+    range: string
+  asserts:
+    description:
+    range: Concept
+    multivalued: true
+  citation_authors:
+    description:
+    range: string
+  citation_comment:
+    description:
+    range: string
+  citation_desc:
+    description:
+    range: string
+  citation_pmid:
+    description:
+    range: string
+  citation_pubdate:
+    description:
+    range: string
+  citation_pubname:
+    description:
+    range: string
+  citation_source:
+    description:
+    range: string
+  citation_type:
+    description:
+    range: string
+  citation_url:
+    description:
+    range: string
+  classification:
+    description:
+    range: string
+  classified_under:
+    description:
+    range: ConceptClass
+    multivalued: true
+  collection:
+    description:
+    range: string
+  collection_description:
+    description:
+    range: string
+  confidence_level:
+    description:
+    range: string
+  created:
+    description:
+    range: CitableThing
+    multivalued: true
+  dataset_name:
+    description:
+    range: string
+  dataset_uri:
+    description:
+    range: string
+  definition:
+    description:
+    range: string
+  disambiguates:
+    description: Could apply to Concepts, Tasks, Traits...
+    range: CitableThing
+    multivalued: true
+  display_order:
+    description:
+    range: string
+  event_stamp:
+    description:
+    range: string
+  flag_for_curator:
+    description:
+    range: string
+  has_citation:
+    description:
+    range: Citation
+    multivalued: true
+  has_condition:
+    description:
+    range: Condition
+    multivalued: true
+  has_contrast:
+    description:
+    range: Contrast
+    multivalued: true
+  has_difference:
+    description:
+    range: Disorder
+    multivalued: true
+  has_external_dataset:
+    description:
+    range: ExternalDataset
+    multivalued: true
+  has_implementation:
+    description:
+    range: Implementation
+    multivalued: true
+  has_indicator:
+    description:
+    range: Indicator
+    multivalued: true
+  has_link:
+    description:
+    range: ExternalLink
+    multivalued: true
+  id_protocol:
+    description:
+    range: string
+  id_subject_def:
+    description:
+    range: string
+  id_user:
+    description:
+    range: string
+  implementation_description:
+    description:
+    range: string
+  implementation_name:
+    description:
+    range: string
+  implementation_uri:
+    description:
+    range: string
+  in_battery:
+    description:
+    range: Battery
+    multivalued: true
+  in_theory:
+    description:
+    range: Theory
+    multivalued: true
+  is_a:
+    description:
+    range: Disorder
+    multivalued: true
+  is_a_fulltext:
+    description:
+    range: string
+  is_a_protocol:
+    description:
+    range: string
+  kind_of:
+    description:
+    range: Concept
+    multivalued: true
+  measured_by:
+    description:
+    range: Contrast
+    multivalued: true
+  old_user_id:
+    description: >-
+      The original PHP based site had user ids of the pattern "usr_[[:alnum:]]*".
+      If an id of this kind existed for the user it is stored here.
+    range: string
+  part_of:
+    description:
+    range: Concept
+    multivalued: true
+  predicate:
+    description:
+    range: Task
+    multivalued: true
+  predicate_def:
+    description:
+    range: Contrast
+    multivalued: true
+  subject:
+    description:
+    range: Concept
+    multivalued: true
+  truth_value:
+    description:
+    range: string
+  type:
+    description:
+    range: string
+  uri:
+    description:
+    range: string
+  user_id:
+    description:
+    range: string
+  username:
+    description:
+    range: string
+  last_updated:
+    range: string
+  creation_time:
+    range: string
+  #####################
+  # start wonky slots # 
+  #####################
+  # The following slots were present in backup data but not in the code that
+  # instantiated neo4j entries.
+  collection_alias:
+    range: string
+  collection_date_introduced:
+    range: string
+  collection_publisher:
+    range: string
+  condition_description:
+    range: string
+  condition_text:
+    range: string
+  def_event_stamp:
+    range: string
+  def_id:
+    range: string
+  def_id_user:
+    range: string
+  definition_text:
+    range: string
+  doi:
+    range: string
+  id_concept_class:
+    range: string
+  id_task:
+    range: string
+  id_term:
+    range: string
+  review_status:
+    range: string
+  website:
+    range: string
+  ###################
+  # end wonky slots # 
+  ###################

@@ -1,0 +1,608 @@
+{
+  "entries": [
+    {
+      "id": "imp_50f43fe2e7df6",
+      "event_stamp": "2013-01-14T17:26:58",
+      "id_user": "usr_49a467bf4e0db",
+      "implementation_uri": "http://www.psy.vanderbilt.edu/faculty/logan/#stopit",
+      "implementation_name": "STOP-IT",
+      "implementation_description": "Free implementation of stop signal task for Windows",
+      "id_task": "tsk_4a57abb949e1a"
+    },
+    {
+      "id": "imp_50f488855ab40",
+      "event_stamp": "2013-01-14T22:36:53",
+      "id_user": "usr_49a467bf4e0db",
+      "implementation_uri": "http://www.poldracklab.org/software/tasks/",
+      "implementation_name": "Python stop signal task",
+      "implementation_description": "Free implementations of stop signal task for multiple platforms",
+      "id_task": "tsk_4a57abb949e1a"
+    },
+    {
+      "id": "imp_517bf438b92ff",
+      "event_stamp": "2013-04-27T15:52:24",
+      "id_user": "usr_517becb5ea6f7",
+      "implementation_uri": "http://Interpretazioni",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "TR rapido stimolo minaccioso congruente.\r\nTR lungo stimolo minaccioso incongrunte.\r\nAttenzione sostenuta stimoli minaccioso (maggiori richieste cognitive) difficoltÃ  di disingaggio. ",
+      "id_task": "trm_50df0b8e9dfa6"
+    },
+    {
+      "id": "imp_520d32a05fec0",
+      "event_stamp": "2013-08-15T19:57:20",
+      "id_user": "usr_520d31adecd09",
+      "implementation_uri": "http://www.psychology.gatech.edu/renglelab/english-tasks.html",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Implementation of automated OSPAN and several other working memory tasks, for E-Prime, MEL, and Inquisit.",
+      "id_task": "trm_4c40d10cd776e"
+    },
+    {
+      "id": "imp_541be4ffa7ab6",
+      "event_stamp": "2014-09-19T08:10:39",
+      "id_user": "usr_523ef0e181acb",
+      "implementation_uri": "http://www.millisecond.com/download/library/Sternberg/",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Inquisit version",
+      "id_task": "tsk_4a57abb949e0c"
+    },
+    {
+      "id": "imp_541be5ba7501b",
+      "event_stamp": "2014-09-19T08:13:46",
+      "id_user": "usr_523ef0e181acb",
+      "implementation_uri": "http://www.millisecond.com/download/library/GoNoGo/",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Inquisit version. Cued Go/No-Go Task as described in Fillmore et. al. (2006)",
+      "id_task": "tsk_4a57abb949a93"
+    },
+    {
+      "id": "imp_541be601c706e",
+      "event_stamp": "2014-09-19T08:14:57",
+      "id_user": "usr_523ef0e181acb",
+      "implementation_uri": "http://www.millisecond.com/download/library/ANT/",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Inquisit 4 version. Adults and children versions.",
+      "id_task": "trm_4da6304c9aa23"
+    },
+    {
+      "id": "imp_54f4be1b8f192",
+      "event_stamp": "2015-03-02T19:46:35",
+      "id_user": "usr_53c44398e3284",
+      "implementation_uri": "http://bobspunt.com/whyhow-localizer/",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "The Why/How Localizer Task is a robust, efficient, and standardized task for investigating social cognition. Participants answer attributional (why) and factual (how) questions about facial expressions (face) and hand actions (hand) shown in naturalistic photographs.",
+      "id_task": "trm_53c4465b0466f"
+    },
+    {
+      "id": "imp_553e855350abd",
+      "event_stamp": "2015-04-27T18:52:03",
+      "id_user": "usr_51bc76ae9636c",
+      "implementation_uri": "http://www.unicog.org/pm/pmwiki.php/Site/FunctionalLocalizer",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "E-Prime in various languages",
+      "id_task": "trm_553e85265f51e"
+    },
+    {
+      "id": "imp_5585c8bd6876a",
+      "event_stamp": "2015-06-20T20:10:37",
+      "id_user": "usr_51bc76ae9636c",
+      "implementation_uri": "http://www.sleep.pitt.edu/content.asp?id=1484&subid=2316",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "PSQI article, scoring, and instrument",
+      "id_task": "trm_5585c83d15fad"
+    },
+    {
+      "id": "imp_558c35a892a36",
+      "event_stamp": "2015-06-25T17:08:56",
+      "id_user": "usr_49a467bf4e0db",
+      "implementation_uri": "http://web.mit.edu/evelina9/www/funcloc/funcloc_localizers.html",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Federenko lab language localizers",
+      "id_task": "trm_558c35979a284"
+    },
+    {
+      "id": "imp_55c902919aca0",
+      "event_stamp": "2015-08-10T19:59:13",
+      "id_user": "usr_51bc76ae9636c",
+      "implementation_uri": "https://github.com/nialllally/nback_dprime",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "matlab with cogent toolbox",
+      "id_task": "tsk_4a57abb949bcd"
+    },
+    {
+      "id": "imp_55c90319a8522",
+      "event_stamp": "2015-08-10T20:01:29",
+      "id_user": "usr_51bc76ae9636c",
+      "implementation_uri": "https://github.com/tmalsburg/py-span-task",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "This is a general working memory task for may OS, not necessarily the exact task detailed in the description, but relevant for verbal working memory",
+      "id_task": "trm_4f2457a8b0bc8"
+    },
+    {
+      "id": "imp_55c903515706a",
+      "event_stamp": "2015-08-10T20:02:25",
+      "id_user": "usr_51bc76ae9636c",
+      "implementation_uri": "https://github.com/bnicenboim/py-ran-task",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "The script is basically an adapation (or hack) of a Python program created by Titus Von der Malsburg (originally for the operation span task). Py-RAN-Task can be used for testing the Rapid Automatized Naming task on a computer with Python (and tkSnack for recording the audio).",
+      "id_task": "trm_552174863d51e"
+    },
+    {
+      "id": "imp_5602b42b498de",
+      "event_stamp": "2015-09-23T14:16:11",
+      "id_user": "usr_523ef0e181acb",
+      "implementation_uri": "https://www.sacklerinstitute.org/cornell/assays_and_tools/ant/jin.fan/ant/ANTdownload.html",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Original task. e-prime / java / online / short versions for adults and children.",
+      "id_task": "trm_4da6304c9aa23"
+    },
+    {
+      "id": "imp_5602b65427676",
+      "event_stamp": "2015-09-23T14:25:24",
+      "id_user": "usr_523ef0e181acb",
+      "implementation_uri": "http://www.millisecond.com/download/library/Stroop/",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Inquisit v.3/v.4",
+      "id_task": "tsk_4a57abb949e27"
+    },
+    {
+      "id": "imp_5696e9fce6074",
+      "event_stamp": "2016-01-14T00:21:16",
+      "id_user": "usr_4b94ae051eecc",
+      "implementation_uri": "http://www.wpspublish.com/store/p/3098/wide-range-achievement-test-4-wrat4",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "The fourth edition of this classic test measures the basic academic skillsâreading, spelling, and mathematical computationânecessary for effective learning, communication, and thinking. This version features an entirely new subtest, Sentence Comprehension, to enhance the scope of the test and to meet the need for a measure of reading comprehension.",
+      "id_task": "trm_5696d061adfb5"
+    },
+    {
+      "id": "imp_5796469eedd13",
+      "event_stamp": "2016-07-25T17:04:30",
+      "id_user": "usr_579611e01221d",
+      "implementation_uri": "http://www.pearsonclinical.co.uk/Psychology/AdultCognitionNeuropsychologyandLanguage/AdultLanguage/PyramidsandPalmTrees/PyramidsandPalmTrees.aspx",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Assess semantic access from words and pictures. Determine the degree to which a subject can access meaning from pictures and words.\r\nAuthor(s): David Howard & Karalyn Patterson\r\nPublication Year: 1992\r\nISBN: 9780749133641",
+      "id_task": "tsk_4a57abb949d32"
+    },
+    {
+      "id": "imp_579649381985f",
+      "event_stamp": "2016-07-25T17:15:36",
+      "id_user": "usr_579611e01221d",
+      "implementation_uri": "http://www.adni-info.org/Scientists/WorksheetPackets.html",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "The DSST was used in the ADNI 1 Cognitive Assessments, which can be downloaded from the link.",
+      "id_task": "tsk_4a57abb949e44"
+    },
+    {
+      "id": "imp_57964c5b5c470",
+      "event_stamp": "2016-07-25T17:28:59",
+      "id_user": "usr_579611e01221d",
+      "implementation_uri": "http://www.mocatest.org",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "This website is run by the authors of the MoCA and distributes scoresheets and instructions for the test.",
+      "id_task": "trm_57964b8a66aed"
+    },
+    {
+      "id": "imp_5798c7469f8f2",
+      "event_stamp": "2016-07-27T14:37:58",
+      "id_user": "usr_579611e01221d",
+      "implementation_uri": "http://dx.doi.org/10.1176/ajp.141.11.1356",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Written word recognition as part of the ADAScog. Instructions are given as follows:\r\n&#34;The patient reads aloud 12 high imagery words. These words are then randomly mixed with 12 words the patient has not seen. The patient indicates whether or not the word was shown previously. Then two more trials of reading the original words and recognition are given. The score equals the mean number of incorrect responses for three trials (maxi- mum= 12).&#34;",
+      "id_task": "trm_5798c6a933abc"
+    },
+    {
+      "id": "imp_5798ccd1bd5cc",
+      "event_stamp": "2016-07-27T15:01:37",
+      "id_user": "usr_579611e01221d",
+      "implementation_uri": "http://dx.doi.org/10.1176/ajp.141.11.1356",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Following commands is part of the ADAScog. Instructions are summarised as follows:\r\n&#34;Receptive speech is assessed also on the patientâs ability to carry out one- to five-step commands.\r\n1. Make a fist.\r\n2. Point to the ceiling, then to the floor.\r\n3. Put the pencil on top of the card, then put it back.\r\n4. Put the watch on the other side of the pencil and turn over the card.\r\n5. Tap each shoulder twice with two fingers, keeping your eyes shut.&#34;",
+      "id_task": "trm_5798cb6027f28"
+    },
+    {
+      "id": "imp_5798d1314c63d",
+      "event_stamp": "2016-07-27T15:20:17",
+      "id_user": "usr_579611e01221d",
+      "implementation_uri": "http://dx.doi.org/10.1176/ajp.141.11.1356",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Ideational praxis is part of the ADAScog",
+      "id_task": "trm_5798d0fbe2bd1"
+    },
+    {
+      "id": "imp_5798d28d3a0c0",
+      "event_stamp": "2016-07-27T15:26:05",
+      "id_user": "usr_579611e01221d",
+      "implementation_uri": "http://www.mocatest.org/",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Clock drawing is part of the MoCA test.",
+      "id_task": "trm_5798d2693915d"
+    },
+    {
+      "id": "imp_5798d7f1c61b3",
+      "event_stamp": "2016-07-27T15:49:05",
+      "id_user": "usr_579611e01221d",
+      "implementation_uri": "http://www.mocatest.org/",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Orientation is part of the MoCA test",
+      "id_task": "trm_5798d7ba0197d"
+    },
+    {
+      "id": "imp_5798d804036d8",
+      "event_stamp": "2016-07-27T15:49:24",
+      "id_user": "usr_579611e01221d",
+      "implementation_uri": "http://dx.doi.org/10.1176/ajp.141.11.1356",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Orientation is part of the ADAScog",
+      "id_task": "trm_5798d7ba0197d"
+    },
+    {
+      "id": "imp_57ebe7080561b",
+      "event_stamp": "2016-09-28T15:51:36",
+      "id_user": "usr_49a467bf4e0db",
+      "implementation_uri": "https://github.com/OpenCogLabRepository/moral-dilemma",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "PsychoPy implementation of the Harrison 2008 Moral Dilemma task.",
+      "id_task": "trm_57ebe6583f52d"
+    },
+    {
+      "id": "imp_59a2ea5095197",
+      "event_stamp": "2017-08-27T15:50:40",
+      "id_user": "usr_595048b29ebdf",
+      "implementation_uri": "http://www.millisecond.com/download/library/anglingrisktask/",
+      "implementation_name": "Implementation Name Placeholder",
+      "implementation_description": "Inquisit",
+      "id_task": "trm_5667488d52ccc"
+    },
+    {
+      "id": "imp_EQvPlPzTMkrZj",
+      "name": "Inquisit",
+      "last_updated": "1520360083545",
+      "creation_time": "1520360083545",
+      "implementation_uri": "http://www.millisecond.com/download/library/errorawarenesstask/",
+      "implementation_name": "Inquisit",
+      "implementation_description": "The Inquisit Lab/Inquisit Web implementation of the EAT"
+    },
+    {
+      "id": "imp_AiUlSQPSHDvPt",
+      "name": "Cognition Lab - ANT",
+      "last_updated": "1528246279102",
+      "creation_time": "1528246279102",
+      "implementation_uri": "https://cognitionlab.com/portfolio/attentional-network-task/gallery/library/",
+      "implementation_name": "Cognition Lab - ANT",
+      "implementation_description": "Web-based Configurable Test Paradigm"
+    },
+    {
+      "id": "imp_8Px1ZKa1Vg99k",
+      "name": "Cognition Lab - TMT",
+      "last_updated": "1528246425242",
+      "creation_time": "1528246425242",
+      "implementation_uri": "https://cognitionlab.com/portfolio/trail-making-task/gallery/library/",
+      "implementation_name": "Cognition Lab - TMT",
+      "implementation_description": "Configurable web-based test paradigm"
+    },
+    {
+      "id": "imp_WTpj0kxzCx9p7",
+      "name": "Cognition Lab - TOH",
+      "last_updated": "1528246503469",
+      "creation_time": "1528246503469",
+      "implementation_uri": "https://cognitionlab.com/portfolio/tower-of-hanoi/gallery/library/",
+      "implementation_name": "Cognition Lab - TOH",
+      "implementation_description": "Configurable web-based test paradigm"
+    },
+    {
+      "id": "imp_D7wxTSRW340Yv",
+      "name": "Cognition Lab - FLT",
+      "last_updated": "1528246594620",
+      "creation_time": "1528246594620",
+      "implementation_uri": "https://cognitionlab.com/portfolio/flanker-task/gallery/library/",
+      "implementation_name": "Cognition Lab - FLT",
+      "implementation_description": "Configurable web-based test paradigm"
+    },
+    {
+      "id": "imp_pafxZ6Y3qSlkh",
+      "name": "Cognition Lab - VAS",
+      "last_updated": "1528246898899",
+      "creation_time": "1528246898899",
+      "implementation_uri": "https://cognitionlab.com/portfolio/vas/gallery/library/",
+      "implementation_name": "Cognition Lab - VAS",
+      "implementation_description": "Configurable web-based test paradigm"
+    },
+    {
+      "id": "imp_1wIeFhtRizlKc",
+      "name": "Cognition Lab - NBT",
+      "last_updated": "1528247082841",
+      "creation_time": "1528247082841",
+      "implementation_uri": "https://cognitionlab.com/portfolio/nback/gallery/library/",
+      "implementation_name": "Cognition Lab - NBT",
+      "implementation_description": "Configurable web-based test paradigm"
+    },
+    {
+      "id": "imp_jrTJ0OSJS5MLd",
+      "name": "Cognition Lab - WLT",
+      "last_updated": "1528247217642",
+      "creation_time": "1528247217642",
+      "implementation_uri": "https://cognitionlab.com/portfolio/wlist/gallery/library/",
+      "implementation_name": "Cognition Lab - WLT",
+      "implementation_description": "Configurable web-based test paradigm with English and German word pool"
+    },
+    {
+      "id": "imp_51WBLZkGdsWRu",
+      "name": "Cognition Lab - SST",
+      "last_updated": "1528247426502",
+      "creation_time": "1528247426502",
+      "implementation_uri": "https://cognitionlab.com/portfolio/stopgo/gallery/library/",
+      "implementation_name": "Cognition Lab - SST",
+      "implementation_description": "Configurable web-based CRT paradigm with adjustable threshold and characteristic of stop signal"
+    },
+    {
+      "id": "imp_cw4c71O5vrKMP",
+      "name": "Cognition Lab - STRP",
+      "last_updated": "1528247571837",
+      "creation_time": "1528247571837",
+      "implementation_uri": "https://cognitionlab.com/portfolio/color-naming-task-stroop/gallery/library/",
+      "implementation_name": "Cognition Lab - STRP",
+      "implementation_description": "Configurable web-based test paradigm"
+    },
+    {
+      "id": "imp_Q7VkTp7W0KIg7",
+      "name": "Cognition Lab - MLI",
+      "last_updated": "1528247630420",
+      "creation_time": "1528247630420",
+      "implementation_uri": "https://cognitionlab.com/portfolio/line-length-estimation-mueller-lyer/gallery/library/",
+      "implementation_name": "Cognition Lab - MLI",
+      "implementation_description": "Configurable web-based test paradigm"
+    },
+    {
+      "id": "imp_IaujhLWUuNkiU",
+      "name": "Cognition Lab - LMS",
+      "last_updated": "1528247747159",
+      "creation_time": "1528247747159",
+      "implementation_uri": "https://cognitionlab.com/portfolio/location-memory-span/gallery/library/",
+      "implementation_name": "Cognition Lab - LMS",
+      "implementation_description": "Configurable web-based test paradigm with original or reverse recall of spatial sequence"
+    },
+    {
+      "id": "imp_d4d4QP9yJD4mv",
+      "name": "Cognition Lab - DMS",
+      "last_updated": "1528247828321",
+      "creation_time": "1528247828321",
+      "implementation_uri": "https://cognitionlab.com/portfolio/digit-memory-span/gallery/library/",
+      "implementation_name": "Cognition Lab - DMS",
+      "implementation_description": "Configurable web-based test paradigm with original or reverse recall"
+    },
+    {
+      "id": "imp_VqTMPmfE4j4hg",
+      "name": "Cognition Lab - WL",
+      "last_updated": "1528247960753",
+      "creation_time": "1528247960753",
+      "implementation_uri": "https://cognitionlab.com/portfolio/wlist/gallery/library/",
+      "implementation_name": "Cognition Lab - WL",
+      "implementation_description": "Configurable web-based test paradigm with presentation, recall, and recognition blocks generated from English or German word pool"
+    },
+    {
+      "id": "imp_BIAHu7Vc4KFez",
+      "name": "Cognition Lab - MVT",
+      "last_updated": "1528248231716",
+      "creation_time": "1528248231716",
+      "implementation_uri": "https://cognitionlab.com/portfolio/maze/gallery/library/",
+      "implementation_name": "Cognition Lab - MVT",
+      "implementation_description": "Configurable web-based test paradigm presenting a moving marker in a grid. Signal is defined as the marker moving in the same direction twice. This  task has adjustable signal probability, event rate, and trail visualization to change working memory demands"
+    },
+    {
+      "id": "imp_LW8WACANpcPQI",
+      "name": "Cognition Lab - CST",
+      "last_updated": "1528248378777",
+      "creation_time": "1528248378777",
+      "implementation_uri": "https://cognitionlab.com/portfolio/card-sorting-test/gallery/library/",
+      "implementation_name": "Cognition Lab - CST",
+      "implementation_description": "Configurable web-based test paradigm with adjustable number and length of series of using same rule"
+    },
+    {
+      "id": "imp_AARm9CZlg8cQt",
+      "name": "Cognition Lab - SRTT",
+      "last_updated": "1528248605662",
+      "creation_time": "1528248605662",
+      "implementation_uri": "https://cognitionlab.com/portfolio/serial-reaction-time-task/gallery/library/",
+      "implementation_name": "Cognition Lab - SRTT",
+      "implementation_description": "Configurable web-based test paradigm with adjustable length of repeating sequence and number of trials"
+    },
+    {
+      "id": "imp_KgnfCtJRzA4Lw",
+      "name": "Cognition Lab  - NPR",
+      "last_updated": "1528248747725",
+      "creation_time": "1528248747725",
+      "implementation_uri": "https://cognitionlab.com/portfolio/negative-priming/gallery/library/",
+      "implementation_name": "Cognition Lab  - NPR",
+      "implementation_description": "Configurable web-based test paradigm with the digits 1,2,3,4 and adjustable focus (global,local)  and transitions between target and distractor to study negative priming effects"
+    },
+    {
+      "id": "imp_1IojdJoLC55bN",
+      "name": "Cognition Lab - NPR",
+      "last_updated": "1528248783242",
+      "creation_time": "1528248783242",
+      "implementation_uri": "https://cognitionlab.com/portfolio/negative-priming/gallery/library/",
+      "implementation_name": "Cognition Lab - NPR",
+      "implementation_description": "Configurable web-based test paradigm with the digits 1,2,3,4 and adjustable focus (global,local)  and transitions between target and distractor to study negative priming effects"
+    },
+    {
+      "id": "imp_MIXLZAPT8pJr3",
+      "name": "Cognition Lab - SAT",
+      "last_updated": "1528248964614",
+      "creation_time": "1528248964614",
+      "implementation_uri": "https://cognitionlab.com/portfolio/serial-addition-task/gallery/library/",
+      "implementation_name": "Cognition Lab - SAT",
+      "implementation_description": "Configurable web-based test paradigm with visual or auditory stimulus presentation adjustable task mode (self-paced, fixed interval, adaptive) and digit range (single, double digit)"
+    },
+    {
+      "id": "imp_UIXCjHxd79Ctl",
+      "name": "Cognition Lab - SDS",
+      "last_updated": "1528249104713",
+      "creation_time": "1528249104713",
+      "implementation_uri": "https://cognitionlab.com/portfolio/digit-symbol-substitution/gallery/library/",
+      "implementation_name": "Cognition Lab - SDS",
+      "implementation_description": "Configurable web-based test paradigm with 9:9 of 8:4 stimulus to key mapping"
+    },
+    {
+      "id": "imp_QZogr46FaWXO7",
+      "name": "Cognition Lab  - SDS",
+      "last_updated": "1528249281192",
+      "creation_time": "1528249281192",
+      "implementation_uri": "https://cognitionlab.com/portfolio/digit-symbol-substitution/gallery/library/",
+      "implementation_name": "Cognition Lab  - SDS",
+      "implementation_description": "Configurable web-based test paradigm to map symbols to digits. Each digit is assigned to key"
+    },
+    {
+      "id": "imp_yS2FMSBxcuj9Y",
+      "name": "Cognition Lab - VS",
+      "last_updated": "1528249447708",
+      "creation_time": "1528249447708",
+      "implementation_uri": "https://cognitionlab.com/portfolio/visual-search/gallery/library/",
+      "implementation_name": "Cognition Lab - VS",
+      "implementation_description": "Configurable web-based test paradigm with search of 'T' in {I,Z} or 'T' in {I,N}, or arrow among triangle to induce parallel and sequential search mode due to global/local feature discrimination between visual target and distractors"
+    },
+    {
+      "id": "imp_jEa0PmhhZKpXO",
+      "name": "Cognition Lab - TSW",
+      "last_updated": "1528249612034",
+      "creation_time": "1528249612034",
+      "implementation_uri": "https://cognitionlab.com/portfolio/task-switching/gallery/library/",
+      "implementation_name": "Cognition Lab - TSW",
+      "implementation_description": "Configurable web-based test paradigm switching between for odd/even and less/greater 5 judgment as single (blocked) or alternating task"
+    },
+    {
+      "id": "imp_yyembxheDItEu",
+      "name": "Cognition Lab - SMF",
+      "last_updated": "1528249849107",
+      "creation_time": "1528249849107",
+      "implementation_uri": "https://cognitionlab.com/portfolio/sternbergs-memory-search-fixed-set/gallery/library/",
+      "implementation_name": "Cognition Lab - SMF",
+      "implementation_description": "Configurable web-based test paradigm with adjustable set size and block length"
+    },
+    {
+      "id": "imp_ExMATMmedfBmH",
+      "name": "Cognition Lab  - SMF",
+      "last_updated": "1528249946843",
+      "creation_time": "1528249946843",
+      "implementation_uri": "https://cognitionlab.com/portfolio/sternbergs-memory-search-fixed-set/gallery/library/",
+      "implementation_name": "Cognition Lab  - SMF",
+      "implementation_description": "Configurable web-based test paradigm with adjustable set size and length of recognition block"
+    },
+    {
+      "id": "imp_CmuGe84ZVOGJl",
+      "name": "Cognition Lab - SEF",
+      "last_updated": "1528250100992",
+      "creation_time": "1528250100992",
+      "implementation_uri": "https://cognitionlab.com/portfolio/simon-effect/gallery/library/",
+      "implementation_name": "Cognition Lab - SEF",
+      "implementation_description": "Configurable web-based test paradigm with two colors and left/center/right stimulus locations"
+    },
+    {
+      "id": "imp_KaVnbpxTU2zq2",
+      "name": "Cognition Lab - SPT",
+      "last_updated": "1528250242163",
+      "creation_time": "1528250242163",
+      "implementation_uri": "https://cognitionlab.com/portfolio/spatial-attention-task/gallery/library/",
+      "implementation_name": "Cognition Lab - SPT",
+      "implementation_description": "Configurable web-based test paradigm with adjustable endogenous or exogenous spatial cue for left/right stimulus position"
+    },
+    {
+      "id": "imp_TDNH71bpssR7z",
+      "name": "Cognition Lab - PLM",
+      "last_updated": "1528250920501",
+      "creation_time": "1528250920501",
+      "implementation_uri": "https://cognitionlab.com/portfolio/letter-match/gallery/library/",
+      "implementation_name": "Cognition Lab - PLM",
+      "implementation_description": "Configurable web-based test paradigm with adjustable block design for blocked or mixed treatment conditions"
+    },
+    {
+      "id": "imp_ynmRuniUvkDUQ",
+      "name": "Cognition Lab - SRT",
+      "last_updated": "1528251078396",
+      "creation_time": "1528251078396",
+      "implementation_uri": "https://cognitionlab.com/portfolio/sustained-readiness-task/gallery/library/",
+      "implementation_name": "Cognition Lab - SRT",
+      "implementation_description": "Configurable web-based test paradigm with adjustable characteristics of random inter-stimulus interval and block length"
+    },
+    {
+      "id": "imp_IV4K9lWAxvfc8",
+      "name": "Cognition Lab - DND",
+      "last_updated": "1528259279291",
+      "creation_time": "1528259279291",
+      "implementation_uri": "https://cognitionlab.com/portfolio/donders-response-types/gallery/library/",
+      "implementation_name": "Cognition Lab - DND",
+      "implementation_description": "Configurable web-based task paradigm with instruction for Donders type A,B, and C response types based on identical stimulus material"
+    },
+    {
+      "id": "imp_kz7eTWA7MZbpJ",
+      "name": "Cognition Lab - MRT",
+      "last_updated": "1528259466251",
+      "creation_time": "1528259466251",
+      "implementation_uri": "https://cognitionlab.com/portfolio/mental-rotation/gallery/library/",
+      "implementation_name": "Cognition Lab - MRT",
+      "implementation_description": "Configurable web-based task paradigm that presents regular or flipped letters or digits in adjustable angles of rotation"
+    },
+    {
+      "id": "imp_8zmAkcXiq50hU",
+      "name": "Cognition Lab - HPL",
+      "last_updated": "1528259920023",
+      "creation_time": "1528259920023",
+      "implementation_uri": "https://cognitionlab.com/portfolio/hidden-path-learning/gallery/library/",
+      "implementation_name": "Cognition Lab - HPL",
+      "implementation_description": "Configurable web-based task paradigm that presents a grid of an adjustable size and generates a random path of adjustable length to be discovered by the subject."
+    },
+    {
+      "id": "imp_duslsScTL4e8L",
+      "name": "Cognition Lab - UST",
+      "last_updated": "1528260139264",
+      "creation_time": "1528260139264",
+      "implementation_uri": "https://cognitionlab.com/portfolio/unstable-tracking/gallery/library/",
+      "implementation_name": "Cognition Lab - UST",
+      "implementation_description": "Configurable web-based task paradigm which asks subject to keep a marker in the center of the screen. The instability of the marker is adjustable or adaptive simulating flight characteristics of an unstable airplane."
+    },
+    {
+      "id": "imp_Oaw29VNzSOxQN",
+      "name": "Cognition Lab - UST",
+      "last_updated": "1528260227439",
+      "creation_time": "1528260227439",
+      "implementation_uri": "https://cognitionlab.com/portfolio/unstable-tracking/gallery/library/",
+      "implementation_name": "Cognition Lab - UST",
+      "implementation_description": "Configurable web-based task paradigm presenting a memory or choice reaction task in combination with a compensatory tracking task."
+    },
+    {
+      "id": "imp_MWAdapa78XkqK",
+      "name": "Cognition Lab - RTR",
+      "last_updated": "1528260623851",
+      "creation_time": "1528260623851",
+      "implementation_uri": "https://cognitionlab.com/portfolio/road-tracking/gallery/library/",
+      "implementation_name": "Cognition Lab - RTR",
+      "implementation_description": "Configurable web-based task paradigm which asks subjects to follow a simulated road with adjustable difficulty of the road, optional turbulence (side wind), and preview window"
+    },
+    {
+      "id": "imp_JQOQtPFXz9QGB",
+      "name": "Cognition Lab - TAP",
+      "last_updated": "1528260818260",
+      "creation_time": "1528260818260",
+      "implementation_uri": "https://cognitionlab.com/portfolio/tapping/gallery/library/",
+      "implementation_name": "Cognition Lab - TAP",
+      "implementation_description": "Configurabe web-based task paradigm adjustable in length"
+    },
+    {
+      "id": "imp_8iUN7P0xRJ8a9",
+      "name": "BCI2000",
+      "last_updated": "1588743469082",
+      "creation_time": "1588743469082",
+      "implementation_uri": "https://www.bci2000.org/mediawiki/index.php/Main_Page",
+      "implementation_name": "BCI2000",
+      "implementation_description": "Software suite for brain-computer interface research."
+    },
+    {
+      "id": "imp_ZU9wYEtGrx0WT",
+      "name": "OpenVibe",
+      "last_updated": "1588743571094",
+      "creation_time": "1588743571094",
+      "implementation_uri": "http://openvibe.inria.fr/",
+      "implementation_name": "OpenVibe",
+      "implementation_description": "OpenViBE is a software platform dedicated to designing, testing and using brain-computer interfaces.  OpenViBE is a software for real-time neurosciences (that is, for real-time processing of brain signals). It can be used to acquire, filter, process, classify and visualize brain signals in real time. Since v2.2.0, OpenViBE also includes a tool for offline or batch analysis of large datasets.  OpenViBE is free and open source software. It works on Windows and Linux operating systems."
+    }
+  ],
+  "@type": "ImplementationCollection"
+}

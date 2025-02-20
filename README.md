@@ -1,6 +1,6 @@
 # cogat-linkml
 
-Linkml implementation of cognitive atlas.
+Linkml implementation of the neo4j based version of cognitive atlas.
 
 ## Website
 

@@ -1,0 +1,1633 @@
+@prefix legacy_cogat_linkml: <https://w3id.org/rwblair/legacy-cogat-linkml/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema1: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema1:Thing a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "A generic grouping for any identifiable entity" ;
+    sh:ignoredProperties ( legacy_cogat_linkml:flag_for_curator legacy_cogat_linkml:implementation_name legacy_cogat_linkml:has_citation legacy_cogat_linkml:has_difference legacy_cogat_linkml:creation_time legacy_cogat_linkml:id_concept_class legacy_cogat_linkml:citation_url legacy_cogat_linkml:citation_pubname legacy_cogat_linkml:has_condition legacy_cogat_linkml:in_battery legacy_cogat_linkml:citation_comment legacy_cogat_linkml:collection_description legacy_cogat_linkml:citation_type legacy_cogat_linkml:def_id legacy_cogat_linkml:event_stamp legacy_cogat_linkml:review_status legacy_cogat_linkml:id_user legacy_cogat_linkml:last_updated legacy_cogat_linkml:implementation_description legacy_cogat_linkml:dataset_name legacy_cogat_linkml:citation_desc legacy_cogat_linkml:has_contrast legacy_cogat_linkml:has_external_dataset legacy_cogat_linkml:has_indicator legacy_cogat_linkml:definition legacy_cogat_linkml:id_subject_def legacy_cogat_linkml:is_a legacy_cogat_linkml:username legacy_cogat_linkml:created legacy_cogat_linkml:kind_of legacy_cogat_linkml:doi legacy_cogat_linkml:uri legacy_cogat_linkml:part_of legacy_cogat_linkml:confidence_level legacy_cogat_linkml:in_theory legacy_cogat_linkml:measured_by legacy_cogat_linkml:def_event_stamp legacy_cogat_linkml:is_a_protocol legacy_cogat_linkml:collection_date_introduced legacy_cogat_linkml:has_link legacy_cogat_linkml:id_task legacy_cogat_linkml:def_id_user legacy_cogat_linkml:alias legacy_cogat_linkml:has_implementation legacy_cogat_linkml:id_protocol legacy_cogat_linkml:user_id legacy_cogat_linkml:classified_under legacy_cogat_linkml:collection_publisher legacy_cogat_linkml:citation_pmid legacy_cogat_linkml:subject legacy_cogat_linkml:predicate_def legacy_cogat_linkml:citation_authors legacy_cogat_linkml:classification legacy_cogat_linkml:condition_description legacy_cogat_linkml:asserts legacy_cogat_linkml:id_term legacy_cogat_linkml:dataset_uri legacy_cogat_linkml:old_user_id legacy_cogat_linkml:is_a_fulltext legacy_cogat_linkml:website legacy_cogat_linkml:definition_text legacy_cogat_linkml:predicate legacy_cogat_linkml:collection_alias legacy_cogat_linkml:collection legacy_cogat_linkml:condition_text legacy_cogat_linkml:type legacy_cogat_linkml:display_order legacy_cogat_linkml:disambiguates rdf:type legacy_cogat_linkml:citation_source legacy_cogat_linkml:citation_pubdate legacy_cogat_linkml:truth_value legacy_cogat_linkml:implementation_uri ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path schema1:name ] ;
+    sh:targetClass schema1:Thing .
+
+legacy_cogat_linkml:AssertionCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Assertion ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:AssertionCollection .
+
+legacy_cogat_linkml:BatteryCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Battery ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:BatteryCollection .
+
+legacy_cogat_linkml:BehaviorCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Behavior ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:BehaviorCollection .
+
+legacy_cogat_linkml:CitationCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:CitationCollection .
+
+legacy_cogat_linkml:ConceptClassCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:ConceptClass ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:ConceptClassCollection .
+
+legacy_cogat_linkml:ConceptCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Concept ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:ConceptCollection .
+
+legacy_cogat_linkml:ConditionCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Condition ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:ConditionCollection .
+
+legacy_cogat_linkml:ContrastCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Contrast ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:ContrastCollection .
+
+legacy_cogat_linkml:DisambiguationCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Disambiguation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:DisambiguationCollection .
+
+legacy_cogat_linkml:DisorderCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Disorder ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:DisorderCollection .
+
+legacy_cogat_linkml:ExternalDatasetCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:ExternalDataset ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:ExternalDatasetCollection .
+
+legacy_cogat_linkml:ExternalLinkCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:ExternalLink ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:ExternalLinkCollection .
+
+legacy_cogat_linkml:ImplementationCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Implementation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:ImplementationCollection .
+
+legacy_cogat_linkml:IndicatorCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Indicator ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:IndicatorCollection .
+
+legacy_cogat_linkml:TaskCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "A holder for Task objects" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Task ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:TaskCollection .
+
+legacy_cogat_linkml:TheoryCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Theory ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:TheoryCollection .
+
+legacy_cogat_linkml:TraitCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Trait ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:TraitCollection .
+
+legacy_cogat_linkml:UserCollection a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:User ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:entries ] ;
+    sh:targetClass legacy_cogat_linkml:UserCollection .
+
+legacy_cogat_linkml:Assertion a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 14 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:class legacy_cogat_linkml:Contrast ;
+            sh:nodeKind sh:IRI ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:predicate_def ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:confidence_level ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 12 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 15 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:id_subject_def ],
+        [ sh:class legacy_cogat_linkml:Task ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:predicate ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 16 ;
+            sh:path schema1:description ],
+        [ sh:class legacy_cogat_linkml:Theory ;
+            sh:nodeKind sh:IRI ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:in_theory ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:truth_value ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:class legacy_cogat_linkml:Concept ;
+            sh:nodeKind sh:IRI ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:subject ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 13 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:user_id ] ;
+    sh:targetClass legacy_cogat_linkml:Assertion .
+
+legacy_cogat_linkml:Behavior a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "Represents a Task" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:identifier ],
+        [ sh:class legacy_cogat_linkml:ExternalLink ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:has_link ],
+        [ sh:class legacy_cogat_linkml:Contrast ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:measured_by ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:definition ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:has_citation ] ;
+    sh:targetClass legacy_cogat_linkml:Behavior .
+
+legacy_cogat_linkml:Disambiguation a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:class legacy_cogat_linkml:CitableThing ;
+            sh:description "Could apply to Concepts, Tasks, Traits..." ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:disambiguates ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:id_user ] ;
+    sh:targetClass legacy_cogat_linkml:Disambiguation .
+
+legacy_cogat_linkml:Trait a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "Represents a Task" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:definition ],
+        [ sh:class legacy_cogat_linkml:ExternalLink ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:has_link ],
+        [ sh:class legacy_cogat_linkml:Contrast ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:measured_by ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:identifier ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:has_citation ] ;
+    sh:targetClass legacy_cogat_linkml:Trait .
+
+legacy_cogat_linkml:User a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:username ],
+        [ sh:datatype xsd:string ;
+            sh:description "The original PHP based site had user ids of the pattern \"usr_[[:alnum:]]*\". If an id of this kind existed for the user it is stored here." ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:old_user_id ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:identifier ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:class legacy_cogat_linkml:CitableThing ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:created ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path schema1:description ] ;
+    sh:targetClass legacy_cogat_linkml:User .
+
+legacy_cogat_linkml:CitableThing a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "A generic grouping for any identifiable entity" ;
+    sh:ignoredProperties ( legacy_cogat_linkml:implementation_name legacy_cogat_linkml:has_difference legacy_cogat_linkml:id_concept_class legacy_cogat_linkml:citation_url legacy_cogat_linkml:citation_pubname legacy_cogat_linkml:has_condition legacy_cogat_linkml:in_battery legacy_cogat_linkml:citation_comment legacy_cogat_linkml:collection_description legacy_cogat_linkml:citation_type legacy_cogat_linkml:def_id legacy_cogat_linkml:review_status legacy_cogat_linkml:implementation_description legacy_cogat_linkml:dataset_name legacy_cogat_linkml:citation_desc legacy_cogat_linkml:has_contrast legacy_cogat_linkml:has_external_dataset legacy_cogat_linkml:has_indicator legacy_cogat_linkml:definition legacy_cogat_linkml:id_subject_def legacy_cogat_linkml:is_a legacy_cogat_linkml:username legacy_cogat_linkml:created legacy_cogat_linkml:kind_of legacy_cogat_linkml:doi legacy_cogat_linkml:uri legacy_cogat_linkml:part_of legacy_cogat_linkml:confidence_level legacy_cogat_linkml:in_theory legacy_cogat_linkml:measured_by legacy_cogat_linkml:def_event_stamp legacy_cogat_linkml:is_a_protocol legacy_cogat_linkml:collection_date_introduced legacy_cogat_linkml:has_link legacy_cogat_linkml:id_task legacy_cogat_linkml:def_id_user legacy_cogat_linkml:alias legacy_cogat_linkml:has_implementation legacy_cogat_linkml:id_protocol legacy_cogat_linkml:user_id legacy_cogat_linkml:classified_under legacy_cogat_linkml:collection_publisher legacy_cogat_linkml:citation_pmid legacy_cogat_linkml:subject legacy_cogat_linkml:predicate_def legacy_cogat_linkml:citation_authors legacy_cogat_linkml:classification legacy_cogat_linkml:condition_description legacy_cogat_linkml:asserts legacy_cogat_linkml:id_term legacy_cogat_linkml:dataset_uri legacy_cogat_linkml:old_user_id legacy_cogat_linkml:is_a_fulltext legacy_cogat_linkml:website legacy_cogat_linkml:definition_text legacy_cogat_linkml:predicate legacy_cogat_linkml:collection_alias legacy_cogat_linkml:collection legacy_cogat_linkml:condition_text legacy_cogat_linkml:type legacy_cogat_linkml:display_order legacy_cogat_linkml:disambiguates rdf:type legacy_cogat_linkml:citation_source legacy_cogat_linkml:citation_pubdate legacy_cogat_linkml:truth_value legacy_cogat_linkml:implementation_uri ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path schema1:name ] ;
+    sh:targetClass legacy_cogat_linkml:CitableThing .
+
+legacy_cogat_linkml:ConceptClass a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:display_order ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:event_stamp ] ;
+    sh:targetClass legacy_cogat_linkml:ConceptClass .
+
+legacy_cogat_linkml:Condition a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "Represents a Task" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:condition_text ],
+        [ sh:class legacy_cogat_linkml:Contrast ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:has_contrast ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:condition_description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:identifier ] ;
+    sh:targetClass legacy_cogat_linkml:Condition .
+
+legacy_cogat_linkml:ExternalDataset a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:id_term ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:dataset_name ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:dataset_uri ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path schema1:description ] ;
+    sh:targetClass legacy_cogat_linkml:ExternalDataset .
+
+legacy_cogat_linkml:Implementation a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:implementation_uri ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:implementation_name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:implementation_description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 12 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:id_task ] ;
+    sh:targetClass legacy_cogat_linkml:Implementation .
+
+legacy_cogat_linkml:Disorder a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "Represents a Task" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:class legacy_cogat_linkml:Disorder ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:is_a ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:is_a_protocol ],
+        [ sh:class legacy_cogat_linkml:ExternalLink ;
+            sh:nodeKind sh:IRI ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:has_link ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 14 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:is_a_fulltext ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:classification ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 15 ;
+            sh:path schema1:description ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 12 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:definition ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 13 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:id_protocol ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path legacy_cogat_linkml:event_stamp ] ;
+    sh:targetClass legacy_cogat_linkml:Disorder .
+
+legacy_cogat_linkml:Indicator a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path schema1:name ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:type ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:creation_time ] ;
+    sh:targetClass legacy_cogat_linkml:Indicator .
+
+legacy_cogat_linkml:ExternalLink a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:uri ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path schema1:name ] ;
+    sh:targetClass legacy_cogat_linkml:ExternalLink .
+
+legacy_cogat_linkml:Task a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "Represents a Task" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path legacy_cogat_linkml:def_id_user ],
+        [ sh:class legacy_cogat_linkml:ExternalDataset ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:has_external_dataset ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 24 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path legacy_cogat_linkml:definition_text ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path legacy_cogat_linkml:def_event_stamp ],
+        [ sh:class legacy_cogat_linkml:Indicator ;
+            sh:nodeKind sh:IRI ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:has_indicator ],
+        [ sh:class legacy_cogat_linkml:Concept ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:asserts ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 21 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 18 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:class legacy_cogat_linkml:Battery ;
+            sh:nodeKind sh:IRI ;
+            sh:order 12 ;
+            sh:path legacy_cogat_linkml:in_battery ],
+        [ sh:class legacy_cogat_linkml:Implementation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:has_implementation ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 23 ;
+            sh:path schema1:name ],
+        [ sh:class legacy_cogat_linkml:Task ;
+            sh:nodeKind sh:IRI ;
+            sh:order 15 ;
+            sh:path legacy_cogat_linkml:kind_of ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 17 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 22 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:id_concept_class ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:def_id ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 20 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:class legacy_cogat_linkml:Contrast ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:has_contrast ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:review_status ],
+        [ sh:class legacy_cogat_linkml:Task ;
+            sh:nodeKind sh:IRI ;
+            sh:order 16 ;
+            sh:path legacy_cogat_linkml:part_of ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 13 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:class legacy_cogat_linkml:Condition ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:has_condition ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 19 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 14 ;
+            sh:path legacy_cogat_linkml:alias ] ;
+    sh:targetClass legacy_cogat_linkml:Task .
+
+legacy_cogat_linkml:Theory a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:collection_alias ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:collection_description ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 12 ;
+            sh:path schema1:description ],
+        [ sh:class legacy_cogat_linkml:Theory ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:kind_of ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path schema1:name ],
+        [ sh:class legacy_cogat_linkml:Theory ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:part_of ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 10 ;
+            sh:path schema1:identifier ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:creation_time ] ;
+    sh:targetClass legacy_cogat_linkml:Theory .
+
+legacy_cogat_linkml:Battery a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 18 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 14 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 16 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:collection_publisher ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:collection ],
+        [ sh:class legacy_cogat_linkml:Indicator ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:has_indicator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:collection_description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 15 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:class legacy_cogat_linkml:Battery ;
+            sh:nodeKind sh:IRI ;
+            sh:order 10 ;
+            sh:path legacy_cogat_linkml:part_of ],
+        [ sh:class legacy_cogat_linkml:Battery ;
+            sh:nodeKind sh:IRI ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:in_battery ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:collection_alias ],
+        [ sh:class legacy_cogat_linkml:Battery ;
+            sh:nodeKind sh:IRI ;
+            sh:order 9 ;
+            sh:path legacy_cogat_linkml:kind_of ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 13 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 12 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 17 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:website ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:collection_date_introduced ] ;
+    sh:targetClass legacy_cogat_linkml:Battery .
+
+legacy_cogat_linkml:Concept a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "Represents a Task" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 12 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 15 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:def_id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 14 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:id_concept_class ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 13 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:alias ],
+        [ sh:class legacy_cogat_linkml:Concept ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:kind_of ],
+        [ sh:class legacy_cogat_linkml:ConceptClass ;
+            sh:nodeKind sh:IRI ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:classified_under ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path legacy_cogat_linkml:definition_text ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 10 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 18 ;
+            sh:path schema1:description ],
+        [ sh:class legacy_cogat_linkml:Concept ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:part_of ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 17 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:def_event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:def_id ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 16 ;
+            sh:path schema1:identifier ],
+        [ sh:class legacy_cogat_linkml:Contrast ;
+            sh:nodeKind sh:IRI ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:measured_by ] ;
+    sh:targetClass legacy_cogat_linkml:Concept .
+
+legacy_cogat_linkml:Contrast a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "Represents a Task" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path schema1:name ],
+        [ sh:class legacy_cogat_linkml:Disorder ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:has_difference ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path schema1:description ] ;
+    sh:targetClass legacy_cogat_linkml:Contrast .
+
+legacy_cogat_linkml:Citation a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 2 ;
+            sh:path legacy_cogat_linkml:citation_desc ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 11 ;
+            sh:path legacy_cogat_linkml:last_updated ],
+        [ sh:class legacy_cogat_linkml:Citation ;
+            sh:nodeKind sh:IRI ;
+            sh:order 10 ;
+            sh:path legacy_cogat_linkml:has_citation ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 8 ;
+            sh:path legacy_cogat_linkml:citation_source ],
+        [ sh:datatype xsd:anyURI ;
+            sh:description "A unique identifier for a thing" ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 16 ;
+            sh:path schema1:identifier ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable name for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 17 ;
+            sh:path schema1:name ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 13 ;
+            sh:path legacy_cogat_linkml:event_stamp ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path legacy_cogat_linkml:citation_comment ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 0 ;
+            sh:path legacy_cogat_linkml:citation_url ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 6 ;
+            sh:path legacy_cogat_linkml:citation_pubdate ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 9 ;
+            sh:path legacy_cogat_linkml:doi ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 14 ;
+            sh:path legacy_cogat_linkml:id_user ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path legacy_cogat_linkml:citation_type ],
+        [ sh:datatype xsd:string ;
+            sh:description "A human-readable description for a thing" ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 18 ;
+            sh:path schema1:description ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path legacy_cogat_linkml:citation_authors ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 12 ;
+            sh:path legacy_cogat_linkml:creation_time ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 15 ;
+            sh:path legacy_cogat_linkml:flag_for_curator ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 5 ;
+            sh:path legacy_cogat_linkml:citation_pubname ],
+        [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 7 ;
+            sh:path legacy_cogat_linkml:citation_pmid ] ;
+    sh:targetClass legacy_cogat_linkml:Citation .
+

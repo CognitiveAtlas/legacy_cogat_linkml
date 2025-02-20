@@ -7,10 +7,10 @@
 ###### schema definition variables, used by makefile
 
 # Note: makefile variables should not be quoted, as makefile handles quoting differently than bash
-LINKML_SCHEMA_NAME="cogat_linkml"
+LINKML_SCHEMA_NAME=legacy_cogat_linkml
 LINKML_SCHEMA_AUTHOR="Ross Blair <rosswilsonblair@gmail.com>"
-LINKML_SCHEMA_DESCRIPTION="Linkml implementation of cognitive atlas."
-LINKML_SCHEMA_SOURCE_PATH="src/cogat_linkml/schema/cogat_linkml.yaml"
+LINKML_SCHEMA_DESCRIPTION="Linkml implementation of the neo4j version of cognitive atlas."
+LINKML_SCHEMA_SOURCE_PATH="./src/legacy_cogat_linkml/schema/legacy_cogat_linkml.yaml"
 LINKML_SCHEMA_GOOGLE_SHEET_MODULE="personinfo_enums"
 LINKML_SCHEMA_GOOGLE_SHEET_ID="1wVoaiFg47aT9YWNeRfTZ8tYHN8s8PAuDx5i2HUcDpvQ"
 LINKML_SCHEMA_GOOGLE_SHEET_TABS="personinfo enums"

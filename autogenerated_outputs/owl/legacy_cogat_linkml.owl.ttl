@@ -1,0 +1,1613 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix legacy_cogat_linkml: <https://w3id.org/rwblair/legacy-cogat-linkml/> .
+@prefix linkml: <https://w3id.org/linkml/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+legacy_cogat_linkml:AssertionCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "AssertionCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Assertion ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:BatteryCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "BatteryCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Battery ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:BehaviorCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "BehaviorCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Behavior ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:CitationCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "CitationCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Citation ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ConceptClassCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ConceptClassCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:ConceptClass ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ConceptCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ConceptCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Concept ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ConditionCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ConditionCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Condition ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ContrastCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ContrastCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Contrast ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:DisambiguationCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "DisambiguationCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Disambiguation ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:DisorderCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "DisorderCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Disorder ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ExternalDatasetCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ExternalDatasetCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:ExternalDataset ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ExternalLinkCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ExternalLinkCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:ExternalLink ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ImplementationCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ImplementationCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Implementation ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:IndicatorCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "IndicatorCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Indicator ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:TaskCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "TaskCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Task ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:definition "A holder for Task objects" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:TheoryCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "TheoryCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Theory ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:TraitCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "TraitCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Trait ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:UserCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "UserCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:entries ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:User ;
+            owl:onProperty legacy_cogat_linkml:entries ] ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Assertion a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Assertion" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:id_subject_def ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:truth_value ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:id_subject_def ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:subject ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Citation ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:user_id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Theory ;
+            owl:onProperty legacy_cogat_linkml:in_theory ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Concept ;
+            owl:onProperty legacy_cogat_linkml:subject ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:predicate ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Task ;
+            owl:onProperty legacy_cogat_linkml:predicate ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:user_id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Contrast ;
+            owl:onProperty legacy_cogat_linkml:predicate_def ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:confidence_level ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:predicate_def ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:confidence_level ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:truth_value ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:id_subject_def ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:truth_value ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:confidence_level ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:user_id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:in_theory ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Behavior a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Behavior" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:definition ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Citation ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Contrast ;
+            owl:onProperty legacy_cogat_linkml:measured_by ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:measured_by ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:ExternalLink ;
+            owl:onProperty legacy_cogat_linkml:has_link ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_link ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:definition ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:definition ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:definition "Represents a Task" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Disambiguation a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Disambiguation" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:disambiguates ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:CitableThing ;
+            owl:onProperty legacy_cogat_linkml:disambiguates ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:NamedThing a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "NamedThing" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:id ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:description ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:description ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:Uriorcurie ;
+            owl:onProperty legacy_cogat_linkml:id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:name ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:name ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:description ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:name ] ;
+    skos:definition "A generic grouping for any identifiable entity" ;
+    skos:exactMatch schema1:Thing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Trait a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Trait" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Citation ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:ExternalLink ;
+            owl:onProperty legacy_cogat_linkml:has_link ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:definition ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_link ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:definition ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Contrast ;
+            owl:onProperty legacy_cogat_linkml:measured_by ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:measured_by ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:definition ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:definition "Represents a Task" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:User a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "User" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:created ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:old_user_id ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:username ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:username ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:old_user_id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:CitableThing ;
+            owl:onProperty legacy_cogat_linkml:created ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:old_user_id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:username ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:asserts a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "asserts" ;
+    rdfs:range legacy_cogat_linkml:Concept ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:classified_under a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "classified_under" ;
+    rdfs:range legacy_cogat_linkml:ConceptClass ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:created a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "created" ;
+    rdfs:range legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:disambiguates a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "disambiguates" ;
+    rdfs:range legacy_cogat_linkml:CitableThing ;
+    skos:definition "Could apply to Concepts, Tasks, Traits..." ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:has_condition a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "has_condition" ;
+    rdfs:range legacy_cogat_linkml:Condition ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:has_difference a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "has_difference" ;
+    rdfs:range legacy_cogat_linkml:Disorder ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:has_external_dataset a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "has_external_dataset" ;
+    rdfs:range legacy_cogat_linkml:ExternalDataset ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:has_implementation a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "has_implementation" ;
+    rdfs:range legacy_cogat_linkml:Implementation ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:in_theory a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "in_theory" ;
+    rdfs:range legacy_cogat_linkml:Theory ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:is_a a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "is_a" ;
+    rdfs:range legacy_cogat_linkml:Disorder ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:predicate a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "predicate" ;
+    rdfs:range legacy_cogat_linkml:Task ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:predicate_def a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "predicate_def" ;
+    rdfs:range legacy_cogat_linkml:Contrast ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:subject a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "subject" ;
+    rdfs:range legacy_cogat_linkml:Concept ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ConceptClass a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ConceptClass" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:display_order ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:display_order ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:display_order ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Condition a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Condition" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:condition_description ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:condition_description ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:condition_description ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:condition_text ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:condition_text ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_contrast ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Contrast ;
+            owl:onProperty legacy_cogat_linkml:has_contrast ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:condition_text ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:definition "Represents a Task" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ExternalDataset a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ExternalDataset" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:dataset_name ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:dataset_name ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:id_term ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:dataset_uri ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:dataset_uri ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:dataset_uri ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:id_term ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:id_term ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:dataset_name ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Implementation a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Implementation" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:implementation_description ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:id_task ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:implementation_description ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:implementation_description ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:implementation_name ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:implementation_name ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:implementation_uri ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:implementation_uri ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:implementation_name ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:id_task ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:id_task ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:implementation_uri ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:citation_authors a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "citation_authors" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:citation_comment a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "citation_comment" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:citation_desc a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "citation_desc" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:citation_pmid a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "citation_pmid" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:citation_pubdate a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "citation_pubdate" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:citation_pubname a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "citation_pubname" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:citation_source a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "citation_source" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:citation_type a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "citation_type" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:citation_url a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "citation_url" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:classification a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "classification" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:collection a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "collection" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:collection_date_introduced a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "collection_date_introduced" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:collection_publisher a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "collection_publisher" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:condition_description a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "condition_description" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:condition_text a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "condition_text" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:confidence_level a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "confidence_level" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:creation_time a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "creation_time" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:dataset_name a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "dataset_name" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:dataset_uri a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "dataset_uri" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:description a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "description" ;
+    skos:definition "A human-readable description for a thing" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:display_order a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "display_order" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:doi a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "doi" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:flag_for_curator a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "flag_for_curator" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:id a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "id" ;
+    rdfs:range linkml:Uriorcurie ;
+    skos:definition "A unique identifier for a thing" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:id_protocol a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "id_protocol" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:id_subject_def a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "id_subject_def" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:id_task a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "id_task" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:id_term a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "id_term" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:id_user a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "id_user" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:implementation_description a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "implementation_description" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:implementation_name a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "implementation_name" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:implementation_uri a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "implementation_uri" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:is_a_fulltext a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "is_a_fulltext" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:is_a_protocol a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "is_a_protocol" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:last_updated a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "last_updated" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:name a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "name" ;
+    skos:definition "A human-readable name for a thing" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:old_user_id a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "old_user_id" ;
+    rdfs:range linkml:String ;
+    skos:definition "The original PHP based site had user ids of the pattern \"usr_[[:alnum:]]*\". If an id of this kind existed for the user it is stored here." ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:review_status a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "review_status" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:truth_value a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "truth_value" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:type a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "type" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:uri a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "uri" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:user_id a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "user_id" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:username a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "username" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:website a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "website" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Indicator a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Indicator" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:type ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:type ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:type ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:has_contrast a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "has_contrast" ;
+    rdfs:range legacy_cogat_linkml:Contrast ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:has_indicator a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "has_indicator" ;
+    rdfs:range legacy_cogat_linkml:Indicator ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:in_battery a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "in_battery" ;
+    rdfs:range legacy_cogat_linkml:Battery ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Disorder a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Disorder" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:id_protocol ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:is_a_fulltext ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:classification ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:definition ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:is_a_protocol ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Disorder ;
+            owl:onProperty legacy_cogat_linkml:is_a ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:is_a_protocol ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:is_a ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:classification ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_link ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:is_a_fulltext ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:definition ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:id_protocol ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:ExternalLink ;
+            owl:onProperty legacy_cogat_linkml:has_link ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:is_a_protocol ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:id_protocol ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:classification ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:is_a_fulltext ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:definition ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:definition "Represents a Task" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:ExternalLink a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "ExternalLink" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:uri ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:uri ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:uri ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Task a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Task" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_condition ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:event_stamp ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:part_of ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:event_stamp ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:def_event_stamp ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_indicator ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Indicator ;
+            owl:onProperty legacy_cogat_linkml:has_indicator ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:def_id_user ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Battery ;
+            owl:onProperty legacy_cogat_linkml:in_battery ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:def_id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:id_concept_class ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:asserts ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:ExternalDataset ;
+            owl:onProperty legacy_cogat_linkml:has_external_dataset ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:alias ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:event_stamp ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:def_id ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:alias ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:definition_text ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:definition_text ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:kind_of ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Contrast ;
+            owl:onProperty legacy_cogat_linkml:has_contrast ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_contrast ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:def_event_stamp ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:def_id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:definition_text ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:def_id_user ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_external_dataset ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Task ;
+            owl:onProperty legacy_cogat_linkml:kind_of ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:review_status ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:id_concept_class ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Condition ;
+            owl:onProperty legacy_cogat_linkml:has_condition ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:review_status ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:id_concept_class ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:review_status ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Task ;
+            owl:onProperty legacy_cogat_linkml:part_of ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:alias ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:def_id_user ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:in_battery ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_implementation ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:def_event_stamp ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Concept ;
+            owl:onProperty legacy_cogat_linkml:asserts ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Implementation ;
+            owl:onProperty legacy_cogat_linkml:has_implementation ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:definition "Represents a Task" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Theory a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Theory" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:collection_description ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Theory ;
+            owl:onProperty legacy_cogat_linkml:part_of ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:collection_description ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:collection_alias ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:kind_of ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:part_of ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:collection_alias ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Theory ;
+            owl:onProperty legacy_cogat_linkml:kind_of ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:collection_alias ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:collection_description ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Battery a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Battery" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:collection_description ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:in_battery ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:kind_of ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:collection_date_introduced ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:collection_publisher ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:collection_date_introduced ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:collection_description ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:collection_alias ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:collection ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:collection_description ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Citation ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Indicator ;
+            owl:onProperty legacy_cogat_linkml:has_indicator ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:website ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:website ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:part_of ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:collection ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:website ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Battery ;
+            owl:onProperty legacy_cogat_linkml:part_of ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_indicator ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:collection_date_introduced ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:collection_publisher ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:collection_alias ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:collection_publisher ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:collection ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Battery ;
+            owl:onProperty legacy_cogat_linkml:kind_of ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Battery ;
+            owl:onProperty legacy_cogat_linkml:in_battery ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:collection_alias ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:alias a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "alias" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:collection_alias a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "collection_alias" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:collection_description a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "collection_description" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:def_event_stamp a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "def_event_stamp" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:def_id a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "def_id" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:def_id_user a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "def_id_user" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:definition_text a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "definition_text" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:event_stamp a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "event_stamp" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:has_link a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "has_link" ;
+    rdfs:range legacy_cogat_linkml:ExternalLink ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:id_concept_class a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "id_concept_class" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:measured_by a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "measured_by" ;
+    rdfs:range legacy_cogat_linkml:Contrast ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Citation a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Citation" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:citation_type ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:doi ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:citation_type ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:citation_comment ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:citation_pubname ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:doi ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:citation_pubdate ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:citation_comment ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:citation_authors ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:citation_desc ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:citation_url ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:citation_pmid ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:citation_url ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:citation_pmid ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:citation_comment ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:citation_source ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:citation_pubname ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:citation_source ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:citation_type ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:citation_authors ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:citation_authors ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:citation_desc ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:citation_source ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:citation_pubname ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:citation_pubdate ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:doi ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:citation_desc ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:citation_pubdate ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:citation_url ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:citation_pmid ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:kind_of a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "kind_of" ;
+    rdfs:range legacy_cogat_linkml:Concept ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:part_of a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "part_of" ;
+    rdfs:range legacy_cogat_linkml:Concept ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Concept a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Concept" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Contrast ;
+            owl:onProperty legacy_cogat_linkml:measured_by ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:def_id_user ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:alias ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:definition_text ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:part_of ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:classified_under ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Concept ;
+            owl:onProperty legacy_cogat_linkml:part_of ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:def_event_stamp ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:id_concept_class ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:definition_text ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:def_id_user ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Concept ;
+            owl:onProperty legacy_cogat_linkml:kind_of ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:id_concept_class ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:def_id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:id_concept_class ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:def_event_stamp ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:kind_of ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:alias ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:def_id_user ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:def_id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:definition_text ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:def_id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:def_event_stamp ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:measured_by ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:alias ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:ConceptClass ;
+            owl:onProperty legacy_cogat_linkml:classified_under ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:definition "Represents a Task" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:definition a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "definition" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:Contrast a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Contrast" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_difference ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Disorder ;
+            owl:onProperty legacy_cogat_linkml:has_difference ],
+        legacy_cogat_linkml:CitableThing ;
+    skos:definition "Represents a Task" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:has_citation a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "has_citation" ;
+    rdfs:range legacy_cogat_linkml:Citation ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:CitableThing a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "CitableThing" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:flag_for_curator ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom legacy_cogat_linkml:Citation ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:creation_time ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:flag_for_curator ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:event_stamp ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:has_citation ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:id_user ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:last_updated ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:id_user ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:event_stamp ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:id_user ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:creation_time ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:last_updated ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty legacy_cogat_linkml:last_updated ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:event_stamp ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty legacy_cogat_linkml:flag_for_curator ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty legacy_cogat_linkml:creation_time ],
+        legacy_cogat_linkml:NamedThing ;
+    skos:definition "A generic grouping for any identifiable entity" ;
+    skos:inScheme <https://w3id.org/rwblair/legacy-cogat-linkml> .
+
+legacy_cogat_linkml:entries a owl:ObjectProperty,
+        linkml:SlotDefinition .
+
+<https://w3id.org/rwblair/legacy-cogat-linkml> a owl:Ontology ;
+    rdfs:label "legacy-cogat-linkml" ;
+    dcterms:license "MIT" ;
+    dcterms:title "legacy-cogat-linkml" ;
+    rdfs:seeAlso <https://rwblair.github.io/legacy-cogat-linkml> ;
+    skos:definition "Linkml implementation of cognitive atlas." .
+

@@ -3,14 +3,14 @@ requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
 build-backend = "poetry_dynamic_versioning.backend"
 
 [project]
-name = "cogat_linkml"
-description = "Linkml implementation of cognitive atlas."
+name = "legacy_cogat_linkml"
+description = "Linkml implementation of neo4j cognitive atlas data."
 authors = [
   {name = "Ross Blair", email = "rosswilsonblair@gmail.com"},
 ]
 license = "MIT"
 readme = "README.md"
-include = ["README.md", "src/cogat_linkml/schema", "project"]
+include = ["README.md", "src/legacy_cogat_linkml/schema", "project"]
 
 requires-python = ">=3.9,<4.0"
 

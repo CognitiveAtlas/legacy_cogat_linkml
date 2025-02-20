@@ -1,0 +1,620 @@
+{
+  "entries": [
+    {
+      "id": "tco_50ec56a78df5d",
+      "name": "Wechsler Adult Intelligence Scale - Fourth Edition",
+      "has_citation": [
+        "cit_5106f4770ef24"
+      ],
+      "last_updated": "1512660839308",
+      "creation_time": "1512660839308",
+      "event_stamp": "2013-01-08T17:25:59",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "WAIS-IV",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None"
+    },
+    {
+      "id": "tco_50f48408441d0",
+      "name": "NIH Toolbox Sensation and Pain Battery",
+      "last_updated": "1512660839340",
+      "creation_time": "1512660839340",
+      "event_stamp": "2013-01-14T22:17:44",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This battery, recommended for ages 7+, consists of tests to assess various aspects of sensory function across multiple modalities.",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_50f483c3209ed"
+      ]
+    },
+    {
+      "id": "tco_50ec58851284e",
+      "name": "Wechsler Memory Scale - Fourth Edition",
+      "last_updated": "1512660839364",
+      "creation_time": "1512660839364",
+      "event_stamp": "2013-01-08T17:33:57",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "WMS-IV",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None"
+    },
+    {
+      "id": "tco_50ec58d050cf5",
+      "name": "Cambridge Neuropsychological Test Automated Battery",
+      "has_citation": [
+        "cit_50f4812b04308",
+        "cit_50f742a34bcba",
+        "cit_50f742d37c7d2"
+      ],
+      "last_updated": "1512660839387",
+      "creation_time": "1512660839387",
+      "event_stamp": "2013-01-08T17:35:12",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "CANTAB is a battery of automated cognitive tests meant to capture a number of cognitive domains.",
+      "collection_alias": "CANTAB",
+      "collection_date_introduced": "None",
+      "collection_publisher": "Cambridge Cognition",
+      "website": "None"
+    },
+    {
+      "id": "tco_50f483c3209ed",
+      "name": "NIH Toolbox",
+      "has_citation": [
+        "cit_50f43f25291f4"
+      ],
+      "last_updated": "1512660839407",
+      "creation_time": "1512660839407",
+      "event_stamp": "2013-01-14T22:16:35",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "NIH Toolbox is a multidimensional set of brief measures assessing cognitive, emotional, motor and sensory function from ages 3-85, meeting the need for a standard set of measures that can be used as a âcommon currencyâ across diverse study designs and settings. ",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "National Institutes of Health/Northwestern University",
+      "website": "None"
+    },
+    {
+      "id": "tco_50f483e0a6bf9",
+      "name": "NIH Toolbox Cognition Battery",
+      "last_updated": "1512660839429",
+      "creation_time": "1512660839429",
+      "event_stamp": "2013-01-14T22:17:04",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This battery, recommended for ages 7+, consists of tests to assess Executive Function, Attention, Episodic Memory, Language, Processing Speed and Working Memory.",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_50f483c3209ed"
+      ]
+    },
+    {
+      "id": "tco_50f483f0f2ab2",
+      "name": "NIH Toolbox Early Childhood Cognition Battery",
+      "last_updated": "1512660839451",
+      "creation_time": "1512660839451",
+      "event_stamp": "2013-01-14T22:17:20",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This battery, recommended for ages 3-6, is meant to provide an overall measure of cognitive function.",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_50f483c3209ed"
+      ]
+    },
+    {
+      "id": "tco_50f4841be997b",
+      "name": "NIH Toolbox Early Childhood Sensation Battery",
+      "last_updated": "1512660839477",
+      "creation_time": "1512660839477",
+      "event_stamp": "2013-01-14T22:18:03",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This battery, recommended for ages 3-6, consists of tests to assess various aspects of sensory function across multiple modalities.",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_50f483c3209ed"
+      ]
+    },
+    {
+      "id": "tco_50f4844b5abab",
+      "name": "NIH Toolbox Motor Battery",
+      "last_updated": "1512660839498",
+      "creation_time": "1512660839498",
+      "event_stamp": "2013-01-14T22:18:51",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This battery, recommended for ages 7+, consists of tests to assess various aspects of motor function.",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_50f483c3209ed"
+      ]
+    },
+    {
+      "id": "tco_50f4845a06f38",
+      "name": "NIH Toolbox Early Childhood Motor Battery",
+      "last_updated": "1512660839519",
+      "creation_time": "1512660839519",
+      "event_stamp": "2013-01-14T22:19:06",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This battery, recommended for ages 3-6, consists of tests to assess",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_50f483c3209ed"
+      ]
+    },
+    {
+      "id": "tco_50f48469693cd",
+      "name": "NIH Toolbox Emotion Battery",
+      "last_updated": "1512660839539",
+      "creation_time": "1512660839539",
+      "event_stamp": "2013-01-14T22:19:21",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This battery, recommended for ages 8+, consists of surveys designed to assess the major components of emotional function.",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_50f483c3209ed"
+      ]
+    },
+    {
+      "id": "tco_50f48477ed5e1",
+      "name": "NIH Toolbox Parent Proxy Emotion Battery",
+      "last_updated": "1512660839559",
+      "creation_time": "1512660839559",
+      "event_stamp": "2013-01-14T22:19:35",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This battery, recommended for parents of children ages 3-12, includes surveys intended to measure various aspects of emotional function.",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_50f483c3209ed"
+      ]
+    },
+    {
+      "id": "tco_50f9968ab6bc6",
+      "name": "Computerized Neurocognitive Battery",
+      "has_citation": [
+        "cit_50f995ddaecea",
+        "cit_50f99abfe2367"
+      ],
+      "last_updated": "1512660839580",
+      "creation_time": "1512660839580",
+      "event_stamp": "2013-01-18T18:38:02",
+      "id_user": "usr_4de5345b3b6a8",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "CNB, Penn Neuropsych Battery, Penn Computerized Neurocognitive Battery",
+      "collection_date_introduced": "1992",
+      "collection_publisher": "None",
+      "website": "https://penncnp.med.upenn.edu"
+    },
+    {
+      "id": "tco_54f8d4e8ab203",
+      "name": "Self regulation tasks",
+      "last_updated": "1512660839598",
+      "creation_time": "1512660839598",
+      "event_stamp": "2015-03-05T22:12:56",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None"
+    },
+    {
+      "id": "tco_550b5c985ca1c",
+      "name": "Human Connectome Project (HCP) 500 Subject Release tfMRI",
+      "has_citation": [
+        "cit_550c30140011b"
+      ],
+      "last_updated": "1512660839617",
+      "creation_time": "1512660839617",
+      "event_stamp": "2015-03-19T23:32:40",
+      "id_user": "usr_51bc76ae9636c",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None"
+    },
+    {
+      "id": "tco_5696ca11b02b0",
+      "name": "NCANDA",
+      "has_citation": [
+        "cit_5696e7c64b6e6"
+      ],
+      "last_updated": "1512660839637",
+      "creation_time": "1512660839637",
+      "event_stamp": "2016-01-13T22:05:05",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "National Consortium on Alcohol and Neurodevelopment in Adolescence ",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None"
+    },
+    {
+      "id": "tco_5696ca5565bbb",
+      "name": "NCANDA  Accuracy",
+      "last_updated": "1512660839656",
+      "creation_time": "1512660839656",
+      "event_stamp": "2016-01-13T22:06:13",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_5696ca11b02b0"
+      ]
+    },
+    {
+      "id": "tco_5696ca70a9cbb",
+      "name": "NCANDA General Ability",
+      "last_updated": "1512660839676",
+      "creation_time": "1512660839676",
+      "event_stamp": "2016-01-13T22:06:40",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "NCANDA Accuracy - General Ability",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_5696ca5565bbb"
+      ]
+    },
+    {
+      "id": "tco_5696d0e1861e0",
+      "name": "Wide Range Achievement Test 4",
+      "last_updated": "1512660839696",
+      "creation_time": "1512660839696",
+      "event_stamp": "2016-01-13T22:34:09",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "WRAT-4",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None"
+    },
+    {
+      "id": "tco_5696e026f07ac",
+      "name": "Penn WebCNP Battery",
+      "last_updated": "1512660839716",
+      "creation_time": "1512660839716",
+      "event_stamp": "2016-01-13T23:39:18",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None"
+    },
+    {
+      "id": "tco_569fc5a286434",
+      "name": "NCANDA Accuracy - Working Memory",
+      "last_updated": "1512660839735",
+      "creation_time": "1512660839735",
+      "event_stamp": "2016-01-20T17:36:34",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_5696ca5565bbb"
+      ]
+    },
+    {
+      "id": "tco_56a2a12945fd3",
+      "name": "NCANDA Speed",
+      "last_updated": "1512660839755",
+      "creation_time": "1512660839755",
+      "event_stamp": "2016-01-22T21:37:45",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None"
+    },
+    {
+      "id": "tco_56a2a152ad3ca",
+      "name": "NCANDA Accuracy - Episodic Memory",
+      "last_updated": "1512660839776",
+      "creation_time": "1512660839776",
+      "event_stamp": "2016-01-22T21:38:26",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_5696ca5565bbb"
+      ]
+    },
+    {
+      "id": "tco_56a2a17ce1bd7",
+      "name": "NCANDA Accuracy - Emotion",
+      "last_updated": "1512660839795",
+      "creation_time": "1512660839795",
+      "event_stamp": "2016-01-22T21:39:08",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_5696ca5565bbb"
+      ]
+    },
+    {
+      "id": "tco_56a2a18d4f71d",
+      "name": "NCANDA Accuracy - Balance",
+      "last_updated": "1512660839815",
+      "creation_time": "1512660839815",
+      "event_stamp": "2016-01-22T21:39:25",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_5696ca5565bbb"
+      ]
+    },
+    {
+      "id": "tco_56a2a19d44b7c",
+      "name": "NCANDA Accuracy - Attention",
+      "last_updated": "1512660839840",
+      "creation_time": "1512660839840",
+      "event_stamp": "2016-01-22T21:39:41",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_5696ca5565bbb"
+      ]
+    },
+    {
+      "id": "tco_56a2a1af82f5d",
+      "name": "NCANDA Accuracy - Abstraction",
+      "last_updated": "1512660839859",
+      "creation_time": "1512660839859",
+      "event_stamp": "2016-01-22T21:39:59",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_5696ca5565bbb"
+      ]
+    },
+    {
+      "id": "tco_56a2a1fbe4ba0",
+      "name": "NCANDA Speed - Abstraction",
+      "last_updated": "1512660839878",
+      "creation_time": "1512660839878",
+      "event_stamp": "2016-01-22T21:41:15",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_56a2a12945fd3"
+      ]
+    },
+    {
+      "id": "tco_56a2a276b6786",
+      "name": "NCANDA Speed - Attention",
+      "last_updated": "1512660839898",
+      "creation_time": "1512660839898",
+      "event_stamp": "2016-01-22T21:43:18",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_56a2a12945fd3"
+      ]
+    },
+    {
+      "id": "tco_56a2a2934970f",
+      "name": "NCANDA Speed - Emotion",
+      "last_updated": "1512660839919",
+      "creation_time": "1512660839919",
+      "event_stamp": "2016-01-22T21:43:47",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_56a2a12945fd3"
+      ]
+    },
+    {
+      "id": "tco_56a2a2a68d8a6",
+      "name": "NCANDA Speed - Episodic Memory",
+      "last_updated": "1512660839940",
+      "creation_time": "1512660839940",
+      "event_stamp": "2016-01-22T21:44:06",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_56a2a12945fd3"
+      ]
+    },
+    {
+      "id": "tco_56a2a2c3de0ed",
+      "name": "NCANDA Speed - General Ability",
+      "last_updated": "1512660839960",
+      "creation_time": "1512660839960",
+      "event_stamp": "2016-01-22T21:44:35",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_56a2a12945fd3"
+      ]
+    },
+    {
+      "id": "tco_56a2a2ed6bab9",
+      "name": "NCANDA Speed - Motor Speed",
+      "last_updated": "1512660839980",
+      "creation_time": "1512660839980",
+      "event_stamp": "2016-01-22T21:45:17",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_56a2a12945fd3"
+      ]
+    },
+    {
+      "id": "tco_56a2a2ff1e211",
+      "name": "NCANDA Speed - Working Memory",
+      "last_updated": "1512660840000",
+      "creation_time": "1512660840000",
+      "event_stamp": "2016-01-22T21:45:35",
+      "id_user": "usr_569fc42c3002f",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None",
+      "part_of": [
+        "tco_56a2a12945fd3"
+      ]
+    },
+    {
+      "id": "tco_57965368237ec",
+      "name": "Alzheimer's Disease Neuroimaging Initiative 1",
+      "has_citation": [
+        "cit_5796561f97033"
+      ],
+      "last_updated": "1512660840024",
+      "creation_time": "1512660840024",
+      "event_stamp": "2016-07-25T17:59:04",
+      "id_user": "usr_579611e01221d",
+      "flag_for_curator": "1",
+      "collection_description": "<p>Three overarching ADNI goals are:</p><br /><p>- To detect Alzheimerâs disease (AD) at the earliest stage possible and identify ways to track the disease through biomarkers.</br><br />- To support advances in AD intervention, prevention and treatment through the application of new diagnostic methods to apply at the earliest stages technically possible - when intervention may be most effective.<br /><br>- To continually develop ADNIâs now- legendary data access policy and continuously improve and expand the unprecedented data sharing model.</p><br /><p>ADNI began in October 2004 and was designed to find more sensitive and accurate methods to detect Alzheimerâs disease at earlier stages and mark its progress through biomarkers. The study gathered and analyzed thousands of brain scans, genetic profiles, and biomarkers in blood and cerebrospinal fluid that are used to measure the progress of disease or the effects of treatment.</p>",
+      "collection_alias": "ADNI 1",
+      "collection_date_introduced": "Oct 2004",
+      "collection_publisher": "ADNI",
+      "website": "http://www.adni-info.org/"
+    },
+    {
+      "id": "tco_5798bc88b2bf2",
+      "name": "ADAScog",
+      "has_citation": [
+        "cit_5798bc9ab1068",
+        "cit_5798c81fdee06"
+      ],
+      "last_updated": "1512660840047",
+      "creation_time": "1512660840047",
+      "event_stamp": "2016-07-27T13:52:08",
+      "id_user": "usr_579611e01221d",
+      "flag_for_curator": "1",
+      "collection_description": "The Alzheimer's Disease Assessment Scale, was designed specifically to evaluate the severity of cognitive and noncognitive behavioral dysfunctions characteristic of persons with Alzheimer's disease. The cognitive subscale comprises:<br />1. Spoken language ability<br />2. Comprehension of spoken language<br />3. Recall of test instructions<br />4. Word-finding difficulty<br />5. Following commands<br />6. Naming objects and fingers<br />7. Constructional praxis (drawing)<br />8. Ideational praxis<br />9. Orientation<br />10. Word recall<br />11. Word recognition<br />Items 1-4 are based on the tester's observations throughout the session. The other items are based on specific tasks.",
+      "collection_alias": "Alzheimer&#39;s Disease Assessment Scale - Cognitive Subscale, ADAS-Cog",
+      "collection_date_introduced": "1984",
+      "collection_publisher": "American Journal of Psychiatry",
+      "website": "http://dx.doi.org/10.1176/ajp.141.11.1356"
+    },
+    {
+      "id": "tco_57c0c519eb875",
+      "name": "Chapman Scales",
+      "last_updated": "1512660840069",
+      "creation_time": "1512660840069",
+      "event_stamp": "2016-08-26T22:39:21",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "The Chapman Scales are a series of scales that assess aspects of psychotic symptoms.",
+      "collection_alias": "None",
+      "collection_date_introduced": "None",
+      "collection_publisher": "None",
+      "website": "None"
+    }
+  ],
+  "@type": "BatteryCollection"
+}

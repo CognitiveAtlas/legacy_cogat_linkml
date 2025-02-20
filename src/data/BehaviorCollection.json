@@ -1,0 +1,29 @@
+{
+  "entries": [
+    {
+      "id": "bvr_pb9yJzsPB61iV",
+      "name": "foraging",
+      "last_updated": "1512919677678",
+      "creation_time": "1512919677678",
+      "definition": "Searching the environment for food or other resources."
+    },
+    {
+      "id": "bvr_wGDB9UpCw7uXZ",
+      "name": "Grasp reflex",
+      "last_updated": "1512919942748",
+      "creation_time": "1512919942748",
+      "definition": "Palmar grasp reflex (sometimes simply called grasp reflex) is a primitive reflex. It appears as early as 16 weeks in utero and persists until five or six months of age. When an object is placed in the infant's hand and strokes their palm, the fingers will close and they will grasp it with a palmar grasp. The grip is strong but unpredictable; though it may be able to support the child's weight, they may also release their grip suddenly and without warning. The reverse motion can be induced by stroking the back or side of the hand. (https://en.wikipedia.org/wiki/Palmar_grasp_reflex)"
+    },
+    {
+      "id": "bvr_NFfKvwyBzDX3F",
+      "name": "perseveration",
+      "last_updated": "1512920109460",
+      "creation_time": "1512920109460",
+      "measured_by": [
+        "cnt_4b7c101e9b549"
+      ],
+      "definition": "Repetition of a particular behavior or response despite the fact that it is no longer appropriate."
+    }
+  ],
+  "@type": "BehaviorCollection"
+}

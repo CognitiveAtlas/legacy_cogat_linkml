@@ -1,0 +1,1189 @@
+{
+  "entries": [
+    {
+      "id": "30083",
+      "name": "",
+      "type": ""
+    },
+    {
+      "id": "30084",
+      "name": "% &#34;good&#34; doors chosen",
+      "type": "% &#34;good&#34; doors chosen"
+    },
+    {
+      "id": "30085",
+      "name": "% of cards picked from advantageous decks",
+      "type": "% of cards picked from advantageous decks"
+    },
+    {
+      "id": "30086",
+      "name": "0-8 = no handicap",
+      "type": "0-8 = no handicap"
+    },
+    {
+      "id": "30087",
+      "name": "10-22 = mild to moderate handicap",
+      "type": "10-22 = mild to moderate handicap"
+    },
+    {
+      "id": "30088",
+      "name": "24-40 = significant handicap",
+      "type": "24-40 = significant handicap"
+    },
+    {
+      "id": "30089",
+      "name": "accuracy",
+      "type": "accuracy"
+    },
+    {
+      "id": "30090",
+      "name": "accuracy (number or percentage of correct identifications)",
+      "type": "accuracy (number or percentage of correct identifications)"
+    },
+    {
+      "id": "30091",
+      "name": "accuracy at detecting Kanizsa shapes",
+      "type": "accuracy at detecting Kanizsa shapes"
+    },
+    {
+      "id": "30092",
+      "name": "accuracy of guesses",
+      "type": "accuracy of guesses"
+    },
+    {
+      "id": "30093",
+      "name": "accuracy of judging direction",
+      "type": "accuracy of judging direction"
+    },
+    {
+      "id": "30094",
+      "name": "accuracy of production",
+      "type": "accuracy of production"
+    },
+    {
+      "id": "30095",
+      "name": "accuracy of pronunciation",
+      "type": "accuracy of pronunciation"
+    },
+    {
+      "id": "30096",
+      "name": "accuracy of recognition",
+      "type": "accuracy of recognition"
+    },
+    {
+      "id": "30097",
+      "name": "accuracy of source identification",
+      "type": "accuracy of source identification"
+    },
+    {
+      "id": "30098",
+      "name": "acuracy",
+      "type": "acuracy"
+    },
+    {
+      "id": "30099",
+      "name": "angle of arm or finger",
+      "type": "angle of arm or finger"
+    },
+    {
+      "id": "30100",
+      "name": "angle of offset",
+      "type": "angle of offset"
+    },
+    {
+      "id": "30101",
+      "name": "apples earned",
+      "type": "apples earned"
+    },
+    {
+      "id": "30102",
+      "name": "areas of activation",
+      "type": "areas of activation"
+    },
+    {
+      "id": "30103",
+      "name": "arousal ratings",
+      "type": "arousal ratings"
+    },
+    {
+      "id": "30104",
+      "name": "attention vigilance",
+      "type": "attention vigilance"
+    },
+    {
+      "id": "30105",
+      "name": "Auditory Memory Index",
+      "type": "Auditory Memory Index"
+    },
+    {
+      "id": "30106",
+      "name": "autonomous",
+      "type": "autonomous"
+    },
+    {
+      "id": "30107",
+      "name": "average across multiple trials",
+      "type": "average across multiple trials"
+    },
+    {
+      "id": "30108",
+      "name": "average number of pumps",
+      "type": "average number of pumps"
+    },
+    {
+      "id": "30109",
+      "name": "Behavioral Regulation Index",
+      "type": "Behavioral Regulation Index"
+    },
+    {
+      "id": "30110",
+      "name": "binocular acuity",
+      "type": "binocular acuity"
+    },
+    {
+      "id": "30111",
+      "name": "block span (pattern length)",
+      "type": "block span (pattern length)"
+    },
+    {
+      "id": "30112",
+      "name": "BOLD activity",
+      "type": "BOLD activity"
+    },
+    {
+      "id": "30113",
+      "name": "BOLD response",
+      "type": "BOLD response"
+    },
+    {
+      "id": "30114",
+      "name": "brain activation",
+      "type": "brain activation"
+    },
+    {
+      "id": "30115",
+      "name": "category A errors (participant fails to suppress predicted word)",
+      "type": "category A errors (participant fails to suppress predicted word)"
+    },
+    {
+      "id": "30116",
+      "name": "category B errors (participant responds with a word semantically related to the predicted word)",
+      "type": "category B errors (participant responds with a word semantically related to the predicted word)"
+    },
+    {
+      "id": "30117",
+      "name": "Choice",
+      "type": "Choice"
+    },
+    {
+      "id": "30118",
+      "name": "Choice (yes or no)",
+      "type": "Choice (yes or no)"
+    },
+    {
+      "id": "30119",
+      "name": "Cognitive Function Composite Score",
+      "type": "Cognitive Function Composite Score"
+    },
+    {
+      "id": "30120",
+      "name": "commission errors",
+      "type": "commission errors"
+    },
+    {
+      "id": "30121",
+      "name": "completion time",
+      "type": "completion time"
+    },
+    {
+      "id": "30122",
+      "name": "computed score (500-2500)",
+      "type": "computed score (500-2500)"
+    },
+    {
+      "id": "30123",
+      "name": "congruency cost",
+      "type": "congruency cost"
+    },
+    {
+      "id": "30124",
+      "name": "content (% emotional words)",
+      "type": "content (% emotional words)"
+    },
+    {
+      "id": "30125",
+      "name": "Continuous ratings on a visual analogue scale",
+      "type": "Continuous ratings on a visual analogue scale"
+    },
+    {
+      "id": "30126",
+      "name": "correct answers",
+      "type": "correct answers"
+    },
+    {
+      "id": "30127",
+      "name": "correct conclusions",
+      "type": "correct conclusions"
+    },
+    {
+      "id": "30128",
+      "name": "correct judgements",
+      "type": "correct judgements"
+    },
+    {
+      "id": "30129",
+      "name": "Crystallized Cognition Composite Score",
+      "type": "Crystallized Cognition Composite Score"
+    },
+    {
+      "id": "30130",
+      "name": "dB signal-to-noise ratio",
+      "type": "dB signal-to-noise ratio"
+    },
+    {
+      "id": "30131",
+      "name": "degrees of  movement",
+      "type": "degrees of  movement"
+    },
+    {
+      "id": "30132",
+      "name": "degrees of eye movement",
+      "type": "degrees of eye movement"
+    },
+    {
+      "id": "30133",
+      "name": "Delayed Memory Index",
+      "type": "Delayed Memory Index"
+    },
+    {
+      "id": "30134",
+      "name": "deliberation time",
+      "type": "deliberation time"
+    },
+    {
+      "id": "30135",
+      "name": "discounting (tendency to discount the real value of the future option)",
+      "type": "discounting (tendency to discount the real value of the future option)"
+    },
+    {
+      "id": "30136",
+      "name": "dismissing",
+      "type": "dismissing"
+    },
+    {
+      "id": "30137",
+      "name": "distance between actual location and participant&#39;s response",
+      "type": "distance between actual location and participant&#39;s response"
+    },
+    {
+      "id": "30138",
+      "name": "dominant hand force minus non-dominant hand force",
+      "type": "dominant hand force minus non-dominant hand force"
+    },
+    {
+      "id": "30139",
+      "name": "d`-context, the difference between the z-transformed probability of correct hits on valid trials and the z-transformed probability of false alarms on invalid trials",
+      "type": "d`-context, the difference between the z-transformed probability of correct hits on valid trials and the z-transformed probability of false alarms on invalid trials"
+    },
+    {
+      "id": "30140",
+      "name": "earnings from choices",
+      "type": "earnings from choices"
+    },
+    {
+      "id": "30141",
+      "name": "EEG activity",
+      "type": "EEG activity"
+    },
+    {
+      "id": "30142",
+      "name": "effort (strength of activation)",
+      "type": "effort (strength of activation)"
+    },
+    {
+      "id": "30143",
+      "name": "EMG",
+      "type": "EMG"
+    },
+    {
+      "id": "30144",
+      "name": "ERP (event-related potential)",
+      "type": "ERP (event-related potential)"
+    },
+    {
+      "id": "30145",
+      "name": "ERP components",
+      "type": "ERP components"
+    },
+    {
+      "id": "30146",
+      "name": "ERP: P2",
+      "type": "ERP: P2"
+    },
+    {
+      "id": "30147",
+      "name": "ERP: P3",
+      "type": "ERP: P3"
+    },
+    {
+      "id": "30148",
+      "name": "errors",
+      "type": "errors"
+    },
+    {
+      "id": "30149",
+      "name": "examiner evaluation of gesturing",
+      "type": "examiner evaluation of gesturing"
+    },
+    {
+      "id": "30150",
+      "name": "expected value",
+      "type": "expected value"
+    },
+    {
+      "id": "30151",
+      "name": "eye movements",
+      "type": "eye movements"
+    },
+    {
+      "id": "30152",
+      "name": "facial electromyographic readings",
+      "type": "facial electromyographic readings"
+    },
+    {
+      "id": "30153",
+      "name": "Fluid Cognition Composite Score",
+      "type": "Fluid Cognition Composite Score"
+    },
+    {
+      "id": "30154",
+      "name": "fMRI signal",
+      "type": "fMRI signal"
+    },
+    {
+      "id": "30155",
+      "name": "form",
+      "type": "form"
+    },
+    {
+      "id": "30156",
+      "name": "frequency",
+      "type": "frequency"
+    },
+    {
+      "id": "30157",
+      "name": "frequency of saccades",
+      "type": "frequency of saccades"
+    },
+    {
+      "id": "30158",
+      "name": "Full Scale IQ",
+      "type": "Full Scale IQ"
+    },
+    {
+      "id": "30159",
+      "name": "Full-scale IQ",
+      "type": "Full-scale IQ"
+    },
+    {
+      "id": "30160",
+      "name": "gains",
+      "type": "gains"
+    },
+    {
+      "id": "30161",
+      "name": "Global Executive Composite",
+      "type": "Global Executive Composite"
+    },
+    {
+      "id": "30162",
+      "name": "heart rate",
+      "type": "heart rate"
+    },
+    {
+      "id": "30163",
+      "name": "hemifield errors",
+      "type": "hemifield errors"
+    },
+    {
+      "id": "30164",
+      "name": "highest difficulty level completed without error",
+      "type": "highest difficulty level completed without error"
+    },
+    {
+      "id": "30165",
+      "name": "Immediate Memory Index",
+      "type": "Immediate Memory Index"
+    },
+    {
+      "id": "30166",
+      "name": "kinematics",
+      "type": "kinematics"
+    },
+    {
+      "id": "30167",
+      "name": "length of sequence",
+      "type": "length of sequence"
+    },
+    {
+      "id": "30168",
+      "name": "length of time breath is held",
+      "type": "length of time breath is held"
+    },
+    {
+      "id": "30169",
+      "name": "listening comprehension (number of correct responses to comprehension questions)",
+      "type": "listening comprehension (number of correct responses to comprehension questions)"
+    },
+    {
+      "id": "30170",
+      "name": "listening span (number of last words recalled)",
+      "type": "listening span (number of last words recalled)"
+    },
+    {
+      "id": "30171",
+      "name": "maximum voluntary contraction",
+      "type": "maximum voluntary contraction"
+    },
+    {
+      "id": "30172",
+      "name": "mean blood flow velocity",
+      "type": "mean blood flow velocity"
+    },
+    {
+      "id": "30173",
+      "name": "Mean response time to recognize and trace out hidden figures",
+      "type": "Mean response time to recognize and trace out hidden figures"
+    },
+    {
+      "id": "30174",
+      "name": "Mean response time to recognize hidden figure",
+      "type": "Mean response time to recognize hidden figure"
+    },
+    {
+      "id": "30175",
+      "name": "MEPs (motor evoked potentials)",
+      "type": "MEPs (motor evoked potentials)"
+    },
+    {
+      "id": "30176",
+      "name": "Metacognition Index",
+      "type": "Metacognition Index"
+    },
+    {
+      "id": "30177",
+      "name": "meters per second",
+      "type": "meters per second"
+    },
+    {
+      "id": "30178",
+      "name": "misinformation (behaviors that lead the guesser to another location)",
+      "type": "misinformation (behaviors that lead the guesser to another location)"
+    },
+    {
+      "id": "30179",
+      "name": "money earned",
+      "type": "money earned"
+    },
+    {
+      "id": "30180",
+      "name": "N2pc",
+      "type": "N2pc"
+    },
+    {
+      "id": "30181",
+      "name": "non-dominant hand time minus dominant hand time",
+      "type": "non-dominant hand time minus dominant hand time"
+    },
+    {
+      "id": "30182",
+      "name": "nonperservative errors",
+      "type": "nonperservative errors"
+    },
+    {
+      "id": "30183",
+      "name": "number correct in 60 seconds",
+      "type": "number correct in 60 seconds"
+    },
+    {
+      "id": "30184",
+      "name": "number of appropriate words",
+      "type": "number of appropriate words"
+    },
+    {
+      "id": "30185",
+      "name": "number of attempts",
+      "type": "number of attempts"
+    },
+    {
+      "id": "30186",
+      "name": "number of backward moves",
+      "type": "number of backward moves"
+    },
+    {
+      "id": "30187",
+      "name": "number of correct features",
+      "type": "number of correct features"
+    },
+    {
+      "id": "30188",
+      "name": "number of correct items",
+      "type": "number of correct items"
+    },
+    {
+      "id": "30189",
+      "name": "number of correct responses",
+      "type": "number of correct responses"
+    },
+    {
+      "id": "30190",
+      "name": "number of correct symbols",
+      "type": "number of correct symbols"
+    },
+    {
+      "id": "30191",
+      "name": "number of digits",
+      "type": "number of digits"
+    },
+    {
+      "id": "30192",
+      "name": "number of errors (number of stimuli pointed to twice or more)",
+      "type": "number of errors (number of stimuli pointed to twice or more)"
+    },
+    {
+      "id": "30193",
+      "name": "number of moves",
+      "type": "number of moves"
+    },
+    {
+      "id": "30194",
+      "name": "number of patterns identified",
+      "type": "number of patterns identified"
+    },
+    {
+      "id": "30195",
+      "name": "number of plates read correctly",
+      "type": "number of plates read correctly"
+    },
+    {
+      "id": "30196",
+      "name": "number of problems solved",
+      "type": "number of problems solved"
+    },
+    {
+      "id": "30197",
+      "name": "number of risky choices",
+      "type": "number of risky choices"
+    },
+    {
+      "id": "30198",
+      "name": "Number of trials",
+      "type": "Number of trials"
+    },
+    {
+      "id": "30199",
+      "name": "number of trials completed",
+      "type": "number of trials completed"
+    },
+    {
+      "id": "30200",
+      "name": "number of trials taken to correctly identify new pattern",
+      "type": "number of trials taken to correctly identify new pattern"
+    },
+    {
+      "id": "30201",
+      "name": "number of words generated",
+      "type": "number of words generated"
+    },
+    {
+      "id": "30202",
+      "name": "number or percentage of games won",
+      "type": "number or percentage of games won"
+    },
+    {
+      "id": "30203",
+      "name": "number or percentage of words remembered",
+      "type": "number or percentage of words remembered"
+    },
+    {
+      "id": "30204",
+      "name": "o\tContinuous ratings on a visual analogue scale",
+      "type": "o\tContinuous ratings on a visual analogue scale"
+    },
+    {
+      "id": "30205",
+      "name": "o\tDifference between initial sensation of temperature and sensation at the end of the stimulation",
+      "type": "o\tDifference between initial sensation of temperature and sensation at the end of the stimulation"
+    },
+    {
+      "id": "30206",
+      "name": "object occlusion (behaviors the subject uses to deceive)",
+      "type": "object occlusion (behaviors the subject uses to deceive)"
+    },
+    {
+      "id": "30207",
+      "name": "omission errors",
+      "type": "omission errors"
+    },
+    {
+      "id": "30208",
+      "name": "optimal choices",
+      "type": "optimal choices"
+    },
+    {
+      "id": "30209",
+      "name": "optotype size",
+      "type": "optotype size"
+    },
+    {
+      "id": "30210",
+      "name": "orbital PFC activation",
+      "type": "orbital PFC activation"
+    },
+    {
+      "id": "30211",
+      "name": "orientation",
+      "type": "orientation"
+    },
+    {
+      "id": "30212",
+      "name": "Overall Score",
+      "type": "Overall Score"
+    },
+    {
+      "id": "30213",
+      "name": "pain ratings",
+      "type": "pain ratings"
+    },
+    {
+      "id": "30214",
+      "name": "Pain ratings on a visual analogue scale",
+      "type": "Pain ratings on a visual analogue scale"
+    },
+    {
+      "id": "30215",
+      "name": "percent correct",
+      "type": "percent correct"
+    },
+    {
+      "id": "30216",
+      "name": "percentage false alarms",
+      "type": "percentage false alarms"
+    },
+    {
+      "id": "30217",
+      "name": "percentage of CR to CS",
+      "type": "percentage of CR to CS"
+    },
+    {
+      "id": "30218",
+      "name": "Percentage of trials",
+      "type": "Percentage of trials"
+    },
+    {
+      "id": "30219",
+      "name": "percentage of UR to US",
+      "type": "percentage of UR to US"
+    },
+    {
+      "id": "30220",
+      "name": "Performance IQ",
+      "type": "Performance IQ"
+    },
+    {
+      "id": "30221",
+      "name": "perservative errors",
+      "type": "perservative errors"
+    },
+    {
+      "id": "30222",
+      "name": "perseverative errors",
+      "type": "perseverative errors"
+    },
+    {
+      "id": "30223",
+      "name": "physiological measures (heart rate, skin conductance, regional cerebral blood flow, blood pressure, etc.)",
+      "type": "physiological measures (heart rate, skin conductance, regional cerebral blood flow, blood pressure, etc.)"
+    },
+    {
+      "id": "30224",
+      "name": "pitch span",
+      "type": "pitch span"
+    },
+    {
+      "id": "30225",
+      "name": "post- minus pre-intervention",
+      "type": "post- minus pre-intervention"
+    },
+    {
+      "id": "30226",
+      "name": "precision (distance apart at which subject perceives each stimulus separately)",
+      "type": "precision (distance apart at which subject perceives each stimulus separately)"
+    },
+    {
+      "id": "30227",
+      "name": "preoccupied",
+      "type": "preoccupied"
+    },
+    {
+      "id": "30228",
+      "name": "pressure/grip",
+      "type": "pressure/grip"
+    },
+    {
+      "id": "30229",
+      "name": "production error type",
+      "type": "production error type"
+    },
+    {
+      "id": "30230",
+      "name": "proportion of correct responses",
+      "type": "proportion of correct responses"
+    },
+    {
+      "id": "30231",
+      "name": "proportion of synchronous responses",
+      "type": "proportion of synchronous responses"
+    },
+    {
+      "id": "30232",
+      "name": "Proportion optimal responses",
+      "type": "Proportion optimal responses"
+    },
+    {
+      "id": "30233",
+      "name": "Proprioceptive drift",
+      "type": "Proprioceptive drift"
+    },
+    {
+      "id": "30234",
+      "name": "proximity to target",
+      "type": "proximity to target"
+    },
+    {
+      "id": "30235",
+      "name": "Pure Tone Average (PTA): the average of the 1, 2 and 4 kHz frequencies",
+      "type": "Pure Tone Average (PTA): the average of the 1, 2 and 4 kHz frequencies"
+    },
+    {
+      "id": "30236",
+      "name": "rate of acquisition of conditioned responding",
+      "type": "rate of acquisition of conditioned responding"
+    },
+    {
+      "id": "30237",
+      "name": "rate of responding",
+      "type": "rate of responding"
+    },
+    {
+      "id": "30238",
+      "name": "ratings (e.g., detail, difficulty)",
+      "type": "ratings (e.g., detail, difficulty)"
+    },
+    {
+      "id": "30239",
+      "name": "raw score",
+      "type": "raw score"
+    },
+    {
+      "id": "30240",
+      "name": "reaction time",
+      "type": "reaction time"
+    },
+    {
+      "id": "30241",
+      "name": "reaction time per trial",
+      "type": "reaction time per trial"
+    },
+    {
+      "id": "30242",
+      "name": "reading accuracy",
+      "type": "reading accuracy"
+    },
+    {
+      "id": "30243",
+      "name": "reading comprehension",
+      "type": "reading comprehension"
+    },
+    {
+      "id": "30244",
+      "name": "reading fluency",
+      "type": "reading fluency"
+    },
+    {
+      "id": "30245",
+      "name": "reading rate",
+      "type": "reading rate"
+    },
+    {
+      "id": "30246",
+      "name": "reading span (number of words recalled)",
+      "type": "reading span (number of words recalled)"
+    },
+    {
+      "id": "30247",
+      "name": "recognition accuracy",
+      "type": "recognition accuracy"
+    },
+    {
+      "id": "30248",
+      "name": "redundancy or randomness of responses",
+      "type": "redundancy or randomness of responses"
+    },
+    {
+      "id": "30249",
+      "name": "reported perceptual switching",
+      "type": "reported perceptual switching"
+    },
+    {
+      "id": "30250",
+      "name": "response frequency",
+      "type": "response frequency"
+    },
+    {
+      "id": "30251",
+      "name": "response time",
+      "type": "response time"
+    },
+    {
+      "id": "30252",
+      "name": "response time (as indicator of construction time)",
+      "type": "response time (as indicator of construction time)"
+    },
+    {
+      "id": "30253",
+      "name": "response time (latency)",
+      "type": "response time (latency)"
+    },
+    {
+      "id": "30254",
+      "name": "response time to questions about objects/scenes",
+      "type": "response time to questions about objects/scenes"
+    },
+    {
+      "id": "30255",
+      "name": "response to CS",
+      "type": "response to CS"
+    },
+    {
+      "id": "30256",
+      "name": "risk-averse behavior",
+      "type": "risk-averse behavior"
+    },
+    {
+      "id": "30257",
+      "name": "risk-seeking behavior",
+      "type": "risk-seeking behavior"
+    },
+    {
+      "id": "30258",
+      "name": "saccade direction",
+      "type": "saccade direction"
+    },
+    {
+      "id": "30259",
+      "name": "saccade latency",
+      "type": "saccade latency"
+    },
+    {
+      "id": "30260",
+      "name": "saccade reaction time",
+      "type": "saccade reaction time"
+    },
+    {
+      "id": "30261",
+      "name": "score",
+      "type": "score"
+    },
+    {
+      "id": "30262",
+      "name": "score (accuracy)",
+      "type": "score (accuracy)"
+    },
+    {
+      "id": "30263",
+      "name": "score (mazes are worth 2-5 points, depending on their complexity. points are subtracted from the score when errors are made)",
+      "type": "score (mazes are worth 2-5 points, depending on their complexity. points are subtracted from the score when errors are made)"
+    },
+    {
+      "id": "30264",
+      "name": "score (number correct minus false alarms)",
+      "type": "score (number correct minus false alarms)"
+    },
+    {
+      "id": "30265",
+      "name": "score (number of pathological responses)",
+      "type": "score (number of pathological responses)"
+    },
+    {
+      "id": "30266",
+      "name": "Score on Ownership Illusion Questionnaire",
+      "type": "Score on Ownership Illusion Questionnaire"
+    },
+    {
+      "id": "30267",
+      "name": "self-awareness",
+      "type": "self-awareness"
+    },
+    {
+      "id": "30268",
+      "name": "semi-logarithmic normative score",
+      "type": "semi-logarithmic normative score"
+    },
+    {
+      "id": "30269",
+      "name": "size",
+      "type": "size"
+    },
+    {
+      "id": "30270",
+      "name": "size of sentence set",
+      "type": "size of sentence set"
+    },
+    {
+      "id": "30271",
+      "name": "skin conductance",
+      "type": "skin conductance"
+    },
+    {
+      "id": "30272",
+      "name": "speed",
+      "type": "speed"
+    },
+    {
+      "id": "30273",
+      "name": "standard deviation",
+      "type": "standard deviation"
+    },
+    {
+      "id": "30274",
+      "name": "standard deviation of number of correct responses",
+      "type": "standard deviation of number of correct responses"
+    },
+    {
+      "id": "30275",
+      "name": "startle response",
+      "type": "startle response"
+    },
+    {
+      "id": "30276",
+      "name": "Stop Signal Reaction Time",
+      "type": "Stop Signal Reaction Time"
+    },
+    {
+      "id": "30277",
+      "name": "strength of activation",
+      "type": "strength of activation"
+    },
+    {
+      "id": "30278",
+      "name": "strength of dominance",
+      "type": "strength of dominance"
+    },
+    {
+      "id": "30279",
+      "name": "strength of response",
+      "type": "strength of response"
+    },
+    {
+      "id": "30280",
+      "name": "subject rating of level of sensation",
+      "type": "subject rating of level of sensation"
+    },
+    {
+      "id": "30281",
+      "name": "subject&#39;s emotional rating",
+      "type": "subject&#39;s emotional rating"
+    },
+    {
+      "id": "30282",
+      "name": "subject&#39;s physical representation of imagined object",
+      "type": "subject&#39;s physical representation of imagined object"
+    },
+    {
+      "id": "30283",
+      "name": "Subjective Acupuncture Sensation Scale ratings",
+      "type": "Subjective Acupuncture Sensation Scale ratings"
+    },
+    {
+      "id": "30284",
+      "name": "Subjective ratings",
+      "type": "Subjective ratings"
+    },
+    {
+      "id": "30285",
+      "name": "Subjective ratings on a numerical scale or on a visual analogue scale",
+      "type": "Subjective ratings on a numerical scale or on a visual analogue scale"
+    },
+    {
+      "id": "30286",
+      "name": "subjective ratings on a visual analogue scale",
+      "type": "subjective ratings on a visual analogue scale"
+    },
+    {
+      "id": "30287",
+      "name": "suboptimal choices",
+      "type": "suboptimal choices"
+    },
+    {
+      "id": "30288",
+      "name": "sum of items using the left hand",
+      "type": "sum of items using the left hand"
+    },
+    {
+      "id": "30289",
+      "name": "sum of items using the right hand",
+      "type": "sum of items using the right hand"
+    },
+    {
+      "id": "30290",
+      "name": "sum of score for 40 questions (on a Likert scale, rating of 1=not at all, 4=very much)",
+      "type": "sum of score for 40 questions (on a Likert scale, rating of 1=not at all, 4=very much)"
+    },
+    {
+      "id": "30291",
+      "name": "sum of scores (on a Likert scale)",
+      "type": "sum of scores (on a Likert scale)"
+    },
+    {
+      "id": "30292",
+      "name": "sum of scores on all six questions (0â2 = very low dependence, 3â4 = low dependence, 5 = medium dependence, 6â7 = high dependence, and 8â10 = very high dependence)",
+      "type": "sum of scores on all six questions (0â2 = very low dependence, 3â4 = low dependence, 5 = medium dependence, 6â7 = high dependence, and 8â10 = very high dependence)"
+    },
+    {
+      "id": "30293",
+      "name": "sum of words recalled on multiple trials",
+      "type": "sum of words recalled on multiple trials"
+    },
+    {
+      "id": "30294",
+      "name": "switch cost",
+      "type": "switch cost"
+    },
+    {
+      "id": "30295",
+      "name": "T-score",
+      "type": "T-score"
+    },
+    {
+      "id": "30296",
+      "name": "tap interval",
+      "type": "tap interval"
+    },
+    {
+      "id": "30297",
+      "name": "tap interval divided by target/modeled interval",
+      "type": "tap interval divided by target/modeled interval"
+    },
+    {
+      "id": "30298",
+      "name": "taps per 10s trial",
+      "type": "taps per 10s trial"
+    },
+    {
+      "id": "30299",
+      "name": "theta score",
+      "type": "theta score"
+    },
+    {
+      "id": "30300",
+      "name": "Threat",
+      "type": "Threat"
+    },
+    {
+      "id": "30301",
+      "name": "time",
+      "type": "time"
+    },
+    {
+      "id": "30302",
+      "name": "time spent observing novel objects",
+      "type": "time spent observing novel objects"
+    },
+    {
+      "id": "30303",
+      "name": "time to complete",
+      "type": "time to complete"
+    },
+    {
+      "id": "30304",
+      "name": "time to complete task",
+      "type": "time to complete task"
+    },
+    {
+      "id": "30305",
+      "name": "tone span",
+      "type": "tone span"
+    },
+    {
+      "id": "30306",
+      "name": "type of encoding task",
+      "type": "type of encoding task"
+    },
+    {
+      "id": "30307",
+      "name": "unresolved",
+      "type": "unresolved"
+    },
+    {
+      "id": "30308",
+      "name": "Vector (accuracy x response time)",
+      "type": "Vector (accuracy x response time)"
+    },
+    {
+      "id": "30309",
+      "name": "ventral frontostriatal brain activation",
+      "type": "ventral frontostriatal brain activation"
+    },
+    {
+      "id": "30310",
+      "name": "Verbal IQ",
+      "type": "Verbal IQ"
+    },
+    {
+      "id": "30311",
+      "name": "Visual Memory Index",
+      "type": "Visual Memory Index"
+    },
+    {
+      "id": "30312",
+      "name": "Visual Working Memory Index",
+      "type": "Visual Working Memory Index"
+    },
+    {
+      "id": "30313",
+      "name": "volume of liquid drunk",
+      "type": "volume of liquid drunk"
+    },
+    {
+      "id": "30314",
+      "name": "volume or composition of urine",
+      "type": "volume or composition of urine"
+    },
+    {
+      "id": "30315",
+      "name": "weight of food eaten",
+      "type": "weight of food eaten"
+    },
+    {
+      "id": "30316",
+      "name": "z-score",
+      "type": "z-score"
+    },
+    {
+      "id": "ind_kGBpZGinJx7t0",
+      "name": "reaction time",
+      "last_updated": "1632340246",
+      "creation_time": "1632340246",
+      "type": "reaction time"
+    },
+    {
+      "id": "ind_qrqvcK22za2oW",
+      "name": "response (Go/ NoGo)",
+      "last_updated": "1632340229",
+      "creation_time": "1632340229",
+      "type": "response (Go/ NoGo)"
+    }
+  ],
+  "@type": "IndicatorCollection"
+}

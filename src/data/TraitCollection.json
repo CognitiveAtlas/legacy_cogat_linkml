@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "id": "trt_htFsRDr1yFWjp",
+      "name": "Openness to experience",
+      "last_updated": "1512919406654",
+      "creation_time": "1512919406654",
+      "definition": "Openness reflects the degree of intellectual curiosity, creativity and a preference for novelty and variety a person has. (https://en.wikipedia.org/wiki/Big_Five_personality_traits)"
+    },
+    {
+      "id": "trt_p81w92xKZ2fyl",
+      "name": "Conscientiousness",
+      "last_updated": "1512919442785",
+      "creation_time": "1512919442785",
+      "definition": "A tendency to be organized and dependable, show self-discipline, act dutifully, aim for achievement, and prefer planned rather than spontaneous behavior. (https://en.wikipedia.org/wiki/Big_Five_personality_traits)"
+    },
+    {
+      "id": "trt_8qMThTvgNstWp",
+      "name": "Extraversion",
+      "last_updated": "1512919478804",
+      "creation_time": "1512919478804",
+      "definition": "Energy, positive emotions, surgency, assertiveness, sociability and the tendency to seek stimulation in the company of others, and talkativeness. (https://en.wikipedia.org/wiki/Big_Five_personality_traits)"
+    },
+    {
+      "id": "trt_d0UlwWsGh6zUg",
+      "name": "Agreeableness",
+      "last_updated": "1512919511646",
+      "creation_time": "1512919511646",
+      "definition": "A tendency to be compassionate and cooperative rather than suspicious and antagonistic towards others. (https://en.wikipedia.org/wiki/Big_Five_personality_traits)"
+    },
+    {
+      "id": "trt_VdTXG97NL4gnP",
+      "name": "Neuroticism",
+      "last_updated": "1512919548728",
+      "creation_time": "1512919548728",
+      "definition": "The tendency to experience unpleasant emotions easily, such as anger, anxiety, depression, and vulnerability. (https://en.wikipedia.org/wiki/Big_Five_personality_traits)"
+    },
+    {
+      "id": "trt_uZmL0Lyf1lpN5",
+      "name": "Honesty",
+      "last_updated": "1526316760482",
+      "creation_time": "1526316760482",
+      "definition": "Tendency towards sincerity, modesty, fairness, and greed avoidance. (https://en.wikipedia.org/wiki/Trait_theory#List_of_personality_traits)"
+    },
+    {
+      "id": "trt_gz8bhzo8xSq7E",
+      "name": "Self-esteem",
+      "last_updated": "1526316802429",
+      "creation_time": "1526316802429",
+      "definition": "A \"favorable or unfavorable attitude toward the self\" (Rosenberg, 1965). An individual's sense of his or her value or worth, or the extent to which a person values, approves of, appreciates, prizes, or likes him or herself\" (Blascovich & Tomaka, 1991) https://en.wikipedia.org/wiki/Trait_theory#List_of_personality_traits"
+    },
+    {
+      "id": "trt_CQ1iTI0OJWo38",
+      "name": "Harm avoidance",
+      "last_updated": "1526316835419",
+      "creation_time": "1526316835419",
+      "definition": "A tendency towards shyness, being fearful and uncertain, tendency to worry. https://en.wikipedia.org/wiki/Trait_theory#List_of_personality_traits"
+    },
+    {
+      "id": "trt_Fz33idFA1UwJY",
+      "name": "Novelty seeking",
+      "last_updated": "1526316867926",
+      "creation_time": "1526316867926",
+      "definition": "Impulsive, exploratory, fickle, excitable, quick-tempered, and extravagant. https://en.wikipedia.org/wiki/Trait_theory#List_of_personality_traits"
+    },
+    {
+      "id": "trt_CcsbUNybkqICm",
+      "name": "Alexithymia",
+      "last_updated": "1526316897283",
+      "creation_time": "1526316897283",
+      "definition": "The inability to express emotions."
+    },
+    {
+      "id": "trt_53BbM9qbLFnZH",
+      "name": "Sensation-seeking",
+      "last_updated": "1526316995427",
+      "creation_time": "1526316995427",
+      "definition": "a personality trait defined by the search for experiences and feelings, that are \"varied, novel, complex and intense\", and by the readiness to \"take physical, social, legal, and financial risks for the sake of such experiences.\" https://en.wikipedia.org/wiki/Sensation_seeking"
+    },
+    {
+      "id": "trt_qo72x5nn9WYWK",
+      "name": "Self-directedness",
+      "last_updated": "1526317306432",
+      "creation_time": "1526317306432",
+      "definition": "a personality trait of self-determination, that is, the ability to regulate and adapt behavior to the demands of a situation in order to achieve personally chosen goals and values. https://en.wikipedia.org/wiki/Self-directedness"
+    },
+    {
+      "id": "trt_sEagfiGp9xb7u",
+      "name": "Reward dependence",
+      "last_updated": "1526317357785",
+      "creation_time": "1526317357785",
+      "definition": "a tendency to respond markedly to signals of reward, particularly to verbal signals of social approval, social support, and sentiment. https://en.wikipedia.org/wiki/Reward_dependence"
+    },
+    {
+      "id": "trt_DQG5f2BDzXbpd",
+      "name": "Persistence",
+      "last_updated": "1526317391664",
+      "creation_time": "1526317391664",
+      "definition": "perseverance in spite of fatigue or frustration. https://en.wikipedia.org/wiki/Persistence_(psychology)"
+    },
+    {
+      "id": "trt_9HVimkCRCl5g0",
+      "name": "Cooperativeness",
+      "last_updated": "1526317432587",
+      "creation_time": "1526317432587",
+      "definition": "the degree to which a person is generally agreeable in their relations with other people as opposed to aggressively self-centred and hostile.  https://en.wikipedia.org/wiki/Cooperativeness"
+    },
+    {
+      "id": "trt_knABJHPfAsOLm",
+      "name": "Self-transcendence",
+      "last_updated": "1526317465611",
+      "creation_time": "1526317465611",
+      "definition": "a personality trait associated with experiencing spiritual ideas such as considering oneself an integral part of the universe. https://en.wikipedia.org/wiki/Self-transcendence"
+    },
+    {
+      "id": "trt_twP4RTdKbwxt0",
+      "name": "Impulsiveness",
+      "last_updated": "1526317567590",
+      "creation_time": "1526317567590",
+      "definition": "a tendency to act on a whim, displaying behavior characterized by little or no forethought, reflection, or consideration of the consequences. https://en.wikipedia.org/wiki/Impulsivity"
+    }
+  ],
+  "@type": "TraitCollection"
+}

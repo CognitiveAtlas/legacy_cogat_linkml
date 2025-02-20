@@ -1,0 +1,91 @@
+{
+  "entries": [
+    {
+      "id": "thc_50f57eb46d8e0",
+      "name": "Baddeley's model of working memory",
+      "has_citation": [
+        "cit_50f5812c842bc"
+      ],
+      "last_updated": "1512660842774",
+      "creation_time": "1512660842774",
+      "event_stamp": "2013-01-15T16:07:16",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "Alan Baddeley and Graham Hitch proposed a model of working memory in 1974, in an attempt to describe a more accurate model of short-term memory.<br /><br />Baddeley & Hitch proposed their tripartite working memory model as an alternative to the short-term store in Atkinson & Shiffrin\\\\\\'s multi-store memory model (1968). This model is later expanded upon by Baddeley and other co-workers and has become the dominant view in the field of working memory. However, alternative models are developing (see working memory) providing a different perspective on the working memory system.<br /><br />The original model of Baddeley & Hitch was composed of three main components; the central executive which acts as supervisory system and controls the flow of information from and to its slave systems: the phonological loop and the visuo-spatial sketchpad. The slave systems are short-term storage systems dedicated to a content domain (verbal and visuo-spatial, respectively). In 2000 Baddeley added a third slave system to his model, the episodic buffer.<br /><br />Baddeley & Hitch\\\\\\'s argument for the distinction of two domain-specific slave systems in the older model was derived from experimental findings with dual-task paradigms. Performance of two simultaneous tasks requiring the use of two separate perceptual domains (i.e. a visual and a verbal task) is nearly as efficient as performance of the tasks individually. In contrast, when a person tries to carry out two tasks simultaneously that use the same perceptual domain, performance is less efficient than when performing the tasks individually. <br /><br />(from http://en.wikipedia.org/wiki/Baddeley\\\\\\'s_model_of_working_memory)",
+      "collection_alias": "None"
+    },
+    {
+      "id": "thc_51005496d6228",
+      "name": "RDoC Working Memory Matrix",
+      "has_citation": [
+        "cit_51005bad8316c"
+      ],
+      "last_updated": "1512660842803",
+      "creation_time": "1512660842803",
+      "event_stamp": "2013-01-23T21:22:30",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This theory is based on the Workshop Proceedings for the RDoc Workshop on working memory.",
+      "collection_alias": "None"
+    },
+    {
+      "id": "thc_51005c07b4600",
+      "name": "RDoc Negative Valence Systems Matrix",
+      "last_updated": "1512660842826",
+      "creation_time": "1512660842826",
+      "event_stamp": "2013-01-23T21:54:15",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This collection is based on the RDoC Workshop Proceedings on Negative Valence Systems.",
+      "collection_alias": "None"
+    },
+    {
+      "id": "thc_51005dd46326b",
+      "name": "RDoc Positive Valence Systems Matrix",
+      "last_updated": "1512660842850",
+      "creation_time": "1512660842850",
+      "event_stamp": "2013-01-23T22:01:56",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This collection is based on the RDoC Positive Valence Systems Workshop Proceedings.",
+      "collection_alias": "None"
+    },
+    {
+      "id": "thc_51005e1e9bf8e",
+      "name": "RDoc Cognitive Systems Matrix",
+      "last_updated": "1512660842872",
+      "creation_time": "1512660842872",
+      "event_stamp": "2013-01-23T22:03:10",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This collection is based on the RDoC Cognitive Systems Workshop proceedings.",
+      "collection_alias": "None"
+    },
+    {
+      "id": "thc_51005e60b28fe",
+      "name": "RDoc Social Processes Matrix",
+      "last_updated": "1512660842892",
+      "creation_time": "1512660842892",
+      "event_stamp": "2013-01-23T22:04:16",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "This collection is based on the RDoC Social Processes Workshop proceedings.",
+      "collection_alias": "None"
+    },
+    {
+      "id": "thc_5167079584e16",
+      "name": "RDoC Arousal and Regulatory Systems Matrix",
+      "has_citation": [
+        "cit_5532c2a337605"
+      ],
+      "last_updated": "1512660842914",
+      "creation_time": "1512660842914",
+      "event_stamp": "2013-04-11T18:57:25",
+      "id_user": "usr_49a467bf4e0db",
+      "flag_for_curator": "1",
+      "collection_description": "None",
+      "collection_alias": "None"
+    }
+  ],
+  "@type": "TheoryCollection"
+}
